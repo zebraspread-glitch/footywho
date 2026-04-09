@@ -1,0 +1,9315 @@
+[
+  {
+    "id": "gws_cadman",
+    "name": "Aaron Cadman",
+    "club": "GWS",
+    "pos": [
+      "FWD"
+    ],
+    "age": 22,
+    "number": 5,
+    "disposals": 0,
+    "goals": 0
+  },
+  {
+    "id": "wb_naughton",
+    "name": "Aaron Naughton",
+    "club": "Western Bulldogs",
+    "pos": [
+      "FWD"
+    ],
+    "age": 26,
+    "number": 33,
+    "disposals": 10.8,
+    "goals": 14
+  },
+  {
+    "id": "carl_cerra",
+    "name": "Adam Cerra",
+    "club": "Carlton",
+    "pos": [
+      "MID"
+    ],
+    "age": 26,
+    "number": 5,
+    "disposals": 19,
+    "goals": 0
+  },
+  {
+    "id": "carl_adam_saad",
+    "name": "Adam Saad",
+    "club": "Carlton",
+    "pos": [
+      "MID"
+    ],
+    "age": 31,
+    "number": 42,
+    "disposals": 11,
+    "goals": 0
+  },
+  {
+    "id": "frem_sweid",
+    "name": "Adam Sweid",
+    "club": "Fremantle",
+    "pos": [
+      "MID"
+    ],
+    "age": 18,
+    "number": 15,
+    "disposals": 0,
+    "goals": 0
+  },
+  {
+    "id": "wb_treloar",
+    "name": "Adam Treloar",
+    "club": "Western Bulldogs",
+    "pos": [
+      "MID"
+    ],
+    "age": 33,
+    "number": 1,
+    "disposals": 0,
+    "goals": 0
+  },
+  {
+    "id": "nm_corr",
+    "name": "Aidan Corr",
+    "club": "North Melbourne",
+    "pos": [
+      "DEF"
+    ],
+    "age": 31,
+    "number": 4,
+    "disposals": 6.5,
+    "goals": 0
+  },
+  {
+    "id": "mel_johnson",
+    "name": "Aidan Johnson",
+    "club": "Melbourne",
+    "pos": [
+      "FWD"
+    ],
+    "age": 26,
+    "number": 42,
+    "disposals": 0,
+    "goals": 0
+  },
+  {
+    "id": "haw_schubert",
+    "name": "Aidan Schubert",
+    "club": "Hawthorn",
+    "pos": [
+      "MID"
+    ],
+    "age": 25,
+    "number": 29,
+    "disposals": 0,
+    "goals": 0
+  },
+  {
+    "id": "frem_riddle",
+    "name": "Aiden Riddle",
+    "club": "Fremantle",
+    "pos": [
+      "RUCK"
+    ],
+    "age": 20,
+    "number": 42,
+    "disposals": 0,
+    "goals": 0
+  },
+  {
+    "id": "gc_davies",
+    "name": "Alex Davies",
+    "club": "Gold Coast",
+    "pos": [
+      "MID",
+      "FWD"
+    ],
+    "age": 24,
+    "number": 5,
+    "disposals": 20,
+    "goals": 1
+  },
+  {
+    "id": "stk_dodson",
+    "name": "Alex Dodson",
+    "club": "St Kilda",
+    "pos": [
+      "RUCK"
+    ],
+    "age": 19,
+    "number": 30,
+    "disposals": 0,
+    "goals": 0
+  },
+  {
+    "id": "adel_nealbullen",
+    "name": "Alex Neal-Bullen",
+    "club": "Adelaide",
+    "pos": [
+      "FWD"
+    ],
+    "age": 30,
+    "number": 28,
+    "disposals": 18.3,
+    "goals": 3
+  },
+  {
+    "id": "frem_pearce",
+    "name": "Alex Pearce",
+    "club": "Fremantle",
+    "pos": [
+      "DEF"
+    ],
+    "age": 30,
+    "number": 25,
+    "disposals": 8,
+    "goals": 0
+  },
+  {
+    "id": "port_aliir",
+    "name": "Aliir Aliir",
+    "club": "Port Adelaide",
+    "pos": [
+      "DEF"
+    ],
+    "age": 31,
+    "number": 21,
+    "disposals": 17.8,
+    "goals": 0
+  },
+  {
+    "id": "stk_alix_tauru",
+    "name": "Alix Tauru",
+    "club": "St Kilda",
+    "pos": [
+      "MID"
+    ],
+    "age": 25,
+    "number": 26,
+    "disposals": 6.5,
+    "goals": 3
+  },
+  {
+    "id": "stk_tauru",
+    "name": "Alixzander Tauru",
+    "club": "St Kilda",
+    "pos": [
+      "DEF"
+    ],
+    "age": 19,
+    "number": 26,
+    "disposals": 0,
+    "goals": 0
+  },
+  {
+    "id": "frem_brayshaw",
+    "name": "Andrew Brayshaw",
+    "club": "Fremantle",
+    "pos": [
+      "MID"
+    ],
+    "age": 26,
+    "number": 8,
+    "disposals": 24.8,
+    "goals": 3
+  },
+  {
+    "id": "ess_mcgrath",
+    "name": "Andrew McGrath",
+    "club": "Essendon",
+    "pos": [
+      "DEF",
+      "MID"
+    ],
+    "age": 27,
+    "number": 1,
+    "disposals": 21.8,
+    "goals": 0
+  },
+  {
+    "id": "mel_moniz",
+    "name": "Andy Moniz-Wakefield",
+    "club": "Melbourne",
+    "pos": [
+      "FWD"
+    ],
+    "age": 22,
+    "number": 45,
+    "disposals": 0,
+    "goals": 0
+  },
+  {
+    "id": "ess_clarke",
+    "name": "Angus Clarke",
+    "club": "Essendon",
+    "pos": [
+      "DEF",
+      "MID"
+    ],
+    "age": 19,
+    "number": 36,
+    "disposals": 0,
+    "goals": 0
+  },
+  {
+    "id": "stk_hastie",
+    "name": "Angus Hastie",
+    "club": "St Kilda",
+    "pos": [
+      "DEF"
+    ],
+    "age": 20,
+    "number": 24,
+    "disposals": 0,
+    "goals": 0
+  },
+  {
+    "id": "syd_sheldrick",
+    "name": "Angus Sheldrick",
+    "club": "Sydney",
+    "pos": [
+      "MID"
+    ],
+    "age": 22,
+    "number": 12,
+    "disposals": 23,
+    "goals": 1
+  },
+  {
+    "id": "stk_caminiti",
+    "name": "Anthony Caminiti",
+    "club": "St Kilda",
+    "pos": [
+      "FWD"
+    ],
+    "age": 22,
+    "number": 47,
+    "disposals": 7,
+    "goals": 0
+  },
+  {
+    "id": "ess_daywicks",
+    "name": "Archer Day-Wicks",
+    "club": "Essendon",
+    "pos": [
+      "MID",
+      "FWD"
+    ],
+    "age": 19,
+    "number": 44,
+    "disposals": 12.5,
+    "goals": 0
+  },
+  {
+    "id": "ess_may",
+    "name": "Archer May",
+    "club": "Essendon",
+    "pos": [
+      "DEF"
+    ],
+    "age": 21,
+    "number": 26,
+    "disposals": 0,
+    "goals": 0
+  },
+  {
+    "id": "wce_areid",
+    "name": "Archer Reid",
+    "club": "West Coast",
+    "pos": [
+      "FWD"
+    ],
+    "age": 20,
+    "number": 22,
+    "disposals": 7.5,
+    "goals": 3
+  },
+  {
+    "id": "adel_ludowyke",
+    "name": "Archie Ludowyke",
+    "club": "Adelaide",
+    "pos": [
+      "MID"
+    ],
+    "age": 18,
+    "number": 34,
+    "disposals": 0,
+    "goals": 0
+  },
+  {
+    "id": "ess_archie_may",
+    "name": "Archie May",
+    "club": "Essendon",
+    "pos": [
+      "MID"
+    ],
+    "age": 25,
+    "number": 26,
+    "disposals": 5.3,
+    "goals": 2
+  },
+  {
+    "id": "ess_perkins",
+    "name": "Archie Perkins",
+    "club": "Essendon",
+    "pos": [
+      "FWD"
+    ],
+    "age": 24,
+    "number": 16,
+    "disposals": 12.5,
+    "goals": 2
+  },
+  {
+    "id": "ess_roberts",
+    "name": "Archie Roberts",
+    "club": "Essendon",
+    "pos": [
+      "DEF"
+    ],
+    "age": 20,
+    "number": 21,
+    "disposals": 27,
+    "goals": 0
+  },
+  {
+    "id": "wb_jones",
+    "name": "Arthur Jones",
+    "club": "Western Bulldogs",
+    "pos": [
+      "FWD"
+    ],
+    "age": 22,
+    "number": 32,
+    "disposals": 8.5,
+    "goals": 3
+  },
+  {
+    "id": "gc_eastham",
+    "name": "Asher Eastham",
+    "club": "Gold Coast",
+    "pos": [
+      "FWD"
+    ],
+    "age": 19,
+    "number": 42,
+    "disposals": 0,
+    "goals": 0
+  },
+  {
+    "id": "carl_moir",
+    "name": "Ashton Moir",
+    "club": "Carlton",
+    "pos": [
+      "FWD"
+    ],
+    "age": 20,
+    "number": 43,
+    "disposals": 10,
+    "goals": 1
+  },
+  {
+    "id": "gc_thomas",
+    "name": "Avery Thomas",
+    "club": "Gold Coast",
+    "pos": [
+      "MID"
+    ],
+    "age": 18,
+    "number": 41,
+    "disposals": 0,
+    "goals": 0
+  },
+  {
+    "id": "frem_banfield",
+    "name": "Bailey Banfield",
+    "club": "Fremantle",
+    "pos": [
+      "FWD"
+    ],
+    "age": 28,
+    "number": 41,
+    "disposals": 0,
+    "goals": 0
+  },
+  {
+    "id": "wb_dale",
+    "name": "Bailey Dale",
+    "club": "Western Bulldogs",
+    "pos": [
+      "DEF"
+    ],
+    "age": 29,
+    "number": 31,
+    "disposals": 21,
+    "goals": 0
+  },
+  {
+    "id": "gc_humphrey",
+    "name": "Bailey Humphrey",
+    "club": "Gold Coast",
+    "pos": [
+      "MID",
+      "FWD"
+    ],
+    "age": 21,
+    "number": 19,
+    "disposals": 14.5,
+    "goals": 4
+  },
+  {
+    "id": "mel_laurie",
+    "name": "Bailey Laurie",
+    "club": "Melbourne",
+    "pos": [
+      "MID",
+      "FWD"
+    ],
+    "age": 24,
+    "number": 16,
+    "disposals": 12,
+    "goals": 0
+  },
+  {
+    "id": "haw_macdonald_b",
+    "name": "Bailey Macdonald",
+    "club": "Hawthorn",
+    "pos": [
+      "DEF"
+    ],
+    "age": 21,
+    "number": 42,
+    "disposals": 0,
+    "goals": 0
+  },
+  {
+    "id": "nm_scott",
+    "name": "Bailey Scott",
+    "club": "North Melbourne",
+    "pos": [
+      "DEF",
+      "MID"
+    ],
+    "age": 25,
+    "number": 8,
+    "disposals": 0,
+    "goals": 0
+  },
+  {
+    "id": "geel_smith",
+    "name": "Bailey Smith",
+    "club": "Geelong",
+    "pos": [
+      "MID"
+    ],
+    "age": 25,
+    "number": 3,
+    "disposals": 31.8,
+    "goals": 1
+  },
+  {
+    "id": "wce_williams",
+    "name": "Bailey Williams",
+    "club": "West Coast",
+    "pos": [
+      "RUCK"
+    ],
+    "age": 25,
+    "number": 32,
+    "disposals": 0,
+    "goals": 0
+  },
+  {
+    "id": "wb_bwilliams",
+    "name": "Bailey Williams",
+    "club": "Western Bulldogs",
+    "pos": [
+      "DEF",
+      "MID"
+    ],
+    "age": 25,
+    "number": 34,
+    "disposals": 21.3,
+    "goals": 4
+  },
+  {
+    "id": "mel_fritsch",
+    "name": "Bayley Fritsch",
+    "club": "Melbourne",
+    "pos": [
+      "FWD"
+    ],
+    "age": 29,
+    "number": 31,
+    "disposals": 12,
+    "goals": 7
+  },
+  {
+    "id": "gc_addinsall",
+    "name": "Beau Addinsall",
+    "club": "Gold Coast",
+    "pos": [
+      "MID"
+    ],
+    "age": 19,
+    "number": 38,
+    "disposals": 0,
+    "goals": 0
+  },
+  {
+    "id": "coll_mccreery",
+    "name": "Beau McCreery",
+    "club": "Collingwood",
+    "pos": [
+      "FWD"
+    ],
+    "age": 24,
+    "number": 31,
+    "disposals": 14.8,
+    "goals": 3
+  },
+  {
+    "id": "carl_ainsworth",
+    "name": "Ben Ainsworth",
+    "club": "Carlton",
+    "pos": [
+      "FWD"
+    ],
+    "age": 28,
+    "number": 12,
+    "disposals": 15,
+    "goals": 3
+  },
+  {
+    "id": "carl_camporeale_ben",
+    "name": "Ben Camporeale",
+    "club": "Carlton",
+    "pos": [
+      "MID"
+    ],
+    "age": 19,
+    "number": 16,
+    "disposals": 0,
+    "goals": 0
+  },
+  {
+    "id": "gc_jepson",
+    "name": "Ben Jepson",
+    "club": "Gold Coast",
+    "pos": [
+      "DEF"
+    ],
+    "age": 24,
+    "number": 44,
+    "disposals": 0,
+    "goals": 0
+  },
+  {
+    "id": "adel_keays",
+    "name": "Ben Keays",
+    "club": "Adelaide",
+    "pos": [
+      "MID"
+    ],
+    "age": 29,
+    "number": 2,
+    "disposals": 14.5,
+    "goals": 1
+  },
+  {
+    "id": "gc_king",
+    "name": "Ben King",
+    "club": "Gold Coast",
+    "pos": [
+      "FWD"
+    ],
+    "age": 25,
+    "number": 34,
+    "disposals": 8.5,
+    "goals": 19
+  },
+  {
+    "id": "gc_long",
+    "name": "Ben Long",
+    "club": "Gold Coast",
+    "pos": [
+      "DEF",
+      "FWD"
+    ],
+    "age": 28,
+    "number": 22,
+    "disposals": 10.8,
+    "goals": 4
+  },
+  {
+    "id": "ess_mckay",
+    "name": "Ben McKay",
+    "club": "Essendon",
+    "pos": [
+      "DEF"
+    ],
+    "age": 28,
+    "number": 32,
+    "disposals": 6.8,
+    "goals": 0
+  },
+  {
+    "id": "rich_miller",
+    "name": "Ben Miller",
+    "club": "Richmond",
+    "pos": [
+      "DEF"
+    ],
+    "age": 26,
+    "number": 12,
+    "disposals": 15.8,
+    "goals": 0
+  },
+  {
+    "id": "port_barrett",
+    "name": "Benny Barrett",
+    "club": "Port Adelaide",
+    "pos": [
+      "FWD"
+    ],
+    "age": 19,
+    "number": 40,
+    "disposals": 0,
+    "goals": 0
+  },
+  {
+    "id": "adel_dowling",
+    "name": "Billy Dowling",
+    "club": "Adelaide",
+    "pos": [
+      "MID"
+    ],
+    "age": 21,
+    "number": 31,
+    "disposals": 0,
+    "goals": 0
+  },
+  {
+    "id": "coll_frampton",
+    "name": "Billy Frampton",
+    "club": "Collingwood",
+    "pos": [
+      "DEF"
+    ],
+    "age": 29,
+    "number": 17,
+    "disposals": 11.3,
+    "goals": 0
+  },
+  {
+    "id": "carl_acres",
+    "name": "Blake Acres",
+    "club": "Carlton",
+    "pos": [
+      "MID"
+    ],
+    "age": 30,
+    "number": 13,
+    "disposals": 0,
+    "goals": 0
+  },
+  {
+    "id": "haw_hardwick",
+    "name": "Blake Hardwick",
+    "club": "Hawthorn",
+    "pos": [
+      "DEF"
+    ],
+    "age": 29,
+    "number": 15,
+    "disposals": 15.8,
+    "goals": 0
+  },
+  {
+    "id": "mel_howes",
+    "name": "Blake Howes",
+    "club": "Melbourne",
+    "pos": [
+      "DEF"
+    ],
+    "age": 23,
+    "number": 22,
+    "disposals": 12.8,
+    "goals": 0
+  },
+  {
+    "id": "nm_thredgold",
+    "name": "Blake Thredgold",
+    "club": "North Melbourne",
+    "pos": [
+      "MID"
+    ],
+    "age": 18,
+    "number": 23,
+    "disposals": 0,
+    "goals": 0
+  },
+  {
+    "id": "wce_allan",
+    "name": "Bo Allan",
+    "club": "West Coast",
+    "pos": [
+      "DEF"
+    ],
+    "age": 20,
+    "number": 26,
+    "disposals": 14,
+    "goals": 2
+  },
+  {
+    "id": "coll_hill",
+    "name": "Bobby Hill",
+    "club": "Collingwood",
+    "pos": [
+      "FWD"
+    ],
+    "age": 26,
+    "number": 23,
+    "disposals": 0,
+    "goals": 0
+  },
+  {
+    "id": "gc_uwland_b",
+    "name": "Bodhi Uwland",
+    "club": "Gold Coast",
+    "pos": [
+      "DEF",
+      "MID"
+    ],
+    "age": 22,
+    "number": 6,
+    "disposals": 24,
+    "goals": 0
+  },
+  {
+    "id": "haw_ryan",
+    "name": "Bodie Ryan",
+    "club": "Hawthorn",
+    "pos": [
+      "DEF"
+    ],
+    "age": 20,
+    "number": 26,
+    "disposals": 0,
+    "goals": 0
+  },
+  {
+    "id": "geel_close",
+    "name": "Brad Close",
+    "club": "Geelong",
+    "pos": [
+      "FWD"
+    ],
+    "age": 25,
+    "number": 45,
+    "disposals": 0,
+    "goals": 0
+  },
+  {
+    "id": "geel_bradley_close",
+    "name": "Bradley Close",
+    "club": "Geelong",
+    "pos": [
+      "MID"
+    ],
+    "age": 27,
+    "number": 45,
+    "disposals": 7,
+    "goals": 0
+  },
+  {
+    "id": "stk_hill",
+    "name": "Bradley Hill",
+    "club": "St Kilda",
+    "pos": [
+      "DEF",
+      "FWD"
+    ],
+    "age": 32,
+    "number": 8,
+    "disposals": 23,
+    "goals": 2
+  },
+  {
+    "id": "wce_hough",
+    "name": "Brady Hough",
+    "club": "West Coast",
+    "pos": [
+      "DEF",
+      "MID"
+    ],
+    "age": 23,
+    "number": 19,
+    "disposals": 14.8,
+    "goals": 0
+  },
+  {
+    "id": "syd_campbell",
+    "name": "Braeden Campbell",
+    "club": "Sydney",
+    "pos": [
+      "DEF"
+    ],
+    "age": 24,
+    "number": 16,
+    "disposals": 0,
+    "goals": 0
+  },
+  {
+    "id": "wce_starcevich",
+    "name": "Brandon Starcevich",
+    "club": "West Coast",
+    "pos": [
+      "DEF"
+    ],
+    "age": 26,
+    "number": 4,
+    "disposals": 0,
+    "goals": 0
+  },
+  {
+    "id": "frem_walker",
+    "name": "Brandon Walker",
+    "club": "Fremantle",
+    "pos": [
+      "DEF"
+    ],
+    "age": 23,
+    "number": 31,
+    "disposals": 10,
+    "goals": 0
+  },
+  {
+    "id": "port_zerkthatcher",
+    "name": "Brandon Zerk-Thatcher",
+    "club": "Port Adelaide",
+    "pos": [
+      "DEF"
+    ],
+    "age": 27,
+    "number": 25,
+    "disposals": 0,
+    "goals": 0
+  },
+  {
+    "id": "adel_cook",
+    "name": "Brayden Cook",
+    "club": "Adelaide",
+    "pos": [
+      "MID"
+    ],
+    "age": 23,
+    "number": 15,
+    "disposals": 15.8,
+    "goals": 2
+  },
+  {
+    "id": "ess_fiorini",
+    "name": "Brayden Fiorini",
+    "club": "Essendon",
+    "pos": [
+      "MID"
+    ],
+    "age": 28,
+    "number": 8,
+    "disposals": 15,
+    "goals": 2
+  },
+  {
+    "id": "nm_george",
+    "name": "Brayden George",
+    "club": "North Melbourne",
+    "pos": [
+      "DEF"
+    ],
+    "age": 22,
+    "number": 33,
+    "disposals": 0,
+    "goals": 0
+  },
+  {
+    "id": "coll_maynard",
+    "name": "Brayden Maynard",
+    "club": "Collingwood",
+    "pos": [
+      "DEF"
+    ],
+    "age": 29,
+    "number": 4,
+    "disposals": 21,
+    "goals": 0
+  },
+  {
+    "id": "frem_cox_brennan",
+    "name": "Brennan Cox",
+    "club": "Fremantle",
+    "pos": [
+      "DEF"
+    ],
+    "age": 27,
+    "number": 36,
+    "disposals": 14,
+    "goals": 0
+  },
+  {
+    "id": "gws_daniels",
+    "name": "Brent Daniels",
+    "club": "GWS",
+    "pos": [
+      "FWD"
+    ],
+    "age": 27,
+    "number": 16,
+    "disposals": 0,
+    "goals": 0
+  },
+  {
+    "id": "syd_grundy",
+    "name": "Brodie Grundy",
+    "club": "Sydney",
+    "pos": [
+      "RUCK"
+    ],
+    "age": 31,
+    "number": 4,
+    "disposals": 18,
+    "goals": 4
+  },
+  {
+    "id": "carl_kemp",
+    "name": "Brodie Kemp",
+    "club": "Carlton",
+    "pos": [
+      "DEF",
+      "FWD"
+    ],
+    "age": 24,
+    "number": 17,
+    "disposals": 10.8,
+    "goals": 5
+  },
+  {
+    "id": "mel_mihocek",
+    "name": "Brody Mihocek",
+    "club": "Melbourne",
+    "pos": [
+      "FWD"
+    ],
+    "age": 33,
+    "number": 28,
+    "disposals": 9.8,
+    "goals": 7
+  },
+  {
+    "id": "bris_reville",
+    "name": "Bruce Reville",
+    "club": "Brisbane",
+    "pos": [
+      "MID",
+      "FWD"
+    ],
+    "age": 25,
+    "number": 38,
+    "disposals": 16.5,
+    "goals": 3
+  },
+  {
+    "id": "wb_khamis",
+    "name": "Buku Khamis",
+    "club": "Western Bulldogs",
+    "pos": [
+      "DEF",
+      "FWD"
+    ],
+    "age": 26,
+    "number": 24,
+    "disposals": 12.5,
+    "goals": 0
+  },
+  {
+    "id": "syd_cleary",
+    "name": "Caiden Cleary",
+    "club": "Sydney",
+    "pos": [
+      "FWD"
+    ],
+    "age": 21,
+    "number": 33,
+    "disposals": 4,
+    "goals": 0
+  },
+  {
+    "id": "nm_daniel",
+    "name": "Caleb Daniel",
+    "club": "North Melbourne",
+    "pos": [
+      "DEF"
+    ],
+    "age": 29,
+    "number": 5,
+    "disposals": 24.5,
+    "goals": 0
+  },
+  {
+    "id": "gc_graham_caleb",
+    "name": "Caleb Graham",
+    "club": "Gold Coast",
+    "pos": [
+      "DEF"
+    ],
+    "age": 25,
+    "number": 46,
+    "disposals": 0,
+    "goals": 0
+  },
+  {
+    "id": "gc_lewis",
+    "name": "Caleb Lewis",
+    "club": "Gold Coast",
+    "pos": [
+      "FWD"
+    ],
+    "age": 22,
+    "number": 45,
+    "disposals": 0,
+    "goals": 0
+  },
+  {
+    "id": "frem_serong",
+    "name": "Caleb Serong",
+    "club": "Fremantle",
+    "pos": [
+      "MID"
+    ],
+    "age": 25,
+    "number": 3,
+    "disposals": 27.5,
+    "goals": 4
+  },
+  {
+    "id": "mel_windsor",
+    "name": "Caleb Windsor",
+    "club": "Melbourne",
+    "pos": [
+      "MID"
+    ],
+    "age": 20,
+    "number": 6,
+    "disposals": 18.8,
+    "goals": 1
+  },
+  {
+    "id": "adel_ahchee",
+    "name": "Callum Ah Chee",
+    "club": "Adelaide",
+    "pos": [
+      "MID"
+    ],
+    "age": 28,
+    "number": 4,
+    "disposals": 10,
+    "goals": 0
+  },
+  {
+    "id": "gws_callum_brown",
+    "name": "Callum Brown",
+    "club": "GWS",
+    "pos": [
+      "MID"
+    ],
+    "age": 25,
+    "number": 46,
+    "disposals": 9.5,
+    "goals": 1
+  },
+  {
+    "id": "nm_colemanjones",
+    "name": "Callum Coleman-Jones",
+    "club": "North Melbourne",
+    "pos": [
+      "RUCK",
+      "FWD"
+    ],
+    "age": 26,
+    "number": 21,
+    "disposals": 8,
+    "goals": 0
+  },
+  {
+    "id": "gws_brown",
+    "name": "Callum M. Brown",
+    "club": "GWS",
+    "pos": [
+      "DEF"
+    ],
+    "age": 25,
+    "number": 46,
+    "disposals": 0,
+    "goals": 0
+  },
+  {
+    "id": "syd_mills",
+    "name": "Callum Mills",
+    "club": "Sydney",
+    "pos": [
+      "MID"
+    ],
+    "age": 29,
+    "number": 14,
+    "disposals": 23.5,
+    "goals": 0
+  },
+  {
+    "id": "stk_wilkie",
+    "name": "Callum Wilkie",
+    "club": "St Kilda",
+    "pos": [
+      "DEF"
+    ],
+    "age": 30,
+    "number": 44,
+    "disposals": 26.3,
+    "goals": 0
+  },
+  {
+    "id": "haw_dear",
+    "name": "Calsher Dear",
+    "club": "Hawthorn",
+    "pos": [
+      "FWD"
+    ],
+    "age": 20,
+    "number": 13,
+    "disposals": 0,
+    "goals": 0
+  },
+  {
+    "id": "haw_mackenzie",
+    "name": "Cam Mackenzie",
+    "club": "Hawthorn",
+    "pos": [
+      "MID"
+    ],
+    "age": 22,
+    "number": 28,
+    "disposals": 0,
+    "goals": 0
+  },
+  {
+    "id": "bris_rayner",
+    "name": "Cam Rayner",
+    "club": "Brisbane",
+    "pos": [
+      "MID",
+      "FWD"
+    ],
+    "age": 26,
+    "number": 16,
+    "disposals": 15.3,
+    "goals": 4
+  },
+  {
+    "id": "hawk_cameron_mackenzie",
+    "name": "Cameron Mackenzie",
+    "club": "Hawthorn",
+    "pos": [
+      "MID"
+    ],
+    "age": 22,
+    "number": 28,
+    "disposals": 19,
+    "goals": 1
+  },
+  {
+    "id": "haw_nairn",
+    "name": "Cameron Nairn",
+    "club": "Hawthorn",
+    "pos": [
+      "MID"
+    ],
+    "age": 18,
+    "number": 22,
+    "disposals": 0,
+    "goals": 0
+  },
+  {
+    "id": "nm_zurhaar",
+    "name": "Cameron Zurhaar",
+    "club": "North Melbourne",
+    "pos": [
+      "FWD"
+    ],
+    "age": 27,
+    "number": 44,
+    "disposals": 9.8,
+    "goals": 6
+  },
+  {
+    "id": "carl_chesser",
+    "name": "Campbell Chesser",
+    "club": "Carlton",
+    "pos": [
+      "DEF",
+      "MID"
+    ],
+    "age": 22,
+    "number": 31,
+    "disposals": 15.3,
+    "goals": 0
+  },
+  {
+    "id": "rich_gray",
+    "name": "Campbell Gray",
+    "club": "Richmond",
+    "pos": [
+      "FWD"
+    ],
+    "age": 23,
+    "number": 50,
+    "disposals": 6.3,
+    "goals": 0
+  },
+  {
+    "id": "syd_warner",
+    "name": "Chad Warner",
+    "club": "Sydney",
+    "pos": [
+      "MID"
+    ],
+    "age": 24,
+    "number": 1,
+    "disposals": 21.5,
+    "goals": 4
+  },
+  {
+    "id": "mel_jiath",
+    "name": "Changkuoth Jiath",
+    "club": "Melbourne",
+    "pos": [
+      "DEF"
+    ],
+    "age": 26,
+    "number": 14,
+    "disposals": 14.7,
+    "goals": 0
+  },
+  {
+    "id": "gc_ballard",
+    "name": "Charlie Ballard",
+    "club": "Gold Coast",
+    "pos": [
+      "DEF"
+    ],
+    "age": 26,
+    "number": 10,
+    "disposals": 13,
+    "goals": 0
+  },
+  {
+    "id": "stk_banfield",
+    "name": "Charlie Banfield",
+    "club": "St Kilda",
+    "pos": [
+      "MID"
+    ],
+    "age": 18,
+    "number": 36,
+    "disposals": 0,
+    "goals": 0
+  },
+  {
+    "id": "bris_cameron",
+    "name": "Charlie Cameron",
+    "club": "Brisbane",
+    "pos": [
+      "FWD"
+    ],
+    "age": 31,
+    "number": 23,
+    "disposals": 12.5,
+    "goals": 8
+  },
+  {
+    "id": "nm_comben",
+    "name": "Charlie Comben",
+    "club": "North Melbourne",
+    "pos": [
+      "FWD"
+    ],
+    "age": 24,
+    "number": 30,
+    "disposals": 12.5,
+    "goals": 1
+  },
+  {
+    "id": "syd_curnow",
+    "name": "Charlie Curnow",
+    "club": "Sydney",
+    "pos": [
+      "FWD"
+    ],
+    "age": 29,
+    "number": 35,
+    "disposals": 10,
+    "goals": 9
+  },
+  {
+    "id": "adel_edwards",
+    "name": "Charlie Edwards",
+    "club": "Adelaide",
+    "pos": [
+      "MID"
+    ],
+    "age": 20,
+    "number": 11,
+    "disposals": 0,
+    "goals": 0
+  },
+  {
+    "id": "frem_nicholls",
+    "name": "Charlie Nicholls",
+    "club": "Fremantle",
+    "pos": [
+      "FWD"
+    ],
+    "age": 19,
+    "number": 22,
+    "disposals": 0,
+    "goals": 0
+  },
+  {
+    "id": "nm_spargo",
+    "name": "Charlie Spargo",
+    "club": "North Melbourne",
+    "pos": [
+      "FWD"
+    ],
+    "age": 26,
+    "number": 13,
+    "disposals": 0,
+    "goals": 0
+  },
+  {
+    "id": "coll_west",
+    "name": "Charlie West",
+    "club": "Collingwood",
+    "pos": [
+      "FWD"
+    ],
+    "age": 20,
+    "number": 29,
+    "disposals": 0,
+    "goals": 0
+  },
+  {
+    "id": "adel_jones",
+    "name": "Chayce Jones",
+    "club": "Adelaide",
+    "pos": [
+      "DEF"
+    ],
+    "age": 26,
+    "number": 1,
+    "disposals": 11.7,
+    "goals": 0
+  },
+  {
+    "id": "frem_chris_scerri",
+    "name": "Chris Scerri",
+    "club": "Fremantle",
+    "pos": [
+      "MID"
+    ],
+    "age": 25,
+    "number": 45,
+    "disposals": 11.3,
+    "goals": 0
+  },
+  {
+    "id": "port_moraes",
+    "name": "Christian Moraes",
+    "club": "Port Adelaide",
+    "pos": [
+      "MID"
+    ],
+    "age": 19,
+    "number": 11,
+    "disposals": 0,
+    "goals": 0
+  },
+  {
+    "id": "gc_petracca",
+    "name": "Christian Petracca",
+    "club": "Gold Coast",
+    "pos": [
+      "MID",
+      "FWD"
+    ],
+    "age": 30,
+    "number": 3,
+    "disposals": 25.7,
+    "goals": 7
+  },
+  {
+    "id": "mel_salem",
+    "name": "Christian Salem",
+    "club": "Melbourne",
+    "pos": [
+      "DEF"
+    ],
+    "age": 30,
+    "number": 3,
+    "disposals": 22.8,
+    "goals": 1
+  },
+  {
+    "id": "geel_burke",
+    "name": "Cillian Burke",
+    "club": "Geelong",
+    "pos": [
+      "DEF"
+    ],
+    "age": 23,
+    "number": 41,
+    "disposals": 0,
+    "goals": 0
+  },
+  {
+    "id": "wce_hall",
+    "name": "Clay Hall",
+    "club": "West Coast",
+    "pos": [
+      "MID"
+    ],
+    "age": 20,
+    "number": 29,
+    "disposals": 0,
+    "goals": 0
+  },
+  {
+    "id": "gws_oliver_c",
+    "name": "Clayton Oliver",
+    "club": "GWS",
+    "pos": [
+      "MID"
+    ],
+    "age": 28,
+    "number": 10,
+    "disposals": 30.5,
+    "goals": 2
+  },
+  {
+    "id": "haw_anderson",
+    "name": "Cody Anderson",
+    "club": "Hawthorn",
+    "pos": [
+      "MID"
+    ],
+    "age": 20,
+    "number": 32,
+    "disposals": 0,
+    "goals": 0
+  },
+  {
+    "id": "gws_angove",
+    "name": "Cody Angove",
+    "club": "GWS",
+    "pos": [
+      "FWD"
+    ],
+    "age": 19,
+    "number": 29,
+    "disposals": 0,
+    "goals": 0
+  },
+  {
+    "id": "bris_curtin",
+    "name": "Cody Curtin",
+    "club": "Brisbane",
+    "pos": [
+      "MID"
+    ],
+    "age": 18,
+    "number": 37,
+    "disposals": 0,
+    "goals": 0
+  },
+  {
+    "id": "nm_mckercher",
+    "name": "Colby McKercher",
+    "club": "North Melbourne",
+    "pos": [
+      "MID",
+      "DEF"
+    ],
+    "age": 20,
+    "number": 10,
+    "disposals": 22.5,
+    "goals": 1
+  },
+  {
+    "id": "wb_budarick",
+    "name": "Connor Budarick",
+    "club": "Western Bulldogs",
+    "pos": [
+      "DEF"
+    ],
+    "age": 25,
+    "number": 19,
+    "disposals": 23,
+    "goals": 1
+  },
+  {
+    "id": "gws_idun",
+    "name": "Connor Idun",
+    "club": "GWS",
+    "pos": [
+      "DEF"
+    ],
+    "age": 25,
+    "number": 39,
+    "disposals": 20,
+    "goals": 0
+  },
+  {
+    "id": "haw_macdonald_c",
+    "name": "Connor Macdonald",
+    "club": "Hawthorn",
+    "pos": [
+      "FWD"
+    ],
+    "age": 23,
+    "number": 9,
+    "disposals": 22.5,
+    "goals": 2
+  },
+  {
+    "id": "geel_osullivan",
+    "name": "Connor O'Sullivan",
+    "club": "Geelong",
+    "pos": [
+      "DEF"
+    ],
+    "age": 20,
+    "number": 14,
+    "disposals": 16.5,
+    "goals": 0
+  },
+  {
+    "id": "port_rozee",
+    "name": "Connor Rozee",
+    "club": "Port Adelaide",
+    "pos": [
+      "MID",
+      "FWD"
+    ],
+    "age": 26,
+    "number": 1,
+    "disposals": 22.5,
+    "goals": 0
+  },
+  {
+    "id": "bris_mckenna",
+    "name": "Conor McKenna",
+    "club": "Brisbane",
+    "pos": [
+      "DEF"
+    ],
+    "age": 30,
+    "number": 26,
+    "disposals": 0,
+    "goals": 0
+  },
+  {
+    "id": "haw_nash",
+    "name": "Conor Nash",
+    "club": "Hawthorn",
+    "pos": [
+      "MID"
+    ],
+    "age": 27,
+    "number": 11,
+    "disposals": 19,
+    "goals": 1
+  },
+  {
+    "id": "gws_stone",
+    "name": "Conor Stone",
+    "club": "GWS",
+    "pos": [
+      "FWD"
+    ],
+    "age": 23,
+    "number": 18,
+    "disposals": 0,
+    "goals": 0
+  },
+  {
+    "id": "gc_bell",
+    "name": "Cooper Bell",
+    "club": "Gold Coast",
+    "pos": [
+      "DEF"
+    ],
+    "age": 19,
+    "number": 31,
+    "disposals": 0,
+    "goals": 0
+  },
+  {
+    "id": "wc_cooper_duff-tytler",
+    "name": "Cooper Duff-Tytler",
+    "club": "West Coast",
+    "pos": [
+      "MID"
+    ],
+    "age": 18,
+    "number": 21,
+    "disposals": 10,
+    "goals": 2
+  },
+  {
+    "id": "nm_harvey",
+    "name": "Cooper Harvey",
+    "club": "North Melbourne",
+    "pos": [
+      "MID",
+      "FWD"
+    ],
+    "age": 21,
+    "number": 37,
+    "disposals": 0,
+    "goals": 0
+  },
+  {
+    "id": "wb_hynes",
+    "name": "Cooper Hynes",
+    "club": "Western Bulldogs",
+    "pos": [
+      "MID"
+    ],
+    "age": 20,
+    "number": 6,
+    "disposals": 10.3,
+    "goals": 1
+  },
+  {
+    "id": "carl_lord",
+    "name": "Cooper Lord",
+    "club": "Carlton",
+    "pos": [
+      "MID"
+    ],
+    "age": 21,
+    "number": 36,
+    "disposals": 23,
+    "goals": 1
+  },
+  {
+    "id": "stk_sharman",
+    "name": "Cooper Sharman",
+    "club": "St Kilda",
+    "pos": [
+      "DEF",
+      "FWD"
+    ],
+    "age": 25,
+    "number": 43,
+    "disposals": 9,
+    "goals": 5
+  },
+  {
+    "id": "frem_simpson",
+    "name": "Cooper Simpson",
+    "club": "Fremantle",
+    "pos": [
+      "MID"
+    ],
+    "age": 21,
+    "number": 29,
+    "disposals": 0,
+    "goals": 0
+  },
+  {
+    "id": "nm_trembath",
+    "name": "Cooper Trembath",
+    "club": "North Melbourne",
+    "pos": [
+      "DEF"
+    ],
+    "age": 20,
+    "number": 47,
+    "disposals": 9,
+    "goals": 8
+  },
+  {
+    "id": "port_durdin",
+    "name": "Corey Durdin",
+    "club": "Port Adelaide",
+    "pos": [
+      "FWD"
+    ],
+    "age": 23,
+    "number": 44,
+    "disposals": 7,
+    "goals": 7
+  },
+  {
+    "id": "frem_wagner",
+    "name": "Corey Wagner",
+    "club": "Fremantle",
+    "pos": [
+      "DEF",
+      "MID"
+    ],
+    "age": 29,
+    "number": 34,
+    "disposals": 18,
+    "goals": 0
+  },
+  {
+    "id": "syd_warnerc",
+    "name": "Corey Warner",
+    "club": "Sydney",
+    "pos": [
+      "FWD"
+    ],
+    "age": 22,
+    "number": 37,
+    "disposals": 12.5,
+    "goals": 1
+  },
+  {
+    "id": "coll_houston",
+    "name": "Dan Houston",
+    "club": "Collingwood",
+    "pos": [
+      "DEF"
+    ],
+    "age": 28,
+    "number": 9,
+    "disposals": 27.5,
+    "goals": 1
+  },
+  {
+    "id": "syd_rampee",
+    "name": "Dane Rampe",
+    "club": "Sydney",
+    "pos": [
+      "DEF"
+    ],
+    "age": 35,
+    "number": 24,
+    "disposals": 13,
+    "goals": 0
+  },
+  {
+    "id": "bris_annable",
+    "name": "Daniel Annable",
+    "club": "Brisbane",
+    "pos": [
+      "MID"
+    ],
+    "age": 25,
+    "number": 14,
+    "disposals": 13,
+    "goals": 0
+  },
+  {
+    "id": "stk_butler",
+    "name": "Daniel Butler",
+    "club": "St Kilda",
+    "pos": [
+      "FWD"
+    ],
+    "age": 25,
+    "number": 16,
+    "disposals": 9,
+    "goals": 0
+  },
+  {
+    "id": "adel_curtin",
+    "name": "Daniel Curtin",
+    "club": "Adelaide",
+    "pos": [
+      "DEF"
+    ],
+    "age": 25,
+    "number": 6,
+    "disposals": 0,
+    "goals": 0
+  },
+  {
+    "id": "coll_mcstay",
+    "name": "Daniel McStay",
+    "club": "Collingwood",
+    "pos": [
+      "FWD"
+    ],
+    "age": 30,
+    "number": 11,
+    "disposals": 8.3,
+    "goals": 7
+  },
+  {
+    "id": "gc_rioli",
+    "name": "Daniel Rioli",
+    "club": "Gold Coast",
+    "pos": [
+      "DEF"
+    ],
+    "age": 28,
+    "number": 17,
+    "disposals": 18.5,
+    "goals": 1
+  },
+  {
+    "id": "mel_turner",
+    "name": "Daniel Turner",
+    "club": "Melbourne",
+    "pos": [
+      "DEF"
+    ],
+    "age": 24,
+    "number": 10,
+    "disposals": 10,
+    "goals": 0
+  },
+  {
+    "id": "port_visentini",
+    "name": "Dante Visentini",
+    "club": "Port Adelaide",
+    "pos": [
+      "RUCK",
+      "FWD"
+    ],
+    "age": 23,
+    "number": 38,
+    "disposals": 6,
+    "goals": 0
+  },
+  {
+    "id": "port_byrnejones",
+    "name": "Darcy Byrne-Jones",
+    "club": "Port Adelaide",
+    "pos": [
+      "DEF"
+    ],
+    "age": 30,
+    "number": 33,
+    "disposals": 15,
+    "goals": 3
+  },
+  {
+    "id": "coll_cameron",
+    "name": "Darcy Cameron",
+    "club": "Collingwood",
+    "pos": [
+      "RUCK",
+      "FWD"
+    ],
+    "age": 30,
+    "number": 14,
+    "disposals": 15,
+    "goals": 1
+  },
+  {
+    "id": "adel_fogarty",
+    "name": "Darcy Fogarty",
+    "club": "Adelaide",
+    "pos": [
+      "FWD"
+    ],
+    "age": 26,
+    "number": 32,
+    "disposals": 8.7,
+    "goals": 4
+  },
+  {
+    "id": "bris_fort",
+    "name": "Darcy Fort",
+    "club": "Brisbane",
+    "pos": [
+      "RUCK",
+      "FWD"
+    ],
+    "age": 32,
+    "number": 32,
+    "disposals": 13.8,
+    "goals": 1
+  },
+  {
+    "id": "bris_gardiner",
+    "name": "Darcy Gardiner",
+    "club": "Brisbane",
+    "pos": [
+      "DEF"
+    ],
+    "age": 30,
+    "number": 27,
+    "disposals": 11.5,
+    "goals": 0
+  },
+  {
+    "id": "gws_jones",
+    "name": "Darcy Jones",
+    "club": "GWS",
+    "pos": [
+      "FWD"
+    ],
+    "age": 22,
+    "number": 2,
+    "disposals": 0,
+    "goals": 0
+  },
+  {
+    "id": "coll_moore",
+    "name": "Darcy Moore",
+    "club": "Collingwood",
+    "pos": [
+      "DEF"
+    ],
+    "age": 30,
+    "number": 30,
+    "disposals": 7,
+    "goals": 0
+  },
+  {
+    "id": "ess_parish",
+    "name": "Darcy Parish",
+    "club": "Essendon",
+    "pos": [
+      "MID"
+    ],
+    "age": 28,
+    "number": 3,
+    "disposals": 20.8,
+    "goals": 0
+  },
+  {
+    "id": "bris_wilmot",
+    "name": "Darcy Wilmot",
+    "club": "Brisbane",
+    "pos": [
+      "DEF"
+    ],
+    "age": 22,
+    "number": 44,
+    "disposals": 20.8,
+    "goals": 0
+  },
+  {
+    "id": "stk_wilson",
+    "name": "Darcy Wilson",
+    "club": "St Kilda",
+    "pos": [
+      "FWD"
+    ],
+    "age": 20,
+    "number": 22,
+    "disposals": 19.3,
+    "goals": 2
+  },
+  {
+    "id": "bris_joyce",
+    "name": "Darragh Joyce",
+    "club": "Brisbane",
+    "pos": [
+      "DEF"
+    ],
+    "age": 28,
+    "number": 41,
+    "disposals": 10,
+    "goals": 0
+  },
+  {
+    "id": "bris_zorko",
+    "name": "Dayne Zorko",
+    "club": "Brisbane",
+    "pos": [
+      "DEF"
+    ],
+    "age": 37,
+    "number": 15,
+    "disposals": 29.3,
+    "goals": 2
+  },
+  {
+    "id": "wce_robertson",
+    "name": "Deven Robertson",
+    "club": "West Coast",
+    "pos": [
+      "MID"
+    ],
+    "age": 24,
+    "number": 40,
+    "disposals": 19.7,
+    "goals": 0
+  },
+  {
+    "id": "rich_prestia",
+    "name": "Dion Prestia",
+    "club": "Richmond",
+    "pos": [
+      "MID"
+    ],
+    "age": 33,
+    "number": 3,
+    "disposals": 19.3,
+    "goals": 1
+  },
+  {
+    "id": "stk_howard",
+    "name": "Dougal Howard",
+    "club": "St Kilda",
+    "pos": [
+      "DEF"
+    ],
+    "age": 30,
+    "number": 20,
+    "disposals": 12,
+    "goals": 0
+  },
+  {
+    "id": "haw_moore",
+    "name": "Dylan Moore",
+    "club": "Hawthorn",
+    "pos": [
+      "FWD"
+    ],
+    "age": 26,
+    "number": 8,
+    "disposals": 19.3,
+    "goals": 4
+  },
+  {
+    "id": "gc_patterson",
+    "name": "Dylan Patterson",
+    "club": "Gold Coast",
+    "pos": [
+      "MID"
+    ],
+    "age": 18,
+    "number": 30,
+    "disposals": 0,
+    "goals": 0
+  },
+  {
+    "id": "nm_stephens",
+    "name": "Dylan Stephens",
+    "club": "North Melbourne",
+    "pos": [
+      "MID"
+    ],
+    "age": 25,
+    "number": 15,
+    "disposals": 23.8,
+    "goals": 1
+  },
+  {
+    "id": "ess_sharp",
+    "name": "Dyson Sharp",
+    "club": "Essendon",
+    "pos": [
+      "MID"
+    ],
+    "age": 18,
+    "number": 15,
+    "disposals": 5.5,
+    "goals": 2
+  },
+  {
+    "id": "stk_armstrong",
+    "name": "Eamonn Armstrong",
+    "club": "St Kilda",
+    "pos": [
+      "DEF"
+    ],
+    "age": 19,
+    "number": 46,
+    "disposals": 0,
+    "goals": 0
+  },
+  {
+    "id": "mel_langdon",
+    "name": "Ed Langdon",
+    "club": "Melbourne",
+    "pos": [
+      "MID"
+    ],
+    "age": 30,
+    "number": 15,
+    "disposals": 15,
+    "goals": 4
+  },
+  {
+    "id": "wb_richards",
+    "name": "Ed Richards",
+    "club": "Western Bulldogs",
+    "pos": [
+      "MID"
+    ],
+    "age": 26,
+    "number": 20,
+    "disposals": 26,
+    "goals": 2
+  },
+  {
+    "id": "coll_allan",
+    "name": "Edward Allan",
+    "club": "Collingwood",
+    "pos": [
+      "MID"
+    ],
+    "age": 21,
+    "number": 16,
+    "disposals": 10.7,
+    "goals": 0
+  },
+  {
+    "id": "wce_hewett",
+    "name": "Elijah Hewett",
+    "club": "West Coast",
+    "pos": [
+      "MID"
+    ],
+    "age": 21,
+    "number": 8,
+    "disposals": 0,
+    "goals": 0
+  },
+  {
+    "id": "carl_elijah_hollands",
+    "name": "Elijah Hollands",
+    "club": "Carlton",
+    "pos": [
+      "MID"
+    ],
+    "age": 23,
+    "number": 20,
+    "disposals": 19,
+    "goals": 4
+  },
+  {
+    "id": "ess_tsatas",
+    "name": "Elijah Tsatas",
+    "club": "Essendon",
+    "pos": [
+      "MID"
+    ],
+    "age": 21,
+    "number": 5,
+    "disposals": 0,
+    "goals": 0
+  },
+  {
+    "id": "wce_yeo",
+    "name": "Elliot Yeo",
+    "club": "West Coast",
+    "pos": [
+      "DEF"
+    ],
+    "age": 32,
+    "number": 6,
+    "disposals": 14.3,
+    "goals": 5
+  },
+  {
+    "id": "gc_himmelberg",
+    "name": "Elliott Himmelberg",
+    "club": "Gold Coast",
+    "pos": [
+      "FWD"
+    ],
+    "age": 27,
+    "number": 12,
+    "disposals": 0,
+    "goals": 0
+  },
+  {
+    "id": "bris_hipwood",
+    "name": "Eric Hipwood",
+    "club": "Brisbane",
+    "pos": [
+      "FWD"
+    ],
+    "age": 28,
+    "number": 30,
+    "disposals": 0,
+    "goals": 0
+  },
+  {
+    "id": "syd_gulden",
+    "name": "Errol Gulden",
+    "club": "Sydney",
+    "pos": [
+      "MID",
+      "FWD"
+    ],
+    "age": 23,
+    "number": 21,
+    "disposals": 23.5,
+    "goals": 1
+  },
+  {
+    "id": "port_ratugolea",
+    "name": "Esava Ratugolea",
+    "club": "Port Adelaide",
+    "pos": [
+      "RUCK",
+      "FWD"
+    ],
+    "age": 27,
+    "number": 27,
+    "disposals": 10.3,
+    "goals": 0
+  },
+  {
+    "id": "gc_read",
+    "name": "Ethan Read",
+    "club": "Gold Coast",
+    "pos": [
+      "FWD"
+    ],
+    "age": 20,
+    "number": 20,
+    "disposals": 11.5,
+    "goals": 7
+  },
+  {
+    "id": "port_mackinlay",
+    "name": "Ewan Mackinlay",
+    "club": "Port Adelaide",
+    "pos": [
+      "FWD"
+    ],
+    "age": 22,
+    "number": 31,
+    "disposals": 12.3,
+    "goals": 0
+  },
+  {
+    "id": "gws_callaghan",
+    "name": "Finn Callaghan",
+    "club": "GWS",
+    "pos": [
+      "MID"
+    ],
+    "age": 22,
+    "number": 17,
+    "disposals": 30,
+    "goals": 2
+  },
+  {
+    "id": "haw_maginness",
+    "name": "Finn Maginness",
+    "club": "Hawthorn",
+    "pos": [
+      "MID"
+    ],
+    "age": 25,
+    "number": 20,
+    "disposals": 8,
+    "goals": 0
+  },
+  {
+    "id": "nm_osullivan",
+    "name": "Finn O'Sullivan",
+    "club": "North Melbourne",
+    "pos": [
+      "DEF"
+    ],
+    "age": 19,
+    "number": 2,
+    "disposals": 19.5,
+    "goals": 1
+  },
+  {
+    "id": "adel_maley",
+    "name": "Finnbar Maley",
+    "club": "Adelaide",
+    "pos": [
+      "RUCK"
+    ],
+    "age": 22,
+    "number": 36,
+    "disposals": 8,
+    "goals": 1
+  },
+  {
+    "id": "gws_davis",
+    "name": "Finnegan Davis",
+    "club": "GWS",
+    "pos": [
+      "MID"
+    ],
+    "age": 25,
+    "number": 45,
+    "disposals": 0,
+    "goals": 0
+  },
+  {
+    "id": "hawk_flynn_perez",
+    "name": "Flynn Perez",
+    "club": "Hawthorn",
+    "pos": [
+      "MID"
+    ],
+    "age": 24,
+    "number": 39,
+    "disposals": 13,
+    "goals": 0
+  },
+  {
+    "id": "carl_young_flynn",
+    "name": "Flynn Young",
+    "club": "Carlton",
+    "pos": [
+      "FWD"
+    ],
+    "age": 24,
+    "number": 45,
+    "disposals": 0,
+    "goals": 0
+  },
+  {
+    "id": "carl_evans_francis",
+    "name": "Francis Evans",
+    "club": "Carlton",
+    "pos": [
+      "FWD"
+    ],
+    "age": 24,
+    "number": 44,
+    "disposals": 14,
+    "goals": 0
+  },
+  {
+    "id": "carl_hewett_george",
+    "name": "George Hewett",
+    "club": "Carlton",
+    "pos": [
+      "MID"
+    ],
+    "age": 30,
+    "number": 29,
+    "disposals": 20.5,
+    "goals": 1
+  },
+  {
+    "id": "geel_stevens",
+    "name": "George Stevens",
+    "club": "Geelong",
+    "pos": [
+      "MID"
+    ],
+    "age": 20,
+    "number": 15,
+    "disposals": 0,
+    "goals": 0
+  },
+  {
+    "id": "nm_wardlaw",
+    "name": "George Wardlaw",
+    "club": "North Melbourne",
+    "pos": [
+      "MID"
+    ],
+    "age": 21,
+    "number": 6,
+    "disposals": 16,
+    "goals": 0
+  },
+  {
+    "id": "nm_logue",
+    "name": "Griffin Logue",
+    "club": "North Melbourne",
+    "pos": [
+      "DEF",
+      "FWD"
+    ],
+    "age": 27,
+    "number": 19,
+    "disposals": 7.5,
+    "goals": 0
+  },
+  {
+    "id": "geel_miers",
+    "name": "Gryan Miers",
+    "club": "Geelong",
+    "pos": [
+      "FWD"
+    ],
+    "age": 27,
+    "number": 32,
+    "disposals": 25,
+    "goals": 0
+  },
+  {
+    "id": "wce_davis",
+    "name": "Hamish Davis",
+    "club": "West Coast",
+    "pos": [
+      "MID",
+      "FWD"
+    ],
+    "age": 19,
+    "number": 38,
+    "disposals": 14.3,
+    "goals": 1
+  },
+  {
+    "id": "geel_barker",
+    "name": "Harley Barker",
+    "club": "Geelong",
+    "pos": [
+      "MID"
+    ],
+    "age": 18,
+    "number": 26,
+    "disposals": 0,
+    "goals": 0
+  },
+  {
+    "id": "wce_hreid",
+    "name": "Harley Reid",
+    "club": "West Coast",
+    "pos": [
+      "MID"
+    ],
+    "age": 20,
+    "number": 9,
+    "disposals": 22.8,
+    "goals": 2
+  },
+  {
+    "id": "bris_andrews",
+    "name": "Harris Andrews",
+    "club": "Brisbane",
+    "pos": [
+      "DEF"
+    ],
+    "age": 29,
+    "number": 31,
+    "disposals": 18,
+    "goals": 0
+  },
+  {
+    "id": "gws_harrison_himmelberg",
+    "name": "Harrison Himmelberg",
+    "club": "GWS",
+    "pos": [
+      "MID"
+    ],
+    "age": 29,
+    "number": 27,
+    "disposals": 16.8,
+    "goals": 0
+  },
+  {
+    "id": "ess_jones",
+    "name": "Harrison Jones",
+    "club": "Essendon",
+    "pos": [
+      "FWD"
+    ],
+    "age": 25,
+    "number": 23,
+    "disposals": 0,
+    "goals": 0
+  },
+  {
+    "id": "gws_oliver_h",
+    "name": "Harrison Oliver",
+    "club": "GWS",
+    "pos": [
+      "DEF"
+    ],
+    "age": 19,
+    "number": 19,
+    "disposals": 0,
+    "goals": 0
+  },
+  {
+    "id": "mel_petty",
+    "name": "Harrison Petty",
+    "club": "Melbourne",
+    "pos": [
+      "DEF"
+    ],
+    "age": 26,
+    "number": 35,
+    "disposals": 7.8,
+    "goals": 0
+  },
+  {
+    "id": "port_ramm",
+    "name": "Harrison Ramm",
+    "club": "Port Adelaide",
+    "pos": [
+      "DEF"
+    ],
+    "age": 19,
+    "number": 32,
+    "disposals": 0,
+    "goals": 0
+  },
+  {
+    "id": "rich_armstrong",
+    "name": "Harry Armstrong",
+    "club": "Richmond",
+    "pos": [
+      "FWD"
+    ],
+    "age": 19,
+    "number": 34,
+    "disposals": 3.3,
+    "goals": 1
+  },
+  {
+    "id": "wce_barnett",
+    "name": "Harry Barnett",
+    "club": "West Coast",
+    "pos": [
+      "RUCK"
+    ],
+    "age": 22,
+    "number": 30,
+    "disposals": 0,
+    "goals": 0
+  },
+  {
+    "id": "carl_charleson",
+    "name": "Harry Charleson",
+    "club": "Carlton",
+    "pos": [
+      "DEF"
+    ],
+    "age": 19,
+    "number": 28,
+    "disposals": 0,
+    "goals": 0
+  },
+  {
+    "id": "syd_cunningham",
+    "name": "Harry Cunningham",
+    "club": "Sydney",
+    "pos": [
+      "DEF"
+    ],
+    "age": 32,
+    "number": 7,
+    "disposals": 12,
+    "goals": 1
+  },
+  {
+    "id": "carl_dean",
+    "name": "Harry Dean",
+    "club": "Carlton",
+    "pos": [
+      "MID"
+    ],
+    "age": 18,
+    "number": 35,
+    "disposals": 10.3,
+    "goals": 0
+  },
+  {
+    "id": "coll_demattia",
+    "name": "Harry DeMattia",
+    "club": "Collingwood",
+    "pos": [
+      "MID"
+    ],
+    "age": 20,
+    "number": 13,
+    "disposals": 0,
+    "goals": 0
+  },
+  {
+    "id": "wce_edwards",
+    "name": "Harry Edwards",
+    "club": "West Coast",
+    "pos": [
+      "DEF"
+    ],
+    "age": 25,
+    "number": 42,
+    "disposals": 1,
+    "goals": 0
+  },
+  {
+    "id": "gws_himmelberg",
+    "name": "Harry Himmelberg",
+    "club": "GWS",
+    "pos": [
+      "DEF"
+    ],
+    "age": 25,
+    "number": 27,
+    "disposals": 0,
+    "goals": 0
+  },
+  {
+    "id": "syd_kyle",
+    "name": "Harry Kyle",
+    "club": "Sydney",
+    "pos": [
+      "MID"
+    ],
+    "age": 18,
+    "number": 32,
+    "disposals": 0,
+    "goals": 0
+  },
+  {
+    "id": "carl_mckay",
+    "name": "Harry McKay",
+    "club": "Carlton",
+    "pos": [
+      "FWD"
+    ],
+    "age": 28,
+    "number": 10,
+    "disposals": 13.3,
+    "goals": 6
+  },
+  {
+    "id": "haw_morrison",
+    "name": "Harry Morrison",
+    "club": "Hawthorn",
+    "pos": [
+      "MID"
+    ],
+    "age": 27,
+    "number": 1,
+    "disposals": 17,
+    "goals": 0
+  },
+  {
+    "id": "coll_perryman",
+    "name": "Harry Perryman",
+    "club": "Collingwood",
+    "pos": [
+      "MID"
+    ],
+    "age": 27,
+    "number": 12,
+    "disposals": 16.5,
+    "goals": 0
+  },
+  {
+    "id": "gws_rowston",
+    "name": "Harry Rowston",
+    "club": "GWS",
+    "pos": [
+      "MID"
+    ],
+    "age": 21,
+    "number": 24,
+    "disposals": 14,
+    "goals": 3
+  },
+  {
+    "id": "wce_schoenberg",
+    "name": "Harry Schoenberg",
+    "club": "West Coast",
+    "pos": [
+      "MID"
+    ],
+    "age": 25,
+    "number": 48,
+    "disposals": 10.5,
+    "goals": 0
+  },
+  {
+    "id": "mel_sharp",
+    "name": "Harry Sharp",
+    "club": "Melbourne",
+    "pos": [
+      "MID"
+    ],
+    "age": 23,
+    "number": 30,
+    "disposals": 13.5,
+    "goals": 5
+  },
+  {
+    "id": "nm_sheezel",
+    "name": "Harry Sheezel",
+    "club": "North Melbourne",
+    "pos": [
+      "MID"
+    ],
+    "age": 21,
+    "number": 3,
+    "disposals": 32,
+    "goals": 1
+  },
+  {
+    "id": "wb_gallagher",
+    "name": "Harvey Gallagher",
+    "club": "Western Bulldogs",
+    "pos": [
+      "DEF",
+      "FWD"
+    ],
+    "age": 22,
+    "number": 12,
+    "disposals": 0,
+    "goals": 0
+  },
+  {
+    "id": "coll_harrison",
+    "name": "Harvey Harrison",
+    "club": "Collingwood",
+    "pos": [
+      "FWD"
+    ],
+    "age": 22,
+    "number": 36,
+    "disposals": 0,
+    "goals": 0
+  },
+  {
+    "id": "mel_langford",
+    "name": "Harvey Langford",
+    "club": "Melbourne",
+    "pos": [
+      "MID"
+    ],
+    "age": 20,
+    "number": 4,
+    "disposals": 12.3,
+    "goals": 4
+  },
+  {
+    "id": "gws_thomas",
+    "name": "Harvey Thomas",
+    "club": "GWS",
+    "pos": [
+      "MID"
+    ],
+    "age": 20,
+    "number": 1,
+    "disposals": 22.5,
+    "goals": 2
+  },
+  {
+    "id": "syd_mclean",
+    "name": "Hayden McLean",
+    "club": "Sydney",
+    "pos": [
+      "FWD"
+    ],
+    "age": 27,
+    "number": 2,
+    "disposals": 0,
+    "goals": 0
+  },
+  {
+    "id": "frem_young",
+    "name": "Hayden Young",
+    "club": "Fremantle",
+    "pos": [
+      "DEF"
+    ],
+    "age": 24,
+    "number": 26,
+    "disposals": 16,
+    "goals": 1
+  },
+  {
+    "id": "frem_chapman",
+    "name": "Heath Chapman",
+    "club": "Fremantle",
+    "pos": [
+      "DEF"
+    ],
+    "age": 24,
+    "number": 5,
+    "disposals": 18,
+    "goals": 0
+  },
+  {
+    "id": "haw_hustwaite",
+    "name": "Henry Hustwaite",
+    "club": "Hawthorn",
+    "pos": [
+      "MID"
+    ],
+    "age": 21,
+    "number": 44,
+    "disposals": 0,
+    "goals": 0
+  },
+  {
+    "id": "bris_smith_henry",
+    "name": "Henry Smith",
+    "club": "Brisbane",
+    "pos": [
+      "RUCK",
+      "FWD"
+    ],
+    "age": 23,
+    "number": 25,
+    "disposals": 0,
+    "goals": 0
+  },
+  {
+    "id": "carl_hudson_okeeffe",
+    "name": "Hudson O'Keeffe",
+    "club": "Carlton",
+    "pos": [
+      "MID"
+    ],
+    "age": 21,
+    "number": 40,
+    "disposals": 5,
+    "goals": 0
+  },
+  {
+    "id": "adel_bond",
+    "name": "Hugh Bond",
+    "club": "Adelaide",
+    "pos": [
+      "MID"
+    ],
+    "age": 21,
+    "number": 21,
+    "disposals": 9.3,
+    "goals": 0
+  },
+  {
+    "id": "stk_boxshall",
+    "name": "Hugh Boxshall",
+    "club": "St Kilda",
+    "pos": [
+      "MID"
+    ],
+    "age": 19,
+    "number": 38,
+    "disposals": 12,
+    "goals": 0
+  },
+  {
+    "id": "frem_davies",
+    "name": "Hugh Davies",
+    "club": "Fremantle",
+    "pos": [
+      "DEF"
+    ],
+    "age": 21,
+    "number": 12,
+    "disposals": 0,
+    "goals": 0
+  },
+  {
+    "id": "bris_mccluggage",
+    "name": "Hugh McCluggage",
+    "club": "Brisbane",
+    "pos": [
+      "MID"
+    ],
+    "age": 28,
+    "number": 6,
+    "disposals": 4,
+    "goals": 0
+  },
+  {
+    "id": "stk_garcia",
+    "name": "Hugo Garcia",
+    "club": "St Kilda",
+    "pos": [
+      "MID",
+      "FWD"
+    ],
+    "age": 20,
+    "number": 34,
+    "disposals": 17.3,
+    "goals": 0
+  },
+  {
+    "id": "nm_mikunda",
+    "name": "Hugo Mikunda",
+    "club": "North Melbourne",
+    "pos": [
+      "MID"
+    ],
+    "age": 19,
+    "number": 28,
+    "disposals": 0,
+    "goals": 0
+  },
+  {
+    "id": "rich_ralphsmith",
+    "name": "Hugo Ralphsmith",
+    "club": "Richmond",
+    "pos": [
+      "DEF"
+    ],
+    "age": 24,
+    "number": 13,
+    "disposals": 14,
+    "goals": 1
+  },
+  {
+    "id": "stk_clark",
+    "name": "Hunter Clark",
+    "club": "St Kilda",
+    "pos": [
+      "DEF"
+    ],
+    "age": 27,
+    "number": 11,
+    "disposals": 0,
+    "goals": 0
+  },
+  {
+    "id": "geel_holmes_hunter",
+    "name": "Hunter Holmes",
+    "club": "Geelong",
+    "pos": [
+      "MID"
+    ],
+    "age": 19,
+    "number": 22,
+    "disposals": 0,
+    "goals": 0
+  },
+  {
+    "id": "ess_elachkar",
+    "name": "Hussien El Achkar",
+    "club": "Essendon",
+    "pos": [
+      "MID"
+    ],
+    "age": 19,
+    "number": 33,
+    "disposals": 6.5,
+    "goals": 1
+  },
+  {
+    "id": "coll_smit",
+    "name": "Iliro Smit",
+    "club": "Collingwood",
+    "pos": [
+      "RUCK"
+    ],
+    "age": 20,
+    "number": 20,
+    "disposals": 0,
+    "goals": 0
+  },
+  {
+    "id": "adel_cumming",
+    "name": "Isaac Cumming",
+    "club": "Adelaide",
+    "pos": [
+      "DEF"
+    ],
+    "age": 27,
+    "number": 44,
+    "disposals": 15.7,
+    "goals": 3
+  },
+  {
+    "id": "syd_heeney",
+    "name": "Isaac Heeney",
+    "club": "Sydney",
+    "pos": [
+      "FWD"
+    ],
+    "age": 29,
+    "number": 5,
+    "disposals": 20.7,
+    "goals": 8
+  },
+  {
+    "id": "ess_kako",
+    "name": "Isaac Kako",
+    "club": "Essendon",
+    "pos": [
+      "FWD"
+    ],
+    "age": 20,
+    "number": 10,
+    "disposals": 10,
+    "goals": 2
+  },
+  {
+    "id": "stk_keeler",
+    "name": "Isaac Keeler",
+    "club": "St Kilda",
+    "pos": [
+      "RUCK",
+      "FWD"
+    ],
+    "age": 21,
+    "number": 17,
+    "disposals": 10,
+    "goals": 1
+  },
+  {
+    "id": "coll_quaynor",
+    "name": "Isaac Quaynor",
+    "club": "Collingwood",
+    "pos": [
+      "DEF"
+    ],
+    "age": 26,
+    "number": 3,
+    "disposals": 17.8,
+    "goals": 0
+  },
+  {
+    "id": "frem_dudley",
+    "name": "Isaiah Dudley",
+    "club": "Fremantle",
+    "pos": [
+      "FWD"
+    ],
+    "age": 22,
+    "number": 43,
+    "disposals": 12,
+    "goals": 8
+  },
+  {
+    "id": "port_soldo",
+    "name": "Ivan Soldo",
+    "club": "Port Adelaide",
+    "pos": [
+      "RUCK",
+      "FWD"
+    ],
+    "age": 29,
+    "number": 13,
+    "disposals": 0,
+    "goals": 0
+  },
+  {
+    "id": "adel_rankine",
+    "name": "Izak Rankine",
+    "club": "Adelaide",
+    "pos": [
+      "FWD"
+    ],
+    "age": 25,
+    "number": 23,
+    "disposals": 12.3,
+    "goals": 2
+  },
+  {
+    "id": "geel_bowes",
+    "name": "Jack Bowes",
+    "club": "Geelong",
+    "pos": [
+      "DEF"
+    ],
+    "age": 28,
+    "number": 12,
+    "disposals": 13,
+    "goals": 2
+  },
+  {
+    "id": "gws_buckley",
+    "name": "Jack Buckley",
+    "club": "GWS",
+    "pos": [
+      "DEF"
+    ],
+    "age": 28,
+    "number": 44,
+    "disposals": 14.3,
+    "goals": 0
+  },
+  {
+    "id": "coll_buller",
+    "name": "Jack Buller",
+    "club": "Collingwood",
+    "pos": [
+      "FWD"
+    ],
+    "age": 24,
+    "number": 34,
+    "disposals": 7,
+    "goals": 0
+  },
+  {
+    "id": "stk_carroll",
+    "name": "Jack Carroll",
+    "club": "St Kilda",
+    "pos": [
+      "MID",
+      "FWD"
+    ],
+    "age": 23,
+    "number": 18,
+    "disposals": 13,
+    "goals": 0
+  },
+  {
+    "id": "coll_crisp",
+    "name": "Jack Crisp",
+    "club": "Collingwood",
+    "pos": [
+      "MID"
+    ],
+    "age": 32,
+    "number": 25,
+    "disposals": 22.8,
+    "goals": 1
+  },
+  {
+    "id": "haw_dalton",
+    "name": "Jack Dalton",
+    "club": "Hawthorn",
+    "pos": [
+      "MID"
+    ],
+    "age": 19,
+    "number": 34,
+    "disposals": 10,
+    "goals": 0
+  },
+  {
+    "id": "nm_darling",
+    "name": "Jack Darling",
+    "club": "North Melbourne",
+    "pos": [
+      "FWD"
+    ],
+    "age": 33,
+    "number": 27,
+    "disposals": 9,
+    "goals": 2
+  },
+  {
+    "id": "haw_ginnivan",
+    "name": "Jack Ginnivan",
+    "club": "Hawthorn",
+    "pos": [
+      "FWD"
+    ],
+    "age": 23,
+    "number": 33,
+    "disposals": 19.5,
+    "goals": 5
+  },
+  {
+    "id": "wce_graham",
+    "name": "Jack Graham",
+    "club": "West Coast",
+    "pos": [
+      "MID",
+      "FWD"
+    ],
+    "age": 28,
+    "number": 17,
+    "disposals": 18.5,
+    "goals": 1
+  },
+  {
+    "id": "haw_gunston",
+    "name": "Jack Gunston",
+    "club": "Hawthorn",
+    "pos": [
+      "FWD"
+    ],
+    "age": 34,
+    "number": 19,
+    "disposals": 11,
+    "goals": 16
+  },
+  {
+    "id": "mel_henderson",
+    "name": "Jack Henderson",
+    "club": "Melbourne",
+    "pos": [
+      "MID"
+    ],
+    "age": 26,
+    "number": 43,
+    "disposals": 0,
+    "goals": 0
+  },
+  {
+    "id": "geel_henry_jack",
+    "name": "Jack Henry",
+    "club": "Geelong",
+    "pos": [
+      "DEF"
+    ],
+    "age": 27,
+    "number": 38,
+    "disposals": 11.3,
+    "goals": 1
+  },
+  {
+    "id": "stk_higgins",
+    "name": "Jack Higgins",
+    "club": "St Kilda",
+    "pos": [
+      "FWD"
+    ],
+    "age": 27,
+    "number": 1,
+    "disposals": 10.3,
+    "goals": 7
+  },
+  {
+    "id": "wce_hutchinson",
+    "name": "Jack Hutchinson",
+    "club": "West Coast",
+    "pos": [
+      "FWD"
+    ],
+    "age": 24,
+    "number": 44,
+    "disposals": 0,
+    "goals": 0
+  },
+  {
+    "id": "carl_ison",
+    "name": "Jack Ison",
+    "club": "Carlton",
+    "pos": [
+      "MID"
+    ],
+    "age": 19,
+    "number": 30,
+    "disposals": 0,
+    "goals": 0
+  },
+  {
+    "id": "port_lukosius",
+    "name": "Jack Lukosius",
+    "club": "Port Adelaide",
+    "pos": [
+      "FWD"
+    ],
+    "age": 25,
+    "number": 12,
+    "disposals": 13.7,
+    "goals": 6
+  },
+  {
+    "id": "stk_macrae",
+    "name": "Jack Macrae",
+    "club": "St Kilda",
+    "pos": [
+      "MID"
+    ],
+    "age": 31,
+    "number": 6,
+    "disposals": 0,
+    "goals": 0
+  },
+  {
+    "id": "geel_martin",
+    "name": "Jack Martin",
+    "club": "Geelong",
+    "pos": [
+      "FWD"
+    ],
+    "age": 31,
+    "number": 19,
+    "disposals": 12.3,
+    "goals": 5
+  },
+  {
+    "id": "gws_ough",
+    "name": "Jack Ough",
+    "club": "GWS",
+    "pos": [
+      "MID"
+    ],
+    "age": 19,
+    "number": 28,
+    "disposals": 0,
+    "goals": 0
+  },
+  {
+    "id": "bris_payne",
+    "name": "Jack Payne",
+    "club": "Brisbane",
+    "pos": [
+      "DEF"
+    ],
+    "age": 26,
+    "number": 40,
+    "disposals": 0,
+    "goals": 0
+  },
+  {
+    "id": "rich_ross",
+    "name": "Jack Ross",
+    "club": "Richmond",
+    "pos": [
+      "MID"
+    ],
+    "age": 25,
+    "number": 5,
+    "disposals": 21.3,
+    "goals": 0
+  },
+  {
+    "id": "haw_scrimshaw",
+    "name": "Jack Scrimshaw",
+    "club": "Hawthorn",
+    "pos": [
+      "DEF"
+    ],
+    "age": 27,
+    "number": 14,
+    "disposals": 17.8,
+    "goals": 0
+  },
+  {
+    "id": "stk_silvagni",
+    "name": "Jack Silvagni",
+    "club": "St Kilda",
+    "pos": [
+      "FWD"
+    ],
+    "age": 28,
+    "number": 3,
+    "disposals": 15.3,
+    "goals": 0
+  },
+  {
+    "id": "stk_sinclair",
+    "name": "Jack Sinclair",
+    "club": "St Kilda",
+    "pos": [
+      "DEF"
+    ],
+    "age": 31,
+    "number": 35,
+    "disposals": 31.5,
+    "goals": 0
+  },
+  {
+    "id": "mel_steele",
+    "name": "Jack Steele",
+    "club": "Melbourne",
+    "pos": [
+      "MID"
+    ],
+    "age": 30,
+    "number": 9,
+    "disposals": 25.3,
+    "goals": 1
+  },
+  {
+    "id": "mel_viney",
+    "name": "Jack Viney",
+    "club": "Melbourne",
+    "pos": [
+      "MID"
+    ],
+    "age": 31,
+    "number": 7,
+    "disposals": 0,
+    "goals": 0
+  },
+  {
+    "id": "port_jack_watkins",
+    "name": "Jack Watkins",
+    "club": "Port Adelaide",
+    "pos": [
+      "MID"
+    ],
+    "age": 25,
+    "number": 37,
+    "disposals": 15,
+    "goals": 2
+  },
+  {
+    "id": "port_whitlock_jack",
+    "name": "Jack Whitlock",
+    "club": "Port Adelaide",
+    "pos": [
+      "FWD"
+    ],
+    "age": 19,
+    "number": 17,
+    "disposals": 8,
+    "goals": 7
+  },
+  {
+    "id": "wce_jwilliams",
+    "name": "Jack Williams",
+    "club": "West Coast",
+    "pos": [
+      "RUCK",
+      "FWD"
+    ],
+    "age": 22,
+    "number": 34,
+    "disposals": 0,
+    "goals": 0
+  },
+  {
+    "id": "nm_archer_jackson",
+    "name": "Jackson Archer",
+    "club": "North Melbourne",
+    "pos": [
+      "DEF"
+    ],
+    "age": 23,
+    "number": 34,
+    "disposals": 0,
+    "goals": 0
+  },
+  {
+    "id": "stk_jackson_macrae",
+    "name": "Jackson Macrae",
+    "club": "St Kilda",
+    "pos": [
+      "MID"
+    ],
+    "age": 31,
+    "number": 6,
+    "disposals": 18.5,
+    "goals": 0
+  },
+  {
+    "id": "port_mead",
+    "name": "Jackson Mead",
+    "club": "Port Adelaide",
+    "pos": [
+      "MID",
+      "FWD"
+    ],
+    "age": 24,
+    "number": 3,
+    "disposals": 14,
+    "goals": 0
+  },
+  {
+    "id": "ess_farrow",
+    "name": "Jacob Farrow",
+    "club": "Essendon",
+    "pos": [
+      "MID"
+    ],
+    "age": 18,
+    "number": 2,
+    "disposals": 17,
+    "goals": 0
+  },
+  {
+    "id": "rich_hopper",
+    "name": "Jacob Hopper",
+    "club": "Richmond",
+    "pos": [
+      "MID"
+    ],
+    "age": 29,
+    "number": 2,
+    "disposals": 21.5,
+    "goals": 0
+  },
+  {
+    "id": "nm_konstanty",
+    "name": "Jacob Konstanty",
+    "club": "North Melbourne",
+    "pos": [
+      "FWD"
+    ],
+    "age": 21,
+    "number": 41,
+    "disposals": 7.5,
+    "goals": 1
+  },
+  {
+    "id": "geel_molier",
+    "name": "Jacob Molier",
+    "club": "Geelong",
+    "pos": [
+      "RUCK"
+    ],
+    "age": 19,
+    "number": 20,
+    "disposals": 0,
+    "goals": 0
+  },
+  {
+    "id": "port_moss",
+    "name": "Jacob Moss",
+    "club": "Port Adelaide",
+    "pos": [
+      "DEF"
+    ],
+    "age": 21,
+    "number": 42,
+    "disposals": 0,
+    "goals": 0
+  },
+  {
+    "id": "wce_newton",
+    "name": "Jacob Newton",
+    "club": "West Coast",
+    "pos": [
+      "FWD"
+    ],
+    "age": 20,
+    "number": 46,
+    "disposals": 7,
+    "goals": 1
+  },
+  {
+    "id": "mel_vanrooyen",
+    "name": "Jacob Van Rooyen",
+    "club": "Melbourne",
+    "pos": [
+      "FWD"
+    ],
+    "age": 22,
+    "number": 2,
+    "disposals": 10.8,
+    "goals": 7
+  },
+  {
+    "id": "port_wehr",
+    "name": "Jacob Wehr",
+    "club": "Port Adelaide",
+    "pos": [
+      "MID"
+    ],
+    "age": 27,
+    "number": 15,
+    "disposals": 14.8,
+    "goals": 1
+  },
+  {
+    "id": "carl_jacob_weitering",
+    "name": "Jacob Weitering",
+    "club": "Carlton",
+    "pos": [
+      "DEF"
+    ],
+    "age": 28,
+    "number": 23,
+    "disposals": 12.8,
+    "goals": 0
+  },
+  {
+    "id": "ess_gresham",
+    "name": "Jade Gresham",
+    "club": "Essendon",
+    "pos": [
+      "MID",
+      "FWD"
+    ],
+    "age": 28,
+    "number": 11,
+    "disposals": 11,
+    "goals": 4
+  },
+  {
+    "id": "frem_omeara",
+    "name": "Jaeger O'Meara",
+    "club": "Fremantle",
+    "pos": [
+      "MID"
+    ],
+    "age": 32,
+    "number": 2,
+    "disposals": 15,
+    "goals": 0
+  },
+  {
+    "id": "carl_jagga_smith",
+    "name": "Jagga Smith",
+    "club": "Carlton",
+    "pos": [
+      "MID"
+    ],
+    "age": 20,
+    "number": 7,
+    "disposals": 25.3,
+    "goals": 2
+  },
+  {
+    "id": "mel_culley",
+    "name": "Jai Culley",
+    "club": "Melbourne",
+    "pos": [
+      "FWD"
+    ],
+    "age": 23,
+    "number": 13,
+    "disposals": 12.5,
+    "goals": 1
+  },
+  {
+    "id": "gc_murray",
+    "name": "Jai Murray",
+    "club": "Gold Coast",
+    "pos": [
+      "MID"
+    ],
+    "age": 19,
+    "number": 35,
+    "disposals": 0,
+    "goals": 0
+  },
+  {
+    "id": "haw_newcombe",
+    "name": "Jai Newcombe",
+    "club": "Hawthorn",
+    "pos": [
+      "MID"
+    ],
+    "age": 24,
+    "number": 3,
+    "disposals": 25.8,
+    "goals": 2
+  },
+  {
+    "id": "syd_jai_serong",
+    "name": "Jai Serong",
+    "club": "Sydney",
+    "pos": [
+      "MID"
+    ],
+    "age": 23,
+    "number": 13,
+    "disposals": 20.5,
+    "goals": 1
+  },
+  {
+    "id": "haw_uhrhenry",
+    "name": "Jaime Uhr-Henry",
+    "club": "Hawthorn",
+    "pos": [
+      "RUCK"
+    ],
+    "age": 22,
+    "number": 43,
+    "disposals": 0,
+    "goals": 0
+  },
+  {
+    "id": "mel_bowey",
+    "name": "Jake Bowey",
+    "club": "Melbourne",
+    "pos": [
+      "DEF"
+    ],
+    "age": 23,
+    "number": 17,
+    "disposals": 0,
+    "goals": 0
+  },
+  {
+    "id": "geel_kolodjashnij",
+    "name": "Jake Kolodjashnij",
+    "club": "Geelong",
+    "pos": [
+      "DEF"
+    ],
+    "age": 30,
+    "number": 8,
+    "disposals": 0,
+    "goals": 0
+  },
+  {
+    "id": "mel_lever",
+    "name": "Jake Lever",
+    "club": "Melbourne",
+    "pos": [
+      "DEF"
+    ],
+    "age": 30,
+    "number": 8,
+    "disposals": 16,
+    "goals": 0
+  },
+  {
+    "id": "syd_lloyd",
+    "name": "Jake Lloyd",
+    "club": "Sydney",
+    "pos": [
+      "DEF"
+    ],
+    "age": 32,
+    "number": 44,
+    "disposals": 16,
+    "goals": 3
+  },
+  {
+    "id": "mel_melksham",
+    "name": "Jake Melksham",
+    "club": "Melbourne",
+    "pos": [
+      "FWD"
+    ],
+    "age": 34,
+    "number": 18,
+    "disposals": 11,
+    "goals": 4
+  },
+  {
+    "id": "gws_riccardi",
+    "name": "Jake Riccardi",
+    "club": "GWS",
+    "pos": [
+      "FWD"
+    ],
+    "age": 26,
+    "number": 26,
+    "disposals": 14.8,
+    "goals": 5
+  },
+  {
+    "id": "gc_rogers",
+    "name": "Jake Rogers",
+    "club": "Gold Coast",
+    "pos": [
+      "FWD"
+    ],
+    "age": 21,
+    "number": 29,
+    "disposals": 10.7,
+    "goals": 2
+  },
+  {
+    "id": "adel_soligo",
+    "name": "Jake Soligo",
+    "club": "Adelaide",
+    "pos": [
+      "MID"
+    ],
+    "age": 23,
+    "number": 14,
+    "disposals": 14.8,
+    "goals": 2
+  },
+  {
+    "id": "gws_stringer",
+    "name": "Jake Stringer",
+    "club": "GWS",
+    "pos": [
+      "FWD"
+    ],
+    "age": 31,
+    "number": 20,
+    "disposals": 10.5,
+    "goals": 8
+  },
+  {
+    "id": "wce_waterman",
+    "name": "Jake Waterman",
+    "club": "West Coast",
+    "pos": [
+      "FWD"
+    ],
+    "age": 27,
+    "number": 2,
+    "disposals": 11.3,
+    "goals": 9
+  },
+  {
+    "id": "coll_ryan",
+    "name": "Jakob Ryan",
+    "club": "Collingwood",
+    "pos": [
+      "DEF"
+    ],
+    "age": 21,
+    "number": 24,
+    "disposals": 0,
+    "goals": 0
+  },
+  {
+    "id": "gc_uglehagan",
+    "name": "Jamarra Ugle-Hagan",
+    "club": "Gold Coast",
+    "pos": [
+      "FWD"
+    ],
+    "age": 24,
+    "number": 9,
+    "disposals": 0,
+    "goals": 0
+  },
+  {
+    "id": "stk_barrat",
+    "name": "James Barrat",
+    "club": "St Kilda",
+    "pos": [
+      "DEF",
+      "FWD"
+    ],
+    "age": 19,
+    "number": 28,
+    "disposals": 0,
+    "goals": 0
+  },
+  {
+    "id": "haw_blanck",
+    "name": "James Blanck",
+    "club": "Hawthorn",
+    "pos": [
+      "DEF"
+    ],
+    "age": 25,
+    "number": 36,
+    "disposals": 0,
+    "goals": 0
+  },
+  {
+    "id": "adel_borlase",
+    "name": "James Borlase",
+    "club": "Adelaide",
+    "pos": [
+      "DEF"
+    ],
+    "age": 23,
+    "number": 35,
+    "disposals": 4,
+    "goals": 0
+  },
+  {
+    "id": "ess_demicoli",
+    "name": "James Demicoli",
+    "club": "Essendon",
+    "pos": [
+      "MID"
+    ],
+    "age": 25,
+    "number": 6,
+    "disposals": 0,
+    "goals": 0
+  },
+  {
+    "id": "syd_jordon",
+    "name": "James Jordon",
+    "club": "Sydney",
+    "pos": [
+      "MID"
+    ],
+    "age": 25,
+    "number": 17,
+    "disposals": 13.5,
+    "goals": 2
+  },
+  {
+    "id": "gws_leake",
+    "name": "James Leake",
+    "club": "GWS",
+    "pos": [
+      "DEF"
+    ],
+    "age": 20,
+    "number": 30,
+    "disposals": 16,
+    "goals": 0
+  },
+  {
+    "id": "wb_odonnell",
+    "name": "James O'Donnell",
+    "club": "Western Bulldogs",
+    "pos": [
+      "DEF"
+    ],
+    "age": 23,
+    "number": 18,
+    "disposals": 8.5,
+    "goals": 0
+  },
+  {
+    "id": "adel_peatling",
+    "name": "James Peatling",
+    "club": "Adelaide",
+    "pos": [
+      "FWD"
+    ],
+    "age": 25,
+    "number": 25,
+    "disposals": 20,
+    "goals": 1
+  },
+  {
+    "id": "syd_rowbottom",
+    "name": "James Rowbottom",
+    "club": "Sydney",
+    "pos": [
+      "MID"
+    ],
+    "age": 25,
+    "number": 8,
+    "disposals": 18.3,
+    "goals": 1
+  },
+  {
+    "id": "haw_sicily",
+    "name": "James Sicily",
+    "club": "Hawthorn",
+    "pos": [
+      "DEF"
+    ],
+    "age": 31,
+    "number": 6,
+    "disposals": 23,
+    "goals": 0
+  },
+  {
+    "id": "rich_trezise",
+    "name": "James Trezise",
+    "club": "Richmond",
+    "pos": [
+      "DEF"
+    ],
+    "age": 23,
+    "number": 36,
+    "disposals": 9.5,
+    "goals": 0
+  },
+  {
+    "id": "bris_tunstill",
+    "name": "James Tunstill",
+    "club": "Brisbane",
+    "pos": [
+      "MID"
+    ],
+    "age": 22,
+    "number": 29,
+    "disposals": 10.5,
+    "goals": 1
+  },
+  {
+    "id": "geel_worpel",
+    "name": "James Worpel",
+    "club": "Geelong",
+    "pos": [
+      "MID"
+    ],
+    "age": 27,
+    "number": 29,
+    "disposals": 17,
+    "goals": 0
+  },
+  {
+    "id": "wce_cripps",
+    "name": "Jamie Cripps",
+    "club": "West Coast",
+    "pos": [
+      "FWD"
+    ],
+    "age": 33,
+    "number": 15,
+    "disposals": 10.5,
+    "goals": 4
+  },
+  {
+    "id": "coll_elliott",
+    "name": "Jamie Elliott",
+    "club": "Collingwood",
+    "pos": [
+      "FWD"
+    ],
+    "age": 33,
+    "number": 5,
+    "disposals": 7.5,
+    "goals": 5
+  },
+  {
+    "id": "frem_carr",
+    "name": "Jaren Carr",
+    "club": "Fremantle",
+    "pos": [
+      "FWD"
+    ],
+    "age": 22,
+    "number": 38,
+    "disposals": 0,
+    "goals": 0
+  },
+  {
+    "id": "haw_impey",
+    "name": "Jarman Impey",
+    "club": "Hawthorn",
+    "pos": [
+      "DEF"
+    ],
+    "age": 30,
+    "number": 4,
+    "disposals": 21.5,
+    "goals": 0
+  },
+  {
+    "id": "bris_berry",
+    "name": "Jarrod Berry",
+    "club": "Brisbane",
+    "pos": [
+      "MID"
+    ],
+    "age": 28,
+    "number": 7,
+    "disposals": 21.3,
+    "goals": 1
+  },
+  {
+    "id": "gc_witts",
+    "name": "Jarrod Witts",
+    "club": "Gold Coast",
+    "pos": [
+      "RUCK"
+    ],
+    "age": 33,
+    "number": 28,
+    "disposals": 12.5,
+    "goals": 1
+  },
+  {
+    "id": "port_burgoyne",
+    "name": "Jase Burgoyne",
+    "club": "Port Adelaide",
+    "pos": [
+      "DEF"
+    ],
+    "age": 22,
+    "number": 7,
+    "disposals": 20.8,
+    "goals": 1
+  },
+  {
+    "id": "port_hornefrancis",
+    "name": "Jason Horne-Francis",
+    "club": "Port Adelaide",
+    "pos": [
+      "MID",
+      "FWD"
+    ],
+    "age": 22,
+    "number": 18,
+    "disposals": 18.5,
+    "goals": 6
+  },
+  {
+    "id": "bris_fletcher",
+    "name": "Jaspa Fletcher",
+    "club": "Brisbane",
+    "pos": [
+      "MID"
+    ],
+    "age": 22,
+    "number": 3,
+    "disposals": 20.8,
+    "goals": 1
+  },
+  {
+    "id": "rich_alger",
+    "name": "Jasper Alger",
+    "club": "Richmond",
+    "pos": [
+      "FWD"
+    ],
+    "age": 19,
+    "number": 29,
+    "disposals": 3,
+    "goals": 0
+  },
+  {
+    "id": "ess_prior",
+    "name": "Jaxon Prior",
+    "club": "Essendon",
+    "pos": [
+      "MID"
+    ],
+    "age": 24,
+    "number": 25,
+    "disposals": 17.5,
+    "goals": 0
+  },
+  {
+    "id": "geel_polkinghorne",
+    "name": "Jay Polkinghorne",
+    "club": "Geelong",
+    "pos": [
+      "FWD"
+    ],
+    "age": 19,
+    "number": 2,
+    "disposals": 0,
+    "goals": 0
+  },
+  {
+    "id": "gws_laverde",
+    "name": "Jayden Laverde",
+    "club": "GWS",
+    "pos": [
+      "DEF"
+    ],
+    "age": 29,
+    "number": 25,
+    "disposals": 16.3,
+    "goals": 0
+  },
+  {
+    "id": "ess_nguyen",
+    "name": "Jayden Nguyen",
+    "club": "Essendon",
+    "pos": [
+      "DEF"
+    ],
+    "age": 19,
+    "number": 42,
+    "disposals": 13,
+    "goals": 0
+  },
+  {
+    "id": "rich_short",
+    "name": "Jayden Short",
+    "club": "Richmond",
+    "pos": [
+      "MID"
+    ],
+    "age": 30,
+    "number": 15,
+    "disposals": 26,
+    "goals": 1
+  },
+  {
+    "id": "mel_adams",
+    "name": "Jed Adams",
+    "club": "Melbourne",
+    "pos": [
+      "DEF"
+    ],
+    "age": 21,
+    "number": 26,
+    "disposals": 0,
+    "goals": 0
+  },
+  {
+    "id": "geel_bews",
+    "name": "Jed Bews",
+    "club": "Geelong",
+    "pos": [
+      "DEF"
+    ],
+    "age": 32,
+    "number": 24,
+    "disposals": 0,
+    "goals": 0
+  },
+  {
+    "id": "gc_walter",
+    "name": "Jed Walter",
+    "club": "Gold Coast",
+    "pos": [
+      "FWD"
+    ],
+    "age": 20,
+    "number": 4,
+    "disposals": 10,
+    "goals": 2
+  },
+  {
+    "id": "wb_busslinger",
+    "name": "Jedd Busslinger",
+    "club": "Western Bulldogs",
+    "pos": [
+      "DEF"
+    ],
+    "age": 22,
+    "number": 5,
+    "disposals": 0,
+    "goals": 0
+  },
+  {
+    "id": "geel_cameron",
+    "name": "Jeremy Cameron",
+    "club": "Geelong",
+    "pos": [
+      "FWD"
+    ],
+    "age": 33,
+    "number": 5,
+    "disposals": 16.7,
+    "goals": 4
+  },
+  {
+    "id": "coll_howe",
+    "name": "Jeremy Howe",
+    "club": "Collingwood",
+    "pos": [
+      "DEF"
+    ],
+    "age": 35,
+    "number": 38,
+    "disposals": 12,
+    "goals": 0
+  },
+  {
+    "id": "frem_sharp",
+    "name": "Jeremy Sharp",
+    "club": "Fremantle",
+    "pos": [
+      "MID"
+    ],
+    "age": 24,
+    "number": 14,
+    "disposals": 0,
+    "goals": 0
+  },
+  {
+    "id": "syd_dattoli",
+    "name": "Jesse Dattoli",
+    "club": "Sydney",
+    "pos": [
+      "MID",
+      "FWD"
+    ],
+    "age": 19,
+    "number": 9,
+    "disposals": 0,
+    "goals": 0
+  },
+  {
+    "id": "gws_hogan",
+    "name": "Jesse Hogan",
+    "club": "GWS",
+    "pos": [
+      "FWD"
+    ],
+    "age": 31,
+    "number": 23,
+    "disposals": 7.3,
+    "goals": 5
+  },
+  {
+    "id": "carl_motlop",
+    "name": "Jesse Motlop",
+    "club": "Carlton",
+    "pos": [
+      "FWD"
+    ],
+    "age": 22,
+    "number": 3,
+    "disposals": 0,
+    "goals": 0
+  },
+  {
+    "id": "geel_clark",
+    "name": "Jhye Clark",
+    "club": "Geelong",
+    "pos": [
+      "MID"
+    ],
+    "age": 21,
+    "number": 13,
+    "disposals": 11.7,
+    "goals": 2
+  },
+  {
+    "id": "wce_shanahan",
+    "name": "Jobe Shanahan",
+    "club": "West Coast",
+    "pos": [
+      "FWD"
+    ],
+    "age": 19,
+    "number": 35,
+    "disposals": 11.5,
+    "goals": 3
+  },
+  {
+    "id": "port_berry_joe",
+    "name": "Joe Berry",
+    "club": "Port Adelaide",
+    "pos": [
+      "FWD"
+    ],
+    "age": 19,
+    "number": 5,
+    "disposals": 12.3,
+    "goals": 2
+  },
+  {
+    "id": "gws_fonti",
+    "name": "Joe Fonti",
+    "club": "GWS",
+    "pos": [
+      "DEF"
+    ],
+    "age": 21,
+    "number": 37,
+    "disposals": 0,
+    "goals": 0
+  },
+  {
+    "id": "geel_pike",
+    "name": "Joe Pike",
+    "club": "Geelong",
+    "pos": [
+      "RUCK"
+    ],
+    "age": 20,
+    "number": 37,
+    "disposals": 0,
+    "goals": 0
+  },
+  {
+    "id": "port_richards",
+    "name": "Joe Richards",
+    "club": "Port Adelaide",
+    "pos": [
+      "MID",
+      "FWD"
+    ],
+    "age": 26,
+    "number": 35,
+    "disposals": 16.8,
+    "goals": 3
+  },
+  {
+    "id": "syd_amartey",
+    "name": "Joel Amartey",
+    "club": "Sydney",
+    "pos": [
+      "FWD"
+    ],
+    "age": 26,
+    "number": 36,
+    "disposals": 9.3,
+    "goals": 11
+  },
+  {
+    "id": "coll_cochran",
+    "name": "Joel Cochran",
+    "club": "Collingwood",
+    "pos": [
+      "DEF"
+    ],
+    "age": 20,
+    "number": 27,
+    "disposals": 0,
+    "goals": 0
+  },
+  {
+    "id": "wb_freijah",
+    "name": "Joel Freijah",
+    "club": "Western Bulldogs",
+    "pos": [
+      "MID"
+    ],
+    "age": 20,
+    "number": 27,
+    "disposals": 22.5,
+    "goals": 3
+  },
+  {
+    "id": "syd_hamling",
+    "name": "Joel Hamling",
+    "club": "Sydney",
+    "pos": [
+      "DEF"
+    ],
+    "age": 33,
+    "number": 29,
+    "disposals": 0,
+    "goals": 0
+  },
+  {
+    "id": "gc_jeffrey",
+    "name": "Joel Jeffrey",
+    "club": "Gold Coast",
+    "pos": [
+      "FWD"
+    ],
+    "age": 24,
+    "number": 16,
+    "disposals": 22.3,
+    "goals": 2
+  },
+  {
+    "id": "gc_noble",
+    "name": "John Noble",
+    "club": "Gold Coast",
+    "pos": [
+      "DEF"
+    ],
+    "age": 29,
+    "number": 2,
+    "disposals": 24.8,
+    "goals": 3
+  },
+  {
+    "id": "rich_faull",
+    "name": "Jonty Faull",
+    "club": "Richmond",
+    "pos": [
+      "FWD"
+    ],
+    "age": 20,
+    "number": 8,
+    "disposals": 8,
+    "goals": 1
+  },
+  {
+    "id": "carl_boyd",
+    "name": "Jordan Boyd",
+    "club": "Carlton",
+    "pos": [
+      "DEF"
+    ],
+    "age": 27,
+    "number": 37,
+    "disposals": 16,
+    "goals": 0
+  },
+  {
+    "id": "frem_clark",
+    "name": "Jordan Clark",
+    "club": "Fremantle",
+    "pos": [
+      "DEF"
+    ],
+    "age": 25,
+    "number": 6,
+    "disposals": 22.3,
+    "goals": 0
+  },
+  {
+    "id": "wb_croft",
+    "name": "Jordan Croft",
+    "club": "Western Bulldogs",
+    "pos": [
+      "FWD"
+    ],
+    "age": 20,
+    "number": 16,
+    "disposals": 4.7,
+    "goals": 1
+  },
+  {
+    "id": "adel_dawson",
+    "name": "Jordan Dawson",
+    "club": "Adelaide",
+    "pos": [
+      "MID"
+    ],
+    "age": 29,
+    "number": 12,
+    "disposals": 23,
+    "goals": 3
+  },
+  {
+    "id": "coll_degoey",
+    "name": "Jordan De Goey",
+    "club": "Collingwood",
+    "pos": [
+      "MID"
+    ],
+    "age": 30,
+    "number": 2,
+    "disposals": 15.5,
+    "goals": 4
+  },
+  {
+    "id": "ess_ridley",
+    "name": "Jordan Ridley",
+    "club": "Essendon",
+    "pos": [
+      "DEF"
+    ],
+    "age": 27,
+    "number": 14,
+    "disposals": 0,
+    "goals": 0
+  },
+  {
+    "id": "adel_butts",
+    "name": "Jordon Butts",
+    "club": "Adelaide",
+    "pos": [
+      "DEF"
+    ],
+    "age": 26,
+    "number": 41,
+    "disposals": 12.7,
+    "goals": 1
+  },
+  {
+    "id": "port_sweet",
+    "name": "Jordon Sweet",
+    "club": "Port Adelaide",
+    "pos": [
+      "RUCK"
+    ],
+    "age": 28,
+    "number": 24,
+    "disposals": 13.3,
+    "goals": 2
+  },
+  {
+    "id": "gws_delana",
+    "name": "Josaia Delana",
+    "club": "GWS",
+    "pos": [
+      "DEF"
+    ],
+    "age": 19,
+    "number": 38,
+    "disposals": 6,
+    "goals": 0
+  },
+  {
+    "id": "gws_joseph_fonti",
+    "name": "Joseph Fonti",
+    "club": "GWS",
+    "pos": [
+      "MID"
+    ],
+    "age": 25,
+    "number": 37,
+    "disposals": 19.8,
+    "goals": 0
+  },
+  {
+    "id": "haw_battle",
+    "name": "Josh Battle",
+    "club": "Hawthorn",
+    "pos": [
+      "DEF"
+    ],
+    "age": 27,
+    "number": 24,
+    "disposals": 18.8,
+    "goals": 0
+  },
+  {
+    "id": "coll_daicos_josh",
+    "name": "Josh Daicos",
+    "club": "Collingwood",
+    "pos": [
+      "MID"
+    ],
+    "age": 27,
+    "number": 7,
+    "disposals": 30.5,
+    "goals": 0
+  },
+  {
+    "id": "wb_dolan",
+    "name": "Josh Dolan",
+    "club": "Western Bulldogs",
+    "pos": [
+      "FWD"
+    ],
+    "age": 19,
+    "number": 26,
+    "disposals": 16,
+    "goals": 1
+  },
+  {
+    "id": "bris_dunkley",
+    "name": "Josh Dunkley",
+    "club": "Brisbane",
+    "pos": [
+      "MID"
+    ],
+    "age": 29,
+    "number": 5,
+    "disposals": 22,
+    "goals": 0
+  },
+  {
+    "id": "rich_gibcus",
+    "name": "Josh Gibcus",
+    "club": "Richmond",
+    "pos": [
+      "DEF"
+    ],
+    "age": 23,
+    "number": 18,
+    "disposals": 9,
+    "goals": 0
+  },
+  {
+    "id": "nm_goater",
+    "name": "Josh Goater",
+    "club": "North Melbourne",
+    "pos": [
+      "DEF",
+      "MID"
+    ],
+    "age": 22,
+    "number": 31,
+    "disposals": 0,
+    "goals": 0
+  },
+  {
+    "id": "gws_kelly",
+    "name": "Josh Kelly",
+    "club": "GWS",
+    "pos": [
+      "MID"
+    ],
+    "age": 31,
+    "number": 22,
+    "disposals": 0,
+    "goals": 0
+  },
+  {
+    "id": "port_lai",
+    "name": "Josh Lai",
+    "club": "Port Adelaide",
+    "pos": [
+      "MID"
+    ],
+    "age": 20,
+    "number": 43,
+    "disposals": 13.5,
+    "goals": 0
+  },
+  {
+    "id": "wc_josh_lindsay",
+    "name": "Josh Lindsay",
+    "club": "West Coast",
+    "pos": [
+      "MID"
+    ],
+    "age": 19,
+    "number": 5,
+    "disposals": 17.3,
+    "goals": 0
+  },
+  {
+    "id": "adel_rachele",
+    "name": "Josh Rachele",
+    "club": "Adelaide",
+    "pos": [
+      "FWD"
+    ],
+    "age": 22,
+    "number": 8,
+    "disposals": 23,
+    "goals": 5
+  },
+  {
+    "id": "port_sinn",
+    "name": "Josh Sinn",
+    "club": "Port Adelaide",
+    "pos": [
+      "FWD"
+    ],
+    "age": 23,
+    "number": 8,
+    "disposals": 0,
+    "goals": 0
+  },
+  {
+    "id": "rich_smillie",
+    "name": "Josh Smillie",
+    "club": "Richmond",
+    "pos": [
+      "MID"
+    ],
+    "age": 19,
+    "number": 16,
+    "disposals": 0,
+    "goals": 0
+  },
+  {
+    "id": "frem_treacy",
+    "name": "Josh Treacy",
+    "club": "Fremantle",
+    "pos": [
+      "FWD"
+    ],
+    "age": 23,
+    "number": 35,
+    "disposals": 14,
+    "goals": 12
+  },
+  {
+    "id": "haw_ward",
+    "name": "Josh Ward",
+    "club": "Hawthorn",
+    "pos": [
+      "MID"
+    ],
+    "age": 22,
+    "number": 25,
+    "disposals": 25,
+    "goals": 0
+  },
+  {
+    "id": "adel_worrell",
+    "name": "Josh Worrell",
+    "club": "Adelaide",
+    "pos": [
+      "DEF"
+    ],
+    "age": 24,
+    "number": 24,
+    "disposals": 26.3,
+    "goals": 0
+  },
+  {
+    "id": "frem_draper",
+    "name": "Joshua Draper",
+    "club": "Fremantle",
+    "pos": [
+      "FWD"
+    ],
+    "age": 22,
+    "number": 37,
+    "disposals": 0,
+    "goals": 0
+  },
+  {
+    "id": "haw_weddle",
+    "name": "Joshua Weddle",
+    "club": "Hawthorn",
+    "pos": [
+      "DEF"
+    ],
+    "age": 25,
+    "number": 23,
+    "disposals": 15.8,
+    "goals": 3
+  },
+  {
+    "id": "frem_mcvee",
+    "name": "Judd McVee",
+    "club": "Fremantle",
+    "pos": [
+      "DEF",
+      "MID"
+    ],
+    "age": 22,
+    "number": 17,
+    "disposals": 16.5,
+    "goals": 0
+  },
+  {
+    "id": "rich_clarke",
+    "name": "Judson Clarke",
+    "club": "Richmond",
+    "pos": [
+      "FWD"
+    ],
+    "age": 22,
+    "number": 23,
+    "disposals": 0,
+    "goals": 0
+  },
+  {
+    "id": "syd_mcinerney",
+    "name": "Justin McInerney",
+    "club": "Sydney",
+    "pos": [
+      "MID"
+    ],
+    "age": 25,
+    "number": 27,
+    "disposals": 25.5,
+    "goals": 7
+  },
+  {
+    "id": "gc_farrar",
+    "name": "Jy Farrar",
+    "club": "Gold Coast",
+    "pos": [
+      "DEF"
+    ],
+    "age": 29,
+    "number": 50,
+    "disposals": 7,
+    "goals": 1
+  },
+  {
+    "id": "nm_simpkin",
+    "name": "Jy Simpkin",
+    "club": "North Melbourne",
+    "pos": [
+      "MID"
+    ],
+    "age": 28,
+    "number": 12,
+    "disposals": 19.8,
+    "goals": 2
+  },
+  {
+    "id": "frem_amiss",
+    "name": "Jye Amiss",
+    "club": "Fremantle",
+    "pos": [
+      "FWD"
+    ],
+    "age": 22,
+    "number": 24,
+    "disposals": 8.5,
+    "goals": 7
+  },
+  {
+    "id": "ess_caldwell",
+    "name": "Jye Caldwell",
+    "club": "Essendon",
+    "pos": [
+      "MID"
+    ],
+    "age": 25,
+    "number": 6,
+    "disposals": 21.5,
+    "goals": 4
+  },
+  {
+    "id": "mel_chandler",
+    "name": "Kade Chandler",
+    "club": "Melbourne",
+    "pos": [
+      "FWD"
+    ],
+    "age": 26,
+    "number": 37,
+    "disposals": 15.5,
+    "goals": 4
+  },
+  {
+    "id": "bris_lohmann",
+    "name": "Kai Lohmann",
+    "club": "Brisbane",
+    "pos": [
+      "FWD"
+    ],
+    "age": 22,
+    "number": 1,
+    "disposals": 11.8,
+    "goals": 9
+  },
+  {
+    "id": "rich_kalebsmith",
+    "name": "Kaleb Smith",
+    "club": "Richmond",
+    "pos": [
+      "DEF"
+    ],
+    "age": 21,
+    "number": 49,
+    "disposals": 0,
+    "goals": 0
+  },
+  {
+    "id": "port_farrell",
+    "name": "Kane Farrell",
+    "club": "Port Adelaide",
+    "pos": [
+      "DEF"
+    ],
+    "age": 27,
+    "number": 6,
+    "disposals": 20.8,
+    "goals": 0
+  },
+  {
+    "id": "rich_mcauliffe",
+    "name": "Kane McAuliffe",
+    "club": "Richmond",
+    "pos": [
+      "MID"
+    ],
+    "age": 21,
+    "number": 28,
+    "disposals": 16,
+    "goals": 0
+  },
+  {
+    "id": "haw_amon",
+    "name": "Karl Amon",
+    "club": "Hawthorn",
+    "pos": [
+      "MID"
+    ],
+    "age": 30,
+    "number": 10,
+    "disposals": 18,
+    "goals": 0
+  },
+  {
+    "id": "frem_worner",
+    "name": "Karl Worner",
+    "club": "Fremantle",
+    "pos": [
+      "DEF",
+      "MID"
+    ],
+    "age": 23,
+    "number": 23,
+    "disposals": 15.8,
+    "goals": 0
+  },
+  {
+    "id": "ess_gerreyn",
+    "name": "Kayle Gerreyn",
+    "club": "Essendon",
+    "pos": [
+      "RUCK"
+    ],
+    "age": 19,
+    "number": 19,
+    "disposals": 0,
+    "goals": 0
+  },
+  {
+    "id": "bris_coleman",
+    "name": "Keidean Coleman",
+    "club": "Brisbane",
+    "pos": [
+      "DEF"
+    ],
+    "age": 26,
+    "number": 18,
+    "disposals": 19.3,
+    "goals": 1
+  },
+  {
+    "id": "geel_matofai",
+    "name": "Keighton Matofai-Forbes",
+    "club": "Geelong",
+    "pos": [
+      "FWD"
+    ],
+    "age": 20,
+    "number": 31,
+    "disposals": 0,
+    "goals": 0
+  },
+  {
+    "id": "gws_briggs",
+    "name": "Kieren Briggs",
+    "club": "GWS",
+    "pos": [
+      "RUCK"
+    ],
+    "age": 26,
+    "number": 32,
+    "disposals": 11,
+    "goals": 0
+  },
+  {
+    "id": "gc_coulson",
+    "name": "Koby Coulson",
+    "club": "Gold Coast",
+    "pos": [
+      "MID"
+    ],
+    "age": 18,
+    "number": 43,
+    "disposals": 0,
+    "goals": 0
+  },
+  {
+    "id": "bris_evans",
+    "name": "Koby Evans",
+    "club": "Brisbane",
+    "pos": [
+      "MID"
+    ],
+    "age": 18,
+    "number": 24,
+    "disposals": 0,
+    "goals": 0
+  },
+  {
+    "id": "mel_tholstrup",
+    "name": "Koltyn Tholstrup",
+    "club": "Melbourne",
+    "pos": [
+      "FWD"
+    ],
+    "age": 20,
+    "number": 12,
+    "disposals": 14.5,
+    "goals": 1
+  },
+  {
+    "id": "stk_fincher",
+    "name": "Kye Fincher",
+    "club": "St Kilda",
+    "pos": [
+      "MID"
+    ],
+    "age": 18,
+    "number": 37,
+    "disposals": 0,
+    "goals": 0
+  },
+  {
+    "id": "ess_langford",
+    "name": "Kyle Langford",
+    "club": "Essendon",
+    "pos": [
+      "MID",
+      "FWD"
+    ],
+    "age": 29,
+    "number": 4,
+    "disposals": 12.5,
+    "goals": 1
+  },
+  {
+    "id": "mel_pickett_k",
+    "name": "Kysaiah Pickett",
+    "club": "Melbourne",
+    "pos": [
+      "FWD"
+    ],
+    "age": 24,
+    "number": 36,
+    "disposals": 23.3,
+    "goals": 4
+  },
+  {
+    "id": "gws_ash",
+    "name": "Lachie Ash",
+    "club": "GWS",
+    "pos": [
+      "DEF"
+    ],
+    "age": 24,
+    "number": 7,
+    "disposals": 0,
+    "goals": 0
+  },
+  {
+    "id": "ess_blakiston",
+    "name": "Lachie Blakiston",
+    "club": "Essendon",
+    "pos": [
+      "DEF"
+    ],
+    "age": 27,
+    "number": 46,
+    "disposals": 0,
+    "goals": 0
+  },
+  {
+    "id": "carl_fogarty_lachie",
+    "name": "Lachie Fogarty",
+    "club": "Carlton",
+    "pos": [
+      "FWD"
+    ],
+    "age": 27,
+    "number": 8,
+    "disposals": 10,
+    "goals": 0
+  },
+  {
+    "id": "wb_lachie_jaques",
+    "name": "Lachie Jaques",
+    "club": "Western Bulldogs",
+    "pos": [
+      "MID"
+    ],
+    "age": 19,
+    "number": 11,
+    "disposals": 19.5,
+    "goals": 0
+  },
+  {
+    "id": "port_jones_lachie",
+    "name": "Lachie Jones",
+    "club": "Port Adelaide",
+    "pos": [
+      "DEF"
+    ],
+    "age": 25,
+    "number": 34,
+    "disposals": 0,
+    "goals": 0
+  },
+  {
+    "id": "bris_neale",
+    "name": "Lachie Neale",
+    "club": "Brisbane",
+    "pos": [
+      "MID"
+    ],
+    "age": 32,
+    "number": 9,
+    "disposals": 28.8,
+    "goals": 0
+  },
+  {
+    "id": "coll_schultz",
+    "name": "Lachie Schultz",
+    "club": "Collingwood",
+    "pos": [
+      "FWD"
+    ],
+    "age": 25,
+    "number": 8,
+    "disposals": 15.5,
+    "goals": 6
+  },
+  {
+    "id": "coll_sullivan",
+    "name": "Lachie Sullivan",
+    "club": "Collingwood",
+    "pos": [
+      "MID"
+    ],
+    "age": 28,
+    "number": 33,
+    "disposals": 11,
+    "goals": 1
+  },
+  {
+    "id": "gws_whitfield",
+    "name": "Lachie Whitfield",
+    "club": "GWS",
+    "pos": [
+      "MID"
+    ],
+    "age": 31,
+    "number": 6,
+    "disposals": 29.8,
+    "goals": 0
+  },
+  {
+    "id": "gws_lachlan_ash",
+    "name": "Lachlan Ash",
+    "club": "GWS",
+    "pos": [
+      "MID"
+    ],
+    "age": 25,
+    "number": 7,
+    "disposals": 29.5,
+    "goals": 0
+  },
+  {
+    "id": "ess_lachlan_blakiston",
+    "name": "Lachlan Blakiston",
+    "club": "Essendon",
+    "pos": [
+      "MID"
+    ],
+    "age": 25,
+    "number": 46,
+    "disposals": 9,
+    "goals": 1
+  },
+  {
+    "id": "wb_bramble",
+    "name": "Lachlan Bramble",
+    "club": "Western Bulldogs",
+    "pos": [
+      "DEF"
+    ],
+    "age": 25,
+    "number": 29,
+    "disposals": 15.8,
+    "goals": 3
+  },
+  {
+    "id": "carl_cowan",
+    "name": "Lachlan Cowan",
+    "club": "Carlton",
+    "pos": [
+      "DEF"
+    ],
+    "age": 21,
+    "number": 2,
+    "disposals": 14.3,
+    "goals": 0
+  },
+  {
+    "id": "gc_gulbin",
+    "name": "Lachlan Gulbin",
+    "club": "Gold Coast",
+    "pos": [
+      "FWD"
+    ],
+    "age": 19,
+    "number": 39,
+    "disposals": 22,
+    "goals": 1
+  },
+  {
+    "id": "port_lachlan_jones",
+    "name": "Lachlan Jones",
+    "club": "Port Adelaide",
+    "pos": [
+      "MID"
+    ],
+    "age": 24,
+    "number": 34,
+    "disposals": 10,
+    "goals": 1
+  },
+  {
+    "id": "adel_mcandrew",
+    "name": "Lachlan McAndrew",
+    "club": "Adelaide",
+    "pos": [
+      "RUCK"
+    ],
+    "age": 25,
+    "number": 42,
+    "disposals": 12.8,
+    "goals": 0
+  },
+  {
+    "id": "wb_mcneil",
+    "name": "Lachlan McNeil",
+    "club": "Western Bulldogs",
+    "pos": [
+      "MID",
+      "FWD"
+    ],
+    "age": 24,
+    "number": 30,
+    "disposals": 8,
+    "goals": 0
+  },
+  {
+    "id": "adel_sholl",
+    "name": "Lachlan Sholl",
+    "club": "Adelaide",
+    "pos": [
+      "MID"
+    ],
+    "age": 26,
+    "number": 38,
+    "disposals": 0,
+    "goals": 0
+  },
+  {
+    "id": "gc_weller",
+    "name": "Lachlan Weller",
+    "club": "Gold Coast",
+    "pos": [
+      "DEF"
+    ],
+    "age": 25,
+    "number": 14,
+    "disposals": 13.5,
+    "goals": 0
+  },
+  {
+    "id": "nm_dovaston",
+    "name": "Lachy Dovaston",
+    "club": "North Melbourne",
+    "pos": [
+      "MID"
+    ],
+    "age": 18,
+    "number": 1,
+    "disposals": 8.3,
+    "goals": 2
+  },
+  {
+    "id": "wb_vandermeer",
+    "name": "Laitham Vandermeer",
+    "club": "Western Bulldogs",
+    "pos": [
+      "FWD"
+    ],
+    "age": 27,
+    "number": 23,
+    "disposals": 0,
+    "goals": 0
+  },
+  {
+    "id": "stk_collard",
+    "name": "Lance Collard",
+    "club": "St Kilda",
+    "pos": [
+      "FWD"
+    ],
+    "age": 21,
+    "number": 4,
+    "disposals": 0,
+    "goals": 0
+  },
+  {
+    "id": "mel_pickett_l",
+    "name": "Latrelle Pickett",
+    "club": "Melbourne",
+    "pos": [
+      "MID"
+    ],
+    "age": 20,
+    "number": 33,
+    "disposals": 9,
+    "goals": 2
+  },
+  {
+    "id": "geel_humphries",
+    "name": "Lawson Humphries",
+    "club": "Geelong",
+    "pos": [
+      "MID"
+    ],
+    "age": 22,
+    "number": 17,
+    "disposals": 17.5,
+    "goals": 0
+  },
+  {
+    "id": "gws_aleer",
+    "name": "Leek Aleer",
+    "club": "GWS",
+    "pos": [
+      "DEF"
+    ],
+    "age": 24,
+    "number": 21,
+    "disposals": 0,
+    "goals": 0
+  },
+  {
+    "id": "geel_hoffman",
+    "name": "Lennox Hoffman",
+    "club": "Geelong",
+    "pos": [
+      "DEF"
+    ],
+    "age": 25,
+    "number": 23,
+    "disposals": 0,
+    "goals": 0
+  },
+  {
+    "id": "gc_leo_lombard",
+    "name": "Leo Lombard",
+    "club": "Gold Coast",
+    "pos": [
+      "MID"
+    ],
+    "age": 19,
+    "number": 8,
+    "disposals": 13.8,
+    "goals": 4
+  },
+  {
+    "id": "gc_lombard",
+    "name": "Leonardo Lombard",
+    "club": "Gold Coast",
+    "pos": [
+      "FWD"
+    ],
+    "age": 25,
+    "number": 8,
+    "disposals": 0,
+    "goals": 0
+  },
+  {
+    "id": "bris_ashcroft_levi",
+    "name": "Levi Ashcroft",
+    "club": "Brisbane",
+    "pos": [
+      "MID"
+    ],
+    "age": 19,
+    "number": 10,
+    "disposals": 21.5,
+    "goals": 1
+  },
+  {
+    "id": "ess_hayes",
+    "name": "Lewis Hayes",
+    "club": "Essendon",
+    "pos": [
+      "DEF"
+    ],
+    "age": 21,
+    "number": 18,
+    "disposals": 0,
+    "goals": 0
+  },
+  {
+    "id": "syd_melican",
+    "name": "Lewis Melican",
+    "club": "Sydney",
+    "pos": [
+      "DEF"
+    ],
+    "age": 29,
+    "number": 43,
+    "disposals": 8.8,
+    "goals": 0
+  },
+  {
+    "id": "carl_young_lewis",
+    "name": "Lewis Young",
+    "club": "Carlton",
+    "pos": [
+      "DEF"
+    ],
+    "age": 27,
+    "number": 33,
+    "disposals": 11,
+    "goals": 0
+  },
+  {
+    "id": "wce_baker",
+    "name": "Liam Baker",
+    "club": "West Coast",
+    "pos": [
+      "DEF",
+      "FWD"
+    ],
+    "age": 28,
+    "number": 3,
+    "disposals": 17.7,
+    "goals": 1
+  },
+  {
+    "id": "wce_duggan",
+    "name": "Liam Duggan",
+    "club": "West Coast",
+    "pos": [
+      "DEF"
+    ],
+    "age": 29,
+    "number": 14,
+    "disposals": 18.3,
+    "goals": 0
+  },
+  {
+    "id": "rich_fawcett",
+    "name": "Liam Fawcett",
+    "club": "Richmond",
+    "pos": [
+      "FWD"
+    ],
+    "age": 20,
+    "number": 43,
+    "disposals": 8,
+    "goals": 2
+  },
+  {
+    "id": "stk_henry",
+    "name": "Liam Henry",
+    "club": "St Kilda",
+    "pos": [
+      "MID",
+      "FWD"
+    ],
+    "age": 24,
+    "number": 23,
+    "disposals": 0,
+    "goals": 0
+  },
+  {
+    "id": "stk_oconnell",
+    "name": "Liam O'Connell",
+    "club": "St Kilda",
+    "pos": [
+      "DEF"
+    ],
+    "age": 23,
+    "number": 45,
+    "disposals": 0,
+    "goals": 0
+  },
+  {
+    "id": "carl_liam_reidy",
+    "name": "Liam Reidy",
+    "club": "Carlton",
+    "pos": [
+      "MID"
+    ],
+    "age": 25,
+    "number": 25,
+    "disposals": 5,
+    "goals": 0
+  },
+  {
+    "id": "stk_ryan",
+    "name": "Liam Ryan",
+    "club": "St Kilda",
+    "pos": [
+      "FWD"
+    ],
+    "age": 29,
+    "number": 31,
+    "disposals": 8.5,
+    "goals": 6
+  },
+  {
+    "id": "stk_stocker",
+    "name": "Liam Stocker",
+    "club": "St Kilda",
+    "pos": [
+      "DEF"
+    ],
+    "age": 26,
+    "number": 14,
+    "disposals": 11,
+    "goals": 0
+  },
+  {
+    "id": "bris_mccarthy",
+    "name": "Lincoln McCarthy",
+    "club": "Brisbane",
+    "pos": [
+      "FWD"
+    ],
+    "age": 32,
+    "number": 11,
+    "disposals": 12.7,
+    "goals": 3
+  },
+  {
+    "id": "haw_meek",
+    "name": "Lloyd Meek",
+    "club": "Hawthorn",
+    "pos": [
+      "RUCK"
+    ],
+    "age": 27,
+    "number": 17,
+    "disposals": 10.5,
+    "goals": 1
+  },
+  {
+    "id": "port_evans_logan",
+    "name": "Logan Evans",
+    "club": "Port Adelaide",
+    "pos": [
+      "DEF"
+    ],
+    "age": 20,
+    "number": 22,
+    "disposals": 17.5,
+    "goals": 0
+  },
+  {
+    "id": "syd_mcdonald",
+    "name": "Logan McDonald",
+    "club": "Sydney",
+    "pos": [
+      "FWD"
+    ],
+    "age": 24,
+    "number": 6,
+    "disposals": 11,
+    "goals": 6
+  },
+  {
+    "id": "bris_morris",
+    "name": "Logan Morris",
+    "club": "Brisbane",
+    "pos": [
+      "FWD"
+    ],
+    "age": 20,
+    "number": 13,
+    "disposals": 17,
+    "goals": 8
+  },
+  {
+    "id": "gws_smith",
+    "name": "Logan Smith",
+    "club": "GWS",
+    "pos": [
+      "RUCK"
+    ],
+    "age": 19,
+    "number": 36,
+    "disposals": 0,
+    "goals": 0
+  },
+  {
+    "id": "carl_camporeale_lucas",
+    "name": "Lucas Camporeale",
+    "club": "Carlton",
+    "pos": [
+      "DEF",
+      "MID"
+    ],
+    "age": 19,
+    "number": 21,
+    "disposals": 0,
+    "goals": 0
+  },
+  {
+    "id": "wce_grego",
+    "name": "Lucca Grego",
+    "club": "West Coast",
+    "pos": [
+      "MID"
+    ],
+    "age": 19,
+    "number": 31,
+    "disposals": 0,
+    "goals": 0
+  },
+  {
+    "id": "bris_beecken",
+    "name": "Luke Beecken",
+    "club": "Brisbane",
+    "pos": [
+      "DEF"
+    ],
+    "age": 24,
+    "number": 17,
+    "disposals": 0,
+    "goals": 0
+  },
+  {
+    "id": "wb_cleary",
+    "name": "Luke Cleary",
+    "club": "Western Bulldogs",
+    "pos": [
+      "DEF"
+    ],
+    "age": 24,
+    "number": 36,
+    "disposals": 0,
+    "goals": 0
+  },
+  {
+    "id": "nm_daviesuniacke",
+    "name": "Luke Davies-Uniacke",
+    "club": "North Melbourne",
+    "pos": [
+      "MID"
+    ],
+    "age": 26,
+    "number": 9,
+    "disposals": 27.3,
+    "goals": 0
+  },
+  {
+    "id": "frem_jackson",
+    "name": "Luke Jackson",
+    "club": "Fremantle",
+    "pos": [
+      "RUCK",
+      "FWD"
+    ],
+    "age": 24,
+    "number": 9,
+    "disposals": 20.3,
+    "goals": 3
+  },
+  {
+    "id": "bris_lloyd",
+    "name": "Luke Lloyd",
+    "club": "Brisbane",
+    "pos": [
+      "FWD"
+    ],
+    "age": 20,
+    "number": 19,
+    "disposals": 0,
+    "goals": 0
+  },
+  {
+    "id": "nm_mcdonald_luke",
+    "name": "Luke McDonald",
+    "club": "North Melbourne",
+    "pos": [
+      "DEF"
+    ],
+    "age": 31,
+    "number": 11,
+    "disposals": 17,
+    "goals": 1
+  },
+  {
+    "id": "adel_nankervis",
+    "name": "Luke Nankervis",
+    "club": "Adelaide",
+    "pos": [
+      "MID",
+      "FWD"
+    ],
+    "age": 22,
+    "number": 27,
+    "disposals": 10,
+    "goals": 0
+  },
+  {
+    "id": "nm_parker",
+    "name": "Luke Parker",
+    "club": "North Melbourne",
+    "pos": [
+      "MID"
+    ],
+    "age": 33,
+    "number": 26,
+    "disposals": 24.8,
+    "goals": 1
+  },
+  {
+    "id": "adel_pedlar",
+    "name": "Luke Pedlar",
+    "club": "Adelaide",
+    "pos": [
+      "FWD"
+    ],
+    "age": 23,
+    "number": 10,
+    "disposals": 7.3,
+    "goals": 1
+  },
+  {
+    "id": "frem_ryan",
+    "name": "Luke Ryan",
+    "club": "Fremantle",
+    "pos": [
+      "DEF"
+    ],
+    "age": 30,
+    "number": 13,
+    "disposals": 16,
+    "goals": 0
+  },
+  {
+    "id": "rich_trainor",
+    "name": "Luke Trainor",
+    "club": "Richmond",
+    "pos": [
+      "DEF"
+    ],
+    "age": 19,
+    "number": 11,
+    "disposals": 21,
+    "goals": 0
+  },
+  {
+    "id": "nm_urquhart",
+    "name": "Luke Urquhart",
+    "club": "North Melbourne",
+    "pos": [
+      "MID"
+    ],
+    "age": 19,
+    "number": 14,
+    "disposals": 0,
+    "goals": 0
+  },
+  {
+    "id": "mel_kentfield",
+    "name": "Luker Kentfield",
+    "club": "Melbourne",
+    "pos": [
+      "FWD"
+    ],
+    "age": 20,
+    "number": 44,
+    "disposals": 0,
+    "goals": 0
+  },
+  {
+    "id": "haw_chol",
+    "name": "Mabior Chol",
+    "club": "Hawthorn",
+    "pos": [
+      "FWD"
+    ],
+    "age": 29,
+    "number": 18,
+    "disposals": 10.3,
+    "goals": 7
+  },
+  {
+    "id": "gc_andrew",
+    "name": "Mac Andrew",
+    "club": "Gold Coast",
+    "pos": [
+      "DEF"
+    ],
+    "age": 22,
+    "number": 1,
+    "disposals": 17.8,
+    "goals": 0
+  },
+  {
+    "id": "wce_champion",
+    "name": "Malakai Champion",
+    "club": "West Coast",
+    "pos": [
+      "FWD"
+    ],
+    "age": 19,
+    "number": 37,
+    "disposals": 5,
+    "goals": 0
+  },
+  {
+    "id": "syd_rosas",
+    "name": "Malcolm Rosas",
+    "club": "Sydney",
+    "pos": [
+      "FWD"
+    ],
+    "age": 24,
+    "number": 10,
+    "disposals": 8.3,
+    "goals": 3
+  },
+  {
+    "id": "port_liddy",
+    "name": "Mani Liddy",
+    "club": "Port Adelaide",
+    "pos": [
+      "MID"
+    ],
+    "age": 24,
+    "number": 50,
+    "disposals": 0,
+    "goals": 0
+  },
+  {
+    "id": "pittonet",
+    "name": "Marc Pittonet",
+    "club": "Carlton",
+    "pos": [
+      "RUCK"
+    ],
+    "age": 29,
+    "number": 27,
+    "disposals": 12.5,
+    "goals": 6
+  },
+  {
+    "id": "wb_bontempelli",
+    "name": "Marcus Bontempelli",
+    "club": "Western Bulldogs",
+    "pos": [
+      "MID"
+    ],
+    "age": 30,
+    "number": 4,
+    "disposals": 29.3,
+    "goals": 8
+  },
+  {
+    "id": "stk_windhager",
+    "name": "Marcus Windhager",
+    "club": "St Kilda",
+    "pos": [
+      "MID",
+      "FWD"
+    ],
+    "age": 22,
+    "number": 2,
+    "disposals": 25.5,
+    "goals": 0
+  },
+  {
+    "id": "geel_blicavs",
+    "name": "Mark Blicavs",
+    "club": "Geelong",
+    "pos": [
+      "MID",
+      "RUCK"
+    ],
+    "age": 35,
+    "number": 46,
+    "disposals": 17.5,
+    "goals": 1
+  },
+  {
+    "id": "adel_keane",
+    "name": "Mark Keane",
+    "club": "Adelaide",
+    "pos": [
+      "DEF"
+    ],
+    "age": 26,
+    "number": 48,
+    "disposals": 0,
+    "goals": 0
+  },
+  {
+    "id": "geel_oconnor",
+    "name": "Mark O'Connor",
+    "club": "Geelong",
+    "pos": [
+      "DEF"
+    ],
+    "age": 29,
+    "number": 42,
+    "disposals": 14,
+    "goals": 0
+  },
+  {
+    "id": "frem_cox_mason",
+    "name": "Mason Cox",
+    "club": "Fremantle",
+    "pos": [
+      "RUCK",
+      "FWD"
+    ],
+    "age": 35,
+    "number": 18,
+    "disposals": 0,
+    "goals": 0
+  },
+  {
+    "id": "ess_redman",
+    "name": "Mason Redman",
+    "club": "Essendon",
+    "pos": [
+      "DEF"
+    ],
+    "age": 28,
+    "number": 27,
+    "disposals": 15,
+    "goals": 0
+  },
+  {
+    "id": "stk_wood",
+    "name": "Mason Wood",
+    "club": "St Kilda",
+    "pos": [
+      "MID"
+    ],
+    "age": 32,
+    "number": 32,
+    "disposals": 15.5,
+    "goals": 2
+  },
+  {
+    "id": "haw_dambrosio",
+    "name": "Massimo D'Ambrosio",
+    "club": "Hawthorn",
+    "pos": [
+      "DEF"
+    ],
+    "age": 22,
+    "number": 16,
+    "disposals": 17.5,
+    "goals": 1
+  },
+  {
+    "id": "carl_duffy",
+    "name": "Matt Duffy",
+    "club": "Carlton",
+    "pos": [
+      "DEF"
+    ],
+    "age": 22,
+    "number": 41,
+    "disposals": 0,
+    "goals": 0
+  },
+  {
+    "id": "ess_guelfi",
+    "name": "Matt Guelfi",
+    "club": "Essendon",
+    "pos": [
+      "FWD"
+    ],
+    "age": 28,
+    "number": 35,
+    "disposals": 7,
+    "goals": 0
+  },
+  {
+    "id": "haw_hill",
+    "name": "Matt Hill",
+    "club": "Hawthorn",
+    "pos": [
+      "DEF"
+    ],
+    "age": 22,
+    "number": 41,
+    "disposals": 0,
+    "goals": 0
+  },
+  {
+    "id": "wc_matt_owies",
+    "name": "Matt Owies",
+    "club": "West Coast",
+    "pos": [
+      "MID"
+    ],
+    "age": 29,
+    "number": 16,
+    "disposals": 5,
+    "goals": 0
+  },
+  {
+    "id": "gc_rowell",
+    "name": "Matt Rowell",
+    "club": "Gold Coast",
+    "pos": [
+      "MID"
+    ],
+    "age": 24,
+    "number": 18,
+    "disposals": 13,
+    "goals": 0
+  },
+  {
+    "id": "nm_whitlock",
+    "name": "Matt Whitlock",
+    "club": "North Melbourne",
+    "pos": [
+      "DEF",
+      "FWD"
+    ],
+    "age": 19,
+    "number": 35,
+    "disposals": 0,
+    "goals": 0
+  },
+  {
+    "id": "stk_phillipou",
+    "name": "Mattaes Phillipou",
+    "club": "St Kilda",
+    "pos": [
+      "MID",
+      "FWD"
+    ],
+    "age": 21,
+    "number": 25,
+    "disposals": 13,
+    "goals": 1
+  },
+  {
+    "id": "carl_carroll",
+    "name": "Matthew Carroll",
+    "club": "Carlton",
+    "pos": [
+      "DEF"
+    ],
+    "age": 20,
+    "number": 32,
+    "disposals": 16.3,
+    "goals": 1
+  },
+  {
+    "id": "carl_cottrell",
+    "name": "Matthew Cottrell",
+    "club": "Carlton",
+    "pos": [
+      "MID",
+      "FWD"
+    ],
+    "age": 26,
+    "number": 46,
+    "disposals": 0,
+    "goals": 0
+  },
+  {
+    "id": "wce_flynn",
+    "name": "Matthew Flynn",
+    "club": "West Coast",
+    "pos": [
+      "RUCK"
+    ],
+    "age": 28,
+    "number": 25,
+    "disposals": 9.8,
+    "goals": 1
+  },
+  {
+    "id": "mel_jefferson",
+    "name": "Matthew Jefferson",
+    "club": "Melbourne",
+    "pos": [
+      "FWD"
+    ],
+    "age": 22,
+    "number": 21,
+    "disposals": 0,
+    "goals": 0
+  },
+  {
+    "id": "frem_johnson",
+    "name": "Matthew Johnson",
+    "club": "Fremantle",
+    "pos": [
+      "MID"
+    ],
+    "age": 23,
+    "number": 44,
+    "disposals": 0,
+    "goals": 0
+  },
+  {
+    "id": "wb_mkennedy",
+    "name": "Matthew Kennedy",
+    "club": "Western Bulldogs",
+    "pos": [
+      "MID"
+    ],
+    "age": 29,
+    "number": 8,
+    "disposals": 30,
+    "goals": 2
+  },
+  {
+    "id": "haw_leray",
+    "name": "Matthew LeRay",
+    "club": "Hawthorn",
+    "pos": [
+      "MID"
+    ],
+    "age": 19,
+    "number": 31,
+    "disposals": 0,
+    "goals": 0
+  },
+  {
+    "id": "wce_owies",
+    "name": "Matthew Owies",
+    "club": "West Coast",
+    "pos": [
+      "FWD"
+    ],
+    "age": 29,
+    "number": 16,
+    "disposals": 0,
+    "goals": 0
+  },
+  {
+    "id": "syd_matthew_roberts",
+    "name": "Matthew Roberts",
+    "club": "Sydney",
+    "pos": [
+      "MID"
+    ],
+    "age": 22,
+    "number": 34,
+    "disposals": 17,
+    "goals": 2
+  },
+  {
+    "id": "rich_rioli",
+    "name": "Maurice Rioli Jr",
+    "club": "Richmond",
+    "pos": [
+      "FWD"
+    ],
+    "age": 25,
+    "number": 17,
+    "disposals": 8.5,
+    "goals": 1
+  },
+  {
+    "id": "mel_gawn",
+    "name": "Max Gawn",
+    "club": "Melbourne",
+    "pos": [
+      "RUCK"
+    ],
+    "age": 34,
+    "number": 11,
+    "disposals": 22.5,
+    "goals": 2
+  },
+  {
+    "id": "gws_gruzewski",
+    "name": "Max Gruzewski",
+    "club": "GWS",
+    "pos": [
+      "DEF"
+    ],
+    "age": 21,
+    "number": 35,
+    "disposals": 7,
+    "goals": 4
+  },
+  {
+    "id": "stk_hall",
+    "name": "Max Hall",
+    "club": "St Kilda",
+    "pos": [
+      "MID"
+    ],
+    "age": 23,
+    "number": 40,
+    "disposals": 18.8,
+    "goals": 6
+  },
+  {
+    "id": "geel_holmes_max",
+    "name": "Max Holmes",
+    "club": "Geelong",
+    "pos": [
+      "MID"
+    ],
+    "age": 23,
+    "number": 9,
+    "disposals": 28.8,
+    "goals": 1
+  },
+  {
+    "id": "stk_king",
+    "name": "Max King",
+    "club": "St Kilda",
+    "pos": [
+      "FWD"
+    ],
+    "age": 25,
+    "number": 12,
+    "disposals": 0,
+    "goals": 0
+  },
+  {
+    "id": "syd_king",
+    "name": "Max King",
+    "club": "Sydney",
+    "pos": [
+      "MID"
+    ],
+    "age": 25,
+    "number": 31,
+    "disposals": 0,
+    "goals": 0
+  },
+  {
+    "id": "gc_knobel",
+    "name": "Max Knobel",
+    "club": "Gold Coast",
+    "pos": [
+      "RUCK"
+    ],
+    "age": 21,
+    "number": 37,
+    "disposals": 0,
+    "goals": 0
+  },
+  {
+    "id": "ess_kondogiannis",
+    "name": "Max Kondogiannis",
+    "club": "Essendon",
+    "pos": [
+      "MID"
+    ],
+    "age": 18,
+    "number": 29,
+    "disposals": 13.5,
+    "goals": 0
+  },
+  {
+    "id": "adel_michalanney",
+    "name": "Max Michalanney",
+    "club": "Adelaide",
+    "pos": [
+      "DEF"
+    ],
+    "age": 22,
+    "number": 16,
+    "disposals": 13,
+    "goals": 0
+  },
+  {
+    "id": "haw_ramsden",
+    "name": "Max Ramsden",
+    "club": "Hawthorn",
+    "pos": [
+      "RUCK",
+      "FWD"
+    ],
+    "age": 22,
+    "number": 38,
+    "disposals": 0,
+    "goals": 0
+  },
+  {
+    "id": "frem_frederick",
+    "name": "Michael Frederick",
+    "club": "Fremantle",
+    "pos": [
+      "FWD"
+    ],
+    "age": 25,
+    "number": 32,
+    "disposals": 0,
+    "goals": 0
+  },
+  {
+    "id": "wb_michael_sellwood",
+    "name": "Michael Sellwood",
+    "club": "Western Bulldogs",
+    "pos": [
+      "MID"
+    ],
+    "age": 22,
+    "number": 37,
+    "disposals": 10.5,
+    "goals": 0
+  },
+  {
+    "id": "wc_milan_murdock",
+    "name": "Milan Murdock",
+    "club": "West Coast",
+    "pos": [
+      "MID"
+    ],
+    "age": 25,
+    "number": 47,
+    "disposals": 19,
+    "goals": 4
+  },
+  {
+    "id": "port_bergman",
+    "name": "Miles Bergman",
+    "club": "Port Adelaide",
+    "pos": [
+      "MID"
+    ],
+    "age": 24,
+    "number": 14,
+    "disposals": 11.7,
+    "goals": 2
+  },
+  {
+    "id": "port_georgiades",
+    "name": "Mitch Georgiades",
+    "club": "Port Adelaide",
+    "pos": [
+      "FWD"
+    ],
+    "age": 24,
+    "number": 19,
+    "disposals": 11.5,
+    "goals": 10
+  },
+  {
+    "id": "haw_lewis",
+    "name": "Mitch Lewis",
+    "club": "Hawthorn",
+    "pos": [
+      "FWD"
+    ],
+    "age": 25,
+    "number": 2,
+    "disposals": 0,
+    "goals": 0
+  },
+  {
+    "id": "carl_mcgovern",
+    "name": "Mitch McGovern",
+    "club": "Carlton",
+    "pos": [
+      "DEF"
+    ],
+    "age": 31,
+    "number": 11,
+    "disposals": 13,
+    "goals": 7
+  },
+  {
+    "id": "port_mitch_zadow",
+    "name": "Mitch Zadow",
+    "club": "Port Adelaide",
+    "pos": [
+      "MID"
+    ],
+    "age": 25,
+    "number": 39,
+    "disposals": 3,
+    "goals": 0
+  },
+  {
+    "id": "geel_edwards",
+    "name": "Mitchell Edwards",
+    "club": "Geelong",
+    "pos": [
+      "RUCK"
+    ],
+    "age": 20,
+    "number": 11,
+    "disposals": 7.7,
+    "goals": 0
+  },
+  {
+    "id": "adel_hinge",
+    "name": "Mitchell Hinge",
+    "club": "Adelaide",
+    "pos": [
+      "DEF"
+    ],
+    "age": 27,
+    "number": 20,
+    "disposals": 0,
+    "goals": 0
+  },
+  {
+    "id": "geel_knevitt",
+    "name": "Mitchell Knevitt",
+    "club": "Geelong",
+    "pos": [
+      "MID"
+    ],
+    "age": 25,
+    "number": 10,
+    "disposals": 11,
+    "goals": 1
+  },
+  {
+    "id": "hawk_mitchell_lewis",
+    "name": "Mitchell Lewis",
+    "club": "Hawthorn",
+    "pos": [
+      "MID"
+    ],
+    "age": 27,
+    "number": 2,
+    "disposals": 12.3,
+    "goals": 4
+  },
+  {
+    "id": "adel_marsh",
+    "name": "Mitchell Marsh",
+    "club": "Adelaide",
+    "pos": [
+      "MID"
+    ],
+    "age": 25,
+    "number": 26,
+    "disposals": 0,
+    "goals": 0
+  },
+  {
+    "id": "stk_mitchito_owens",
+    "name": "Mitchito Owens",
+    "club": "St Kilda",
+    "pos": [
+      "MID"
+    ],
+    "age": 22,
+    "number": 10,
+    "disposals": 12.3,
+    "goals": 7
+  },
+  {
+    "id": "frem_reid",
+    "name": "Murphy Reid",
+    "club": "Fremantle",
+    "pos": [
+      "MID"
+    ],
+    "age": 19,
+    "number": 16,
+    "disposals": 23,
+    "goals": 3
+  },
+  {
+    "id": "rich_lefau",
+    "name": "Mykelti Lefau",
+    "club": "Richmond",
+    "pos": [
+      "FWD"
+    ],
+    "age": 27,
+    "number": 42,
+    "disposals": 5.7,
+    "goals": 1
+  },
+  {
+    "id": "stk_wanganeen",
+    "name": "Nasiah Wanganeen-Milera",
+    "club": "St Kilda",
+    "pos": [
+      "DEF",
+      "MID"
+    ],
+    "age": 23,
+    "number": 7,
+    "disposals": 23.3,
+    "goals": 4
+  },
+  {
+    "id": "ess_caddy",
+    "name": "Nate Caddy",
+    "club": "Essendon",
+    "pos": [
+      "FWD"
+    ],
+    "age": 20,
+    "number": 30,
+    "disposals": 10.7,
+    "goals": 6
+  },
+  {
+    "id": "rich_broad",
+    "name": "Nathan Broad",
+    "club": "Richmond",
+    "pos": [
+      "DEF"
+    ],
+    "age": 32,
+    "number": 35,
+    "disposals": 11,
+    "goals": 0
+  },
+  {
+    "id": "frem_odriscoll",
+    "name": "Nathan O'Driscoll",
+    "club": "Fremantle",
+    "pos": [
+      "MID"
+    ],
+    "age": 23,
+    "number": 30,
+    "disposals": 15.5,
+    "goals": 1
+  },
+  {
+    "id": "gws_wardius",
+    "name": "Nathan Wardius",
+    "club": "GWS",
+    "pos": [
+      "FWD"
+    ],
+    "age": 21,
+    "number": 42,
+    "disposals": 0,
+    "goals": 0
+  },
+  {
+    "id": "syd_bowman",
+    "name": "Ned Bowman",
+    "club": "Sydney",
+    "pos": [
+      "FWD"
+    ],
+    "age": 19,
+    "number": 23,
+    "disposals": 0,
+    "goals": 0
+  },
+  {
+    "id": "coll_long",
+    "name": "Ned Long",
+    "club": "Collingwood",
+    "pos": [
+      "MID"
+    ],
+    "age": 23,
+    "number": 44,
+    "disposals": 15.5,
+    "goals": 1
+  },
+  {
+    "id": "gc_moyle",
+    "name": "Ned Moyle",
+    "club": "Gold Coast",
+    "pos": [
+      "RUCK"
+    ],
+    "age": 24,
+    "number": 23,
+    "disposals": 0,
+    "goals": 0
+  },
+  {
+    "id": "haw_reeves",
+    "name": "Ned Reeves",
+    "club": "Hawthorn",
+    "pos": [
+      "RUCK"
+    ],
+    "age": 27,
+    "number": 7,
+    "disposals": 9.7,
+    "goals": 2
+  },
+  {
+    "id": "frem_erasmus",
+    "name": "Neil Erasmus",
+    "club": "Fremantle",
+    "pos": [
+      "MID"
+    ],
+    "age": 22,
+    "number": 28,
+    "disposals": 21,
+    "goals": 0
+  },
+  {
+    "id": "ess_martin",
+    "name": "Nic Martin",
+    "club": "Essendon",
+    "pos": [
+      "FWD"
+    ],
+    "age": 25,
+    "number": 37,
+    "disposals": 0,
+    "goals": 0
+  },
+  {
+    "id": "carl_nic_newman",
+    "name": "Nic Newman",
+    "club": "Carlton",
+    "pos": [
+      "MID"
+    ],
+    "age": 33,
+    "number": 24,
+    "disposals": 19,
+    "goals": 1
+  },
+  {
+    "id": "gws_madden",
+    "name": "Nicholas Madden",
+    "club": "GWS",
+    "pos": [
+      "RUCK",
+      "FWD"
+    ],
+    "age": 25,
+    "number": 41,
+    "disposals": 0,
+    "goals": 0
+  },
+  {
+    "id": "adel_murray_nick",
+    "name": "Nicholas Murray",
+    "club": "Adelaide",
+    "pos": [
+      "DEF"
+    ],
+    "age": 25,
+    "number": 9,
+    "disposals": 12.5,
+    "goals": 1
+  },
+  {
+    "id": "syd_blakey",
+    "name": "Nick Blakey",
+    "club": "Sydney",
+    "pos": [
+      "DEF"
+    ],
+    "age": 26,
+    "number": 22,
+    "disposals": 22.3,
+    "goals": 2
+  },
+  {
+    "id": "ess_bryan",
+    "name": "Nick Bryan",
+    "club": "Essendon",
+    "pos": [
+      "RUCK",
+      "FWD"
+    ],
+    "age": 24,
+    "number": 24,
+    "disposals": 0,
+    "goals": 0
+  },
+  {
+    "id": "wb_coffield",
+    "name": "Nick Coffield",
+    "club": "Western Bulldogs",
+    "pos": [
+      "DEF"
+    ],
+    "age": 25,
+    "number": 17,
+    "disposals": 0,
+    "goals": 0
+  },
+  {
+    "id": "coll_daicos_nick",
+    "name": "Nick Daicos",
+    "club": "Collingwood",
+    "pos": [
+      "MID"
+    ],
+    "age": 23,
+    "number": 35,
+    "disposals": 36.7,
+    "goals": 4
+  },
+  {
+    "id": "carl_haynes",
+    "name": "Nick Haynes",
+    "club": "Carlton",
+    "pos": [
+      "DEF"
+    ],
+    "age": 33,
+    "number": 26,
+    "disposals": 0,
+    "goals": 0
+  },
+  {
+    "id": "gc_holman",
+    "name": "Nick Holman",
+    "club": "Gold Coast",
+    "pos": [
+      "FWD"
+    ],
+    "age": 30,
+    "number": 7,
+    "disposals": 0,
+    "goals": 0
+  },
+  {
+    "id": "nm_larkey",
+    "name": "Nick Larkey",
+    "club": "North Melbourne",
+    "pos": [
+      "FWD"
+    ],
+    "age": 27,
+    "number": 20,
+    "disposals": 10,
+    "goals": 14
+  },
+  {
+    "id": "rich_vlastuin",
+    "name": "Nick Vlastuin",
+    "club": "Richmond",
+    "pos": [
+      "DEF"
+    ],
+    "age": 31,
+    "number": 1,
+    "disposals": 14,
+    "goals": 1
+  },
+  {
+    "id": "haw_watson",
+    "name": "Nick Watson",
+    "club": "Hawthorn",
+    "pos": [
+      "MID",
+      "FWD"
+    ],
+    "age": 21,
+    "number": 5,
+    "disposals": 16.3,
+    "goals": 10
+  },
+  {
+    "id": "ess_cox",
+    "name": "Nik Cox",
+    "club": "Essendon",
+    "pos": [
+      "MID"
+    ],
+    "age": 25,
+    "number": 13,
+    "disposals": 0,
+    "goals": 0
+  },
+  {
+    "id": "gc_anderson",
+    "name": "Noah Anderson",
+    "club": "Gold Coast",
+    "pos": [
+      "MID"
+    ],
+    "age": 25,
+    "number": 15,
+    "disposals": 25.3,
+    "goals": 2
+  },
+  {
+    "id": "bris_answerth",
+    "name": "Noah Answerth",
+    "club": "Brisbane",
+    "pos": [
+      "DEF"
+    ],
+    "age": 26,
+    "number": 43,
+    "disposals": 9,
+    "goals": 0
+  },
+  {
+    "id": "rich_balta",
+    "name": "Noah Balta",
+    "club": "Richmond",
+    "pos": [
+      "DEF",
+      "FWD"
+    ],
+    "age": 26,
+    "number": 21,
+    "disposals": 12.3,
+    "goals": 0
+  },
+  {
+    "id": "coll_howes",
+    "name": "Noah Howes",
+    "club": "Collingwood",
+    "pos": [
+      "FWD"
+    ],
+    "age": 20,
+    "number": 40,
+    "disposals": 0,
+    "goals": 0
+  },
+  {
+    "id": "wce_long",
+    "name": "Noah Long",
+    "club": "West Coast",
+    "pos": [
+      "MID",
+      "FWD"
+    ],
+    "age": 21,
+    "number": 13,
+    "disposals": 0,
+    "goals": 0
+  },
+  {
+    "id": "haw_mraz",
+    "name": "Noah Mraz",
+    "club": "Hawthorn",
+    "pos": [
+      "DEF"
+    ],
+    "age": 20,
+    "number": 21,
+    "disposals": 0,
+    "goals": 0
+  },
+  {
+    "id": "rich_robertsthomson",
+    "name": "Noah Roberts-Thomson",
+    "club": "Richmond",
+    "pos": [
+      "MID"
+    ],
+    "age": 19,
+    "number": 27,
+    "disposals": 0,
+    "goals": 0
+  },
+  {
+    "id": "geel_mullin",
+    "name": "Oisin Mullin",
+    "club": "Geelong",
+    "pos": [
+      "DEF"
+    ],
+    "age": 26,
+    "number": 34,
+    "disposals": 11,
+    "goals": 0
+  },
+  {
+    "id": "geel_dempsey",
+    "name": "Oliver Dempsey",
+    "club": "Geelong",
+    "pos": [
+      "FWD"
+    ],
+    "age": 23,
+    "number": 28,
+    "disposals": 0,
+    "goals": 0
+  },
+  {
+    "id": "carl_florent",
+    "name": "Oliver Florent",
+    "club": "Carlton",
+    "pos": [
+      "DEF"
+    ],
+    "age": 27,
+    "number": 14,
+    "disposals": 20.8,
+    "goals": 0
+  },
+  {
+    "id": "gws_hannaford",
+    "name": "Oliver Hannaford",
+    "club": "GWS",
+    "pos": [
+      "FWD"
+    ],
+    "age": 19,
+    "number": 13,
+    "disposals": 8,
+    "goals": 0
+  },
+  {
+    "id": "rich_hayesbrown",
+    "name": "Oliver Hayes-Brown",
+    "club": "Richmond",
+    "pos": [
+      "RUCK"
+    ],
+    "age": 25,
+    "number": 47,
+    "disposals": 0,
+    "goals": 0
+  },
+  {
+    "id": "geel_henry_oliver",
+    "name": "Oliver Henry",
+    "club": "Geelong",
+    "pos": [
+      "FWD"
+    ],
+    "age": 23,
+    "number": 36,
+    "disposals": 9.3,
+    "goals": 6
+  },
+  {
+    "id": "carl_hollands",
+    "name": "Oliver Hollands",
+    "club": "Carlton",
+    "pos": [
+      "MID"
+    ],
+    "age": 22,
+    "number": 4,
+    "disposals": 19,
+    "goals": 0
+  },
+  {
+    "id": "geel_wiltshire",
+    "name": "Oliver Wiltshire",
+    "club": "Geelong",
+    "pos": [
+      "MID",
+      "FWD"
+    ],
+    "age": 23,
+    "number": 21,
+    "disposals": 12.5,
+    "goals": 1
+  },
+  {
+    "id": "geel_ollie_dempsey",
+    "name": "Ollie Dempsey",
+    "club": "Geelong",
+    "pos": [
+      "MID"
+    ],
+    "age": 25,
+    "number": 28,
+    "disposals": 17.3,
+    "goals": 7
+  },
+  {
+    "id": "port_lord_ollie",
+    "name": "Ollie Lord",
+    "club": "Port Adelaide",
+    "pos": [
+      "DEF",
+      "FWD"
+    ],
+    "age": 24,
+    "number": 30,
+    "disposals": 7,
+    "goals": 0
+  },
+  {
+    "id": "frem_murphy",
+    "name": "Ollie Murphy",
+    "club": "Fremantle",
+    "pos": [
+      "DEF"
+    ],
+    "age": 20,
+    "number": 33,
+    "disposals": 0,
+    "goals": 0
+  },
+  {
+    "id": "port_wines",
+    "name": "Ollie Wines",
+    "club": "Port Adelaide",
+    "pos": [
+      "MID"
+    ],
+    "age": 31,
+    "number": 16,
+    "disposals": 11,
+    "goals": 0
+  },
+  {
+    "id": "gc_adams",
+    "name": "Oscar Adams",
+    "club": "Gold Coast",
+    "pos": [
+      "DEF"
+    ],
+    "age": 22,
+    "number": 48,
+    "disposals": 9,
+    "goals": 0
+  },
+  {
+    "id": "bris_allen",
+    "name": "Oscar Allen",
+    "club": "Brisbane",
+    "pos": [
+      "FWD"
+    ],
+    "age": 27,
+    "number": 4,
+    "disposals": 9,
+    "goals": 7
+  },
+  {
+    "id": "frem_mcdonald",
+    "name": "Oscar McDonald",
+    "club": "Fremantle",
+    "pos": [
+      "DEF"
+    ],
+    "age": 30,
+    "number": 21,
+    "disposals": 12,
+    "goals": 0
+  },
+  {
+    "id": "adel_ryan",
+    "name": "Oscar Ryan",
+    "club": "Adelaide",
+    "pos": [
+      "DEF"
+    ],
+    "age": 20,
+    "number": 22,
+    "disposals": 0,
+    "goals": 0
+  },
+  {
+    "id": "coll_steene",
+    "name": "Oscar Steene",
+    "club": "Collingwood",
+    "pos": [
+      "RUCK"
+    ],
+    "age": 22,
+    "number": 21,
+    "disposals": 9,
+    "goals": 1
+  },
+  {
+    "id": "wb_baker",
+    "name": "Oskar Baker",
+    "club": "Western Bulldogs",
+    "pos": [
+      "MID"
+    ],
+    "age": 27,
+    "number": 13,
+    "disposals": 13.5,
+    "goals": 5
+  },
+  {
+    "id": "gws_o_taylor",
+    "name": "Oskar Taylor",
+    "club": "GWS",
+    "pos": [
+      "MID"
+    ],
+    "age": 18,
+    "number": 34,
+    "disposals": 0,
+    "goals": 0
+  },
+  {
+    "id": "melb_paddy_cross",
+    "name": "Paddy Cross",
+    "club": "Melbourne",
+    "pos": [
+      "MID"
+    ],
+    "age": 25,
+    "number": 41,
+    "disposals": 6,
+    "goals": 1
+  },
+  {
+    "id": "stk_dow",
+    "name": "Paddy Dow",
+    "club": "St Kilda",
+    "pos": [
+      "MID"
+    ],
+    "age": 26,
+    "number": 15,
+    "disposals": 0,
+    "goals": 0
+  },
+  {
+    "id": "carl_cripps",
+    "name": "Patrick Cripps",
+    "club": "Carlton",
+    "pos": [
+      "MID"
+    ],
+    "age": 31,
+    "number": 9,
+    "disposals": 23.3,
+    "goals": 1
+  },
+  {
+    "id": "geel_dangerfield",
+    "name": "Patrick Dangerfield",
+    "club": "Geelong",
+    "pos": [
+      "MID"
+    ],
+    "age": 36,
+    "number": 35,
+    "disposals": 4,
+    "goals": 1
+  },
+  {
+    "id": "coll_lipinski",
+    "name": "Patrick Lipinski",
+    "club": "Collingwood",
+    "pos": [
+      "MID",
+      "FWD"
+    ],
+    "age": 27,
+    "number": 1,
+    "disposals": 17.8,
+    "goals": 0
+  },
+  {
+    "id": "stk_said",
+    "name": "Patrick Said",
+    "club": "St Kilda",
+    "pos": [
+      "MID",
+      "FWD"
+    ],
+    "age": 19,
+    "number": 33,
+    "disposals": 0,
+    "goals": 0
+  },
+  {
+    "id": "frem_voss",
+    "name": "Patrick Voss",
+    "club": "Fremantle",
+    "pos": [
+      "FWD"
+    ],
+    "age": 22,
+    "number": 20,
+    "disposals": 13.5,
+    "goals": 4
+  },
+  {
+    "id": "nm_curtis",
+    "name": "Paul Curtis",
+    "club": "North Melbourne",
+    "pos": [
+      "FWD"
+    ],
+    "age": 23,
+    "number": 25,
+    "disposals": 9.5,
+    "goals": 6
+  },
+  {
+    "id": "syd_ladhams",
+    "name": "Peter Ladhams",
+    "club": "Sydney",
+    "pos": [
+      "RUCK"
+    ],
+    "age": 28,
+    "number": 19,
+    "disposals": 0,
+    "goals": 0
+  },
+  {
+    "id": "ess_wright",
+    "name": "Peter Wright",
+    "club": "Essendon",
+    "pos": [
+      "FWD"
+    ],
+    "age": 29,
+    "number": 20,
+    "disposals": 10.8,
+    "goals": 4
+  },
+  {
+    "id": "gws_gothard",
+    "name": "Phoenix Gothard",
+    "club": "GWS",
+    "pos": [
+      "FWD"
+    ],
+    "age": 20,
+    "number": 11,
+    "disposals": 15,
+    "goals": 4
+  },
+  {
+    "id": "bris_torrent",
+    "name": "Reece Torrent",
+    "club": "Brisbane",
+    "pos": [
+      "MID"
+    ],
+    "age": 20,
+    "number": 36,
+    "disposals": 0,
+    "goals": 0
+  },
+  {
+    "id": "coll_mcinnes",
+    "name": "Reef McInnes",
+    "club": "Collingwood",
+    "pos": [
+      "FWD"
+    ],
+    "age": 23,
+    "number": 26,
+    "disposals": 0,
+    "goals": 0
+  },
+  {
+    "id": "adel_obrien",
+    "name": "Reilly O'Brien",
+    "club": "Adelaide",
+    "pos": [
+      "RUCK"
+    ],
+    "age": 30,
+    "number": 43,
+    "disposals": 3,
+    "goals": 0
+  },
+  {
+    "id": "wce_ginbey",
+    "name": "Reuben Ginbey",
+    "club": "West Coast",
+    "pos": [
+      "DEF",
+      "MID"
+    ],
+    "age": 21,
+    "number": 7,
+    "disposals": 10,
+    "goals": 0
+  },
+  {
+    "id": "wce_bazzo",
+    "name": "Rhett Bazzo",
+    "club": "West Coast",
+    "pos": [
+      "DEF"
+    ],
+    "age": 22,
+    "number": 33,
+    "disposals": 0,
+    "goals": 0
+  },
+  {
+    "id": "rich_mansell",
+    "name": "Rhyan Mansell",
+    "club": "Richmond",
+    "pos": [
+      "DEF"
+    ],
+    "age": 25,
+    "number": 7,
+    "disposals": 12,
+    "goals": 2
+  },
+  {
+    "id": "wb_west",
+    "name": "Rhylee West",
+    "club": "Western Bulldogs",
+    "pos": [
+      "FWD"
+    ],
+    "age": 25,
+    "number": 14,
+    "disposals": 13.5,
+    "goals": 1
+  },
+  {
+    "id": "geel_stanley",
+    "name": "Rhys Stanley",
+    "club": "Geelong",
+    "pos": [
+      "RUCK"
+    ],
+    "age": 35,
+    "number": 1,
+    "disposals": 0,
+    "goals": 0
+  },
+  {
+    "id": "ess_unwin",
+    "name": "Rhys Unwin",
+    "club": "Essendon",
+    "pos": [
+      "MID"
+    ],
+    "age": 19,
+    "number": 38,
+    "disposals": 0,
+    "goals": 0
+  },
+  {
+    "id": "syd_andrew",
+    "name": "Riak Andrew",
+    "club": "Sydney",
+    "pos": [
+      "DEF"
+    ],
+    "age": 20,
+    "number": 20,
+    "disposals": 0,
+    "goals": 0
+  },
+  {
+    "id": "mel_mentha",
+    "name": "Ricky Mentha",
+    "club": "Melbourne",
+    "pos": [
+      "DEF",
+      "FWD"
+    ],
+    "age": 19,
+    "number": 39,
+    "disposals": 0,
+    "goals": 0
+  },
+  {
+    "id": "syd_bice",
+    "name": "Riley Bice",
+    "club": "Sydney",
+    "pos": [
+      "DEF"
+    ],
+    "age": 25,
+    "number": 26,
+    "disposals": 23.8,
+    "goals": 0
+  },
+  {
+    "id": "wb_garcia",
+    "name": "Riley Garcia",
+    "club": "Western Bulldogs",
+    "pos": [
+      "FWD"
+    ],
+    "age": 25,
+    "number": 38,
+    "disposals": 0,
+    "goals": 0
+  },
+  {
+    "id": "nm_hardeman",
+    "name": "Riley Hardeman",
+    "club": "North Melbourne",
+    "pos": [
+      "DEF"
+    ],
+    "age": 21,
+    "number": 17,
+    "disposals": 0,
+    "goals": 0
+  },
+  {
+    "id": "adel_thilthorpe",
+    "name": "Riley Thilthorpe",
+    "club": "Adelaide",
+    "pos": [
+      "FWD"
+    ],
+    "age": 23,
+    "number": 7,
+    "disposals": 14.3,
+    "goals": 7
+  },
+  {
+    "id": "nm_stevens_river",
+    "name": "River Stevens",
+    "club": "North Melbourne",
+    "pos": [
+      "MID",
+      "FWD"
+    ],
+    "age": 19,
+    "number": 36,
+    "disposals": 0,
+    "goals": 0
+  },
+  {
+    "id": "coll_steele",
+    "name": "Roan Steele",
+    "club": "Collingwood",
+    "pos": [
+      "FWD"
+    ],
+    "age": 24,
+    "number": 45,
+    "disposals": 11,
+    "goals": 4
+  },
+  {
+    "id": "carl_monahan",
+    "name": "Rob Monahan",
+    "club": "Carlton",
+    "pos": [
+      "FWD"
+    ],
+    "age": 21,
+    "number": 34,
+    "disposals": 0,
+    "goals": 0
+  },
+  {
+    "id": "nm_hansen",
+    "name": "Robert Hansen",
+    "club": "North Melbourne",
+    "pos": [
+      "FWD"
+    ],
+    "age": 25,
+    "number": 46,
+    "disposals": 0,
+    "goals": 0
+  },
+  {
+    "id": "adel_laird",
+    "name": "Rory Laird",
+    "club": "Adelaide",
+    "pos": [
+      "MID"
+    ],
+    "age": 32,
+    "number": 29,
+    "disposals": 21.5,
+    "goals": 0
+  },
+  {
+    "id": "wb_lobb",
+    "name": "Rory Lobb",
+    "club": "Western Bulldogs",
+    "pos": [
+      "FWD"
+    ],
+    "age": 33,
+    "number": 7,
+    "disposals": 12.3,
+    "goals": 0
+  },
+  {
+    "id": "stk_marshall",
+    "name": "Rowan Marshall",
+    "club": "St Kilda",
+    "pos": [
+      "RUCK"
+    ],
+    "age": 30,
+    "number": 19,
+    "disposals": 11.3,
+    "goals": 0
+  },
+  {
+    "id": "gws_angwin",
+    "name": "Ryan Angwin",
+    "club": "GWS",
+    "pos": [
+      "MID",
+      "FWD"
+    ],
+    "age": 23,
+    "number": 9,
+    "disposals": 18.3,
+    "goals": 1
+  },
+  {
+    "id": "stk_byrnes",
+    "name": "Ryan Byrnes",
+    "club": "St Kilda",
+    "pos": [
+      "MID",
+      "FWD"
+    ],
+    "age": 24,
+    "number": 13,
+    "disposals": 0,
+    "goals": 0
+  },
+  {
+    "id": "wb_gardner",
+    "name": "Ryan Gardner",
+    "club": "Western Bulldogs",
+    "pos": [
+      "DEF"
+    ],
+    "age": 28,
+    "number": 43,
+    "disposals": 0,
+    "goals": 0
+  },
+  {
+    "id": "bris_lester",
+    "name": "Ryan Lester",
+    "club": "Brisbane",
+    "pos": [
+      "DEF"
+    ],
+    "age": 33,
+    "number": 35,
+    "disposals": 18.5,
+    "goals": 0
+  },
+  {
+    "id": "wce_maric",
+    "name": "Ryan Maric",
+    "club": "West Coast",
+    "pos": [
+      "DEF"
+    ],
+    "age": 21,
+    "number": 23,
+    "disposals": 19,
+    "goals": 0
+  },
+  {
+    "id": "wb_sanders",
+    "name": "Ryley Sanders",
+    "club": "Western Bulldogs",
+    "pos": [
+      "MID"
+    ],
+    "age": 21,
+    "number": 9,
+    "disposals": 24.7,
+    "goals": 0
+  },
+  {
+    "id": "ess_elhawli",
+    "name": "Saad El-Hawli",
+    "club": "Essendon",
+    "pos": [
+      "DEF",
+      "MID"
+    ],
+    "age": 24,
+    "number": 41,
+    "disposals": 13,
+    "goals": 1
+  },
+  {
+    "id": "wce_allen",
+    "name": "Sam Allen",
+    "club": "West Coast",
+    "pos": [
+      "MID"
+    ],
+    "age": 19,
+    "number": 12,
+    "disposals": 0,
+    "goals": 0
+  },
+  {
+    "id": "rich_banks",
+    "name": "Sam Banks",
+    "club": "Richmond",
+    "pos": [
+      "DEF",
+      "MID"
+    ],
+    "age": 23,
+    "number": 6,
+    "disposals": 20.3,
+    "goals": 1
+  },
+  {
+    "id": "adel_berry",
+    "name": "Sam Berry",
+    "club": "Adelaide",
+    "pos": [
+      "MID"
+    ],
+    "age": 24,
+    "number": 3,
+    "disposals": 21,
+    "goals": 1
+  },
+  {
+    "id": "haw_butler",
+    "name": "Sam Butler",
+    "club": "Hawthorn",
+    "pos": [
+      "FWD"
+    ],
+    "age": 23,
+    "number": 30,
+    "disposals": 13,
+    "goals": 3
+  },
+  {
+    "id": "gc_clohesy",
+    "name": "Sam Clohesy",
+    "club": "Gold Coast",
+    "pos": [
+      "DEF"
+    ],
+    "age": 23,
+    "number": 33,
+    "disposals": 18.5,
+    "goals": 2
+  },
+  {
+    "id": "rich_cumming",
+    "name": "Sam Cumming",
+    "club": "Richmond",
+    "pos": [
+      "MID"
+    ],
+    "age": 18,
+    "number": 22,
+    "disposals": 0,
+    "goals": 0
+  },
+  {
+    "id": "wb_sdarcy",
+    "name": "Sam Darcy",
+    "club": "Western Bulldogs",
+    "pos": [
+      "FWD"
+    ],
+    "age": 22,
+    "number": 10,
+    "disposals": 13.3,
+    "goals": 10
+  },
+  {
+    "id": "wb_davidson",
+    "name": "Sam Davidson",
+    "club": "Western Bulldogs",
+    "pos": [
+      "MID"
+    ],
+    "age": 24,
+    "number": 42,
+    "disposals": 9.5,
+    "goals": 3
+  },
+  {
+    "id": "geel_dekoning",
+    "name": "Sam De Koning",
+    "club": "Geelong",
+    "pos": [
+      "DEF"
+    ],
+    "age": 25,
+    "number": 16,
+    "disposals": 13,
+    "goals": 0
+  },
+  {
+    "id": "bris_draper",
+    "name": "Sam Draper",
+    "club": "Brisbane",
+    "pos": [
+      "RUCK"
+    ],
+    "age": 27,
+    "number": 2,
+    "disposals": 11.3,
+    "goals": 0
+  },
+  {
+    "id": "ess_durham",
+    "name": "Sam Durham",
+    "club": "Essendon",
+    "pos": [
+      "MID"
+    ],
+    "age": 24,
+    "number": 22,
+    "disposals": 18.8,
+    "goals": 3
+  },
+  {
+    "id": "stk_flanders",
+    "name": "Sam Flanders",
+    "club": "St Kilda",
+    "pos": [
+      "MID",
+      "FWD"
+    ],
+    "age": 24,
+    "number": 9,
+    "disposals": 25.3,
+    "goals": 0
+  },
+  {
+    "id": "rich_lalor",
+    "name": "Sam Lalor",
+    "club": "Richmond",
+    "pos": [
+      "MID"
+    ],
+    "age": 19,
+    "number": 4,
+    "disposals": 15,
+    "goals": 5
+  },
+  {
+    "id": "bris_marshall",
+    "name": "Sam Marshall",
+    "club": "Brisbane",
+    "pos": [
+      "MID"
+    ],
+    "age": 20,
+    "number": 20,
+    "disposals": 0,
+    "goals": 0
+  },
+  {
+    "id": "port_powellpepper",
+    "name": "Sam Powell-Pepper",
+    "club": "Port Adelaide",
+    "pos": [
+      "FWD"
+    ],
+    "age": 28,
+    "number": 2,
+    "disposals": 0,
+    "goals": 0
+  },
+  {
+    "id": "frem_sturt",
+    "name": "Sam Sturt",
+    "club": "Fremantle",
+    "pos": [
+      "FWD"
+    ],
+    "age": 25,
+    "number": 1,
+    "disposals": 0,
+    "goals": 0
+  },
+  {
+    "id": "frem_switkowski",
+    "name": "Sam Switkowski",
+    "club": "Fremantle",
+    "pos": [
+      "FWD"
+    ],
+    "age": 29,
+    "number": 39,
+    "disposals": 10.3,
+    "goals": 1
+  },
+  {
+    "id": "gws_s_taylor",
+    "name": "Sam Taylor",
+    "club": "GWS",
+    "pos": [
+      "DEF"
+    ],
+    "age": 26,
+    "number": 15,
+    "disposals": 0,
+    "goals": 0
+  },
+  {
+    "id": "carl_sam_walsh",
+    "name": "Sam Walsh",
+    "club": "Carlton",
+    "pos": [
+      "MID"
+    ],
+    "age": 25,
+    "number": 18,
+    "disposals": 28,
+    "goals": 1
+  },
+  {
+    "id": "syd_wicks",
+    "name": "Sam Wicks",
+    "club": "Sydney",
+    "pos": [
+      "FWD"
+    ],
+    "age": 26,
+    "number": 15,
+    "disposals": 13.3,
+    "goals": 1
+  },
+  {
+    "id": "rich_ryan",
+    "name": "Samson Ryan",
+    "club": "Richmond",
+    "pos": [
+      "RUCK",
+      "FWD"
+    ],
+    "age": 25,
+    "number": 32,
+    "disposals": 9,
+    "goals": 0
+  },
+  {
+    "id": "gc_collins",
+    "name": "Samuel Collins",
+    "club": "Gold Coast",
+    "pos": [
+      "DEF"
+    ],
+    "age": 25,
+    "number": 25,
+    "disposals": 13.3,
+    "goals": 0
+  },
+  {
+    "id": "rich_grlj",
+    "name": "Samuel Grlj",
+    "club": "Richmond",
+    "pos": [
+      "MID"
+    ],
+    "age": 25,
+    "number": 24,
+    "disposals": 17.3,
+    "goals": 0
+  },
+  {
+    "id": "coll_swadling",
+    "name": "Samuel Swadling",
+    "club": "Collingwood",
+    "pos": [
+      "MID"
+    ],
+    "age": 25,
+    "number": 32,
+    "disposals": 0,
+    "goals": 0
+  },
+  {
+    "id": "wc_sandy_brock",
+    "name": "Sandy Brock",
+    "club": "West Coast",
+    "pos": [
+      "MID"
+    ],
+    "age": 23,
+    "number": 41,
+    "disposals": 8,
+    "goals": 0
+  },
+  {
+    "id": "coll_pendlebury",
+    "name": "Scott Pendlebury",
+    "club": "Collingwood",
+    "pos": [
+      "MID"
+    ],
+    "age": 38,
+    "number": 10,
+    "disposals": 17.3,
+    "goals": 0
+  },
+  {
+    "id": "frem_darcy",
+    "name": "Sean Darcy",
+    "club": "Fremantle",
+    "pos": [
+      "RUCK"
+    ],
+    "age": 27,
+    "number": 4,
+    "disposals": 7.8,
+    "goals": 1
+  },
+  {
+    "id": "rich_campbell",
+    "name": "Seth Campbell",
+    "club": "Richmond",
+    "pos": [
+      "FWD"
+    ],
+    "age": 21,
+    "number": 44,
+    "disposals": 13.3,
+    "goals": 3
+  },
+  {
+    "id": "bris_brain",
+    "name": "Shadeau Brain",
+    "club": "Brisbane",
+    "pos": [
+      "FWD"
+    ],
+    "age": 22,
+    "number": 34,
+    "disposals": 0,
+    "goals": 0
+  },
+  {
+    "id": "frem_bolton",
+    "name": "Shai Bolton",
+    "club": "Fremantle",
+    "pos": [
+      "MID",
+      "FWD"
+    ],
+    "age": 27,
+    "number": 10,
+    "disposals": 25.5,
+    "goals": 5
+  },
+  {
+    "id": "mel_mcadam",
+    "name": "Shane McAdam",
+    "club": "Melbourne",
+    "pos": [
+      "FWD"
+    ],
+    "age": 30,
+    "number": 23,
+    "disposals": 0,
+    "goals": 0
+  },
+  {
+    "id": "geel_neale",
+    "name": "Shannon Neale",
+    "club": "Geelong",
+    "pos": [
+      "FWD"
+    ],
+    "age": 23,
+    "number": 33,
+    "disposals": 8.3,
+    "goals": 10
+  },
+  {
+    "id": "geel_mannagh",
+    "name": "Shaun Mannagh",
+    "club": "Geelong",
+    "pos": [
+      "MID"
+    ],
+    "age": 28,
+    "number": 7,
+    "disposals": 14,
+    "goals": 5
+  },
+  {
+    "id": "adel_draper",
+    "name": "Sid Draper",
+    "club": "Adelaide",
+    "pos": [
+      "MID"
+    ],
+    "age": 19,
+    "number": 5,
+    "disposals": 0,
+    "goals": 0
+  },
+  {
+    "id": "coll_sidebottom",
+    "name": "Steele Sidebottom",
+    "club": "Collingwood",
+    "pos": [
+      "MID"
+    ],
+    "age": 35,
+    "number": 22,
+    "disposals": 18.5,
+    "goals": 0
+  },
+  {
+    "id": "rich_green",
+    "name": "Steely Green",
+    "club": "Richmond",
+    "pos": [
+      "MID"
+    ],
+    "age": 22,
+    "number": 48,
+    "disposals": 10.5,
+    "goals": 5
+  },
+  {
+    "id": "gws_coniglio",
+    "name": "Stephen Coniglio",
+    "club": "GWS",
+    "pos": [
+      "MID",
+      "FWD"
+    ],
+    "age": 32,
+    "number": 3,
+    "disposals": 19.5,
+    "goals": 3
+  },
+  {
+    "id": "ess_robey",
+    "name": "Sullivan Robey",
+    "club": "Essendon",
+    "pos": [
+      "MID"
+    ],
+    "age": 18,
+    "number": 9,
+    "disposals": 0,
+    "goals": 0
+  },
+  {
+    "id": "bris_hayes",
+    "name": "Tai Hayes",
+    "club": "Brisbane",
+    "pos": [
+      "MID"
+    ],
+    "age": 21,
+    "number": 42,
+    "disposals": 0,
+    "goals": 0
+  },
+  {
+    "id": "rich_hotton",
+    "name": "Taj Hotton",
+    "club": "Richmond",
+    "pos": [
+      "MID",
+      "FWD"
+    ],
+    "age": 19,
+    "number": 10,
+    "disposals": 0,
+    "goals": 0
+  },
+  {
+    "id": "carl_byrne",
+    "name": "Talor Byrne",
+    "club": "Carlton",
+    "pos": [
+      "MID"
+    ],
+    "age": 18,
+    "number": 39,
+    "disposals": 6.5,
+    "goals": 1
+  },
+  {
+    "id": "geel_bruhn",
+    "name": "Tanner Bruhn",
+    "club": "Geelong",
+    "pos": [
+      "MID",
+      "FWD"
+    ],
+    "age": 23,
+    "number": 4,
+    "disposals": 24,
+    "goals": 0
+  },
+  {
+    "id": "syd_adams",
+    "name": "Taylor Adams",
+    "club": "Sydney",
+    "pos": [
+      "MID"
+    ],
+    "age": 32,
+    "number": 3,
+    "disposals": 0,
+    "goals": 0
+  },
+  {
+    "id": "nm_goad",
+    "name": "Taylor Goad",
+    "club": "North Melbourne",
+    "pos": [
+      "RUCK"
+    ],
+    "age": 20,
+    "number": 22,
+    "disposals": 0,
+    "goals": 0
+  },
+  {
+    "id": "adel_walker",
+    "name": "Taylor Walker",
+    "club": "Adelaide",
+    "pos": [
+      "FWD"
+    ],
+    "age": 35,
+    "number": 13,
+    "disposals": 13,
+    "goals": 4
+  },
+  {
+    "id": "coll_jiath",
+    "name": "Tew Jiath",
+    "club": "Collingwood",
+    "pos": [
+      "DEF"
+    ],
+    "age": 21,
+    "number": 19,
+    "disposals": 0,
+    "goals": 0
+  },
+  {
+    "id": "ess_edwards",
+    "name": "Thomas Edwards",
+    "club": "Essendon",
+    "pos": [
+      "FWD"
+    ],
+    "age": 25,
+    "number": 45,
+    "disposals": 0,
+    "goals": 0
+  },
+  {
+    "id": "mel_matthews",
+    "name": "Thomas Matthews",
+    "club": "Melbourne",
+    "pos": [
+      "MID"
+    ],
+    "age": 19,
+    "number": 20,
+    "disposals": 0,
+    "goals": 0
+  },
+  {
+    "id": "rich_sims",
+    "name": "Thomas Sims",
+    "club": "Richmond",
+    "pos": [
+      "RUCK",
+      "FWD"
+    ],
+    "age": 19,
+    "number": 38,
+    "disposals": 0,
+    "goals": 0
+  },
+  {
+    "id": "geel_thomas_stewart",
+    "name": "Thomas Stewart",
+    "club": "Geelong",
+    "pos": [
+      "MID"
+    ],
+    "age": 25,
+    "number": 44,
+    "disposals": 24.3,
+    "goals": 1
+  },
+  {
+    "id": "wb_english",
+    "name": "Tim English",
+    "club": "Western Bulldogs",
+    "pos": [
+      "RUCK"
+    ],
+    "age": 28,
+    "number": 44,
+    "disposals": 15.3,
+    "goals": 2
+  },
+  {
+    "id": "wce_kelly",
+    "name": "Tim Kelly",
+    "club": "West Coast",
+    "pos": [
+      "MID"
+    ],
+    "age": 31,
+    "number": 11,
+    "disposals": 22.3,
+    "goals": 0
+  },
+  {
+    "id": "coll_membrey",
+    "name": "Tim Membrey",
+    "club": "Collingwood",
+    "pos": [
+      "FWD"
+    ],
+    "age": 31,
+    "number": 28,
+    "disposals": 8.3,
+    "goals": 6
+  },
+  {
+    "id": "rich_taranto",
+    "name": "Tim Taranto",
+    "club": "Richmond",
+    "pos": [
+      "MID",
+      "FWD"
+    ],
+    "age": 28,
+    "number": 14,
+    "disposals": 24.8,
+    "goals": 2
+  },
+  {
+    "id": "stk_travaglia",
+    "name": "Tobie Travaglia",
+    "club": "St Kilda",
+    "pos": [
+      "DEF",
+      "MID"
+    ],
+    "age": 19,
+    "number": 5,
+    "disposals": 0,
+    "goals": 0
+  },
+  {
+    "id": "gws_bedford",
+    "name": "Toby Bedford",
+    "club": "GWS",
+    "pos": [
+      "FWD"
+    ],
+    "age": 25,
+    "number": 14,
+    "disposals": 0,
+    "goals": 0
+  },
+  {
+    "id": "geel_conway",
+    "name": "Toby Conway",
+    "club": "Geelong",
+    "pos": [
+      "RUCK"
+    ],
+    "age": 22,
+    "number": 6,
+    "disposals": 0,
+    "goals": 0
+  },
+  {
+    "id": "gws_greene",
+    "name": "Toby Greene",
+    "club": "GWS",
+    "pos": [
+      "FWD"
+    ],
+    "age": 32,
+    "number": 4,
+    "disposals": 22,
+    "goals": 2
+  },
+  {
+    "id": "gws_mcmullin",
+    "name": "Toby McMullin",
+    "club": "GWS",
+    "pos": [
+      "FWD"
+    ],
+    "age": 21,
+    "number": 31,
+    "disposals": 0,
+    "goals": 0
+  },
+  {
+    "id": "adel_murray_toby",
+    "name": "Toby Murray",
+    "club": "Adelaide",
+    "pos": [
+      "FWD"
+    ],
+    "age": 22,
+    "number": 39,
+    "disposals": 2,
+    "goals": 0
+  },
+  {
+    "id": "rich_nankervis",
+    "name": "Toby Nankervis",
+    "club": "Richmond",
+    "pos": [
+      "RUCK"
+    ],
+    "age": 31,
+    "number": 25,
+    "disposals": 17,
+    "goals": 0
+  },
+  {
+    "id": "nm_pink",
+    "name": "Toby Pink",
+    "club": "North Melbourne",
+    "pos": [
+      "FWD"
+    ],
+    "age": 27,
+    "number": 32,
+    "disposals": 13,
+    "goals": 0
+  },
+  {
+    "id": "port_marshall_todd",
+    "name": "Todd Marshall",
+    "club": "Port Adelaide",
+    "pos": [
+      "FWD"
+    ],
+    "age": 27,
+    "number": 4,
+    "disposals": 14.5,
+    "goals": 0
+  },
+  {
+    "id": "port_anastasopoulos",
+    "name": "Tom Anastasopoulos",
+    "club": "Port Adelaide",
+    "pos": [
+      "FWD"
+    ],
+    "age": 20,
+    "number": 29,
+    "disposals": 0,
+    "goals": 0
+  },
+  {
+    "id": "geel_atkins",
+    "name": "Tom Atkins",
+    "club": "Geelong",
+    "pos": [
+      "DEF",
+      "MID"
+    ],
+    "age": 30,
+    "number": 30,
+    "disposals": 19,
+    "goals": 0
+  },
+  {
+    "id": "haw_barrass",
+    "name": "Tom Barrass",
+    "club": "Hawthorn",
+    "pos": [
+      "DEF"
+    ],
+    "age": 30,
+    "number": 37,
+    "disposals": 12,
+    "goals": 0
+  },
+  {
+    "id": "nm_tom_blamires",
+    "name": "Tom Blamires",
+    "club": "North Melbourne",
+    "pos": [
+      "MID"
+    ],
+    "age": 25,
+    "number": 39,
+    "disposals": 17.8,
+    "goals": 1
+  },
+  {
+    "id": "rich_brown",
+    "name": "Tom Brown",
+    "club": "Richmond",
+    "pos": [
+      "DEF"
+    ],
+    "age": 22,
+    "number": 30,
+    "disposals": 9.3,
+    "goals": 0
+  },
+  {
+    "id": "mel_campbell",
+    "name": "Tom Campbell",
+    "club": "Melbourne",
+    "pos": [
+      "RUCK",
+      "FWD"
+    ],
+    "age": 34,
+    "number": 29,
+    "disposals": 0,
+    "goals": 0
+  },
+  {
+    "id": "port_cochrane",
+    "name": "Tom Cochrane",
+    "club": "Port Adelaide",
+    "pos": [
+      "FWD"
+    ],
+    "age": 20,
+    "number": 26,
+    "disposals": 0,
+    "goals": 0
+  },
+  {
+    "id": "wce_cole",
+    "name": "Tom Cole",
+    "club": "West Coast",
+    "pos": [
+      "DEF"
+    ],
+    "age": 25,
+    "number": 28,
+    "disposals": 9,
+    "goals": 0
+  },
+  {
+    "id": "stk_dekoning",
+    "name": "Tom De Koning",
+    "club": "St Kilda",
+    "pos": [
+      "RUCK"
+    ],
+    "age": 26,
+    "number": 21,
+    "disposals": 16.8,
+    "goals": 0
+  },
+  {
+    "id": "bris_doedee",
+    "name": "Tom Doedee",
+    "club": "Brisbane",
+    "pos": [
+      "DEF"
+    ],
+    "age": 29,
+    "number": 12,
+    "disposals": 0,
+    "goals": 0
+  },
+  {
+    "id": "ess_tom_edwards",
+    "name": "Tom Edwards",
+    "club": "Essendon",
+    "pos": [
+      "MID"
+    ],
+    "age": 25,
+    "number": 45,
+    "disposals": 10,
+    "goals": 2
+  },
+  {
+    "id": "gws_green",
+    "name": "Tom Green",
+    "club": "GWS",
+    "pos": [
+      "MID"
+    ],
+    "age": 25,
+    "number": 12,
+    "disposals": 0,
+    "goals": 0
+  },
+  {
+    "id": "wce_gross",
+    "name": "Tom Gross",
+    "club": "West Coast",
+    "pos": [
+      "FWD"
+    ],
+    "age": 19,
+    "number": 27,
+    "disposals": 0,
+    "goals": 0
+  },
+  {
+    "id": "syd_hanily",
+    "name": "Tom Hanily",
+    "club": "Sydney",
+    "pos": [
+      "MID"
+    ],
+    "age": 20,
+    "number": 40,
+    "disposals": 0,
+    "goals": 0
+  },
+  {
+    "id": "wb_liberatore",
+    "name": "Tom Liberatore",
+    "club": "Western Bulldogs",
+    "pos": [
+      "MID"
+    ],
+    "age": 33,
+    "number": 21,
+    "disposals": 28.3,
+    "goals": 1
+  },
+  {
+    "id": "rich_lynch",
+    "name": "Tom Lynch",
+    "club": "Richmond",
+    "pos": [
+      "FWD"
+    ],
+    "age": 33,
+    "number": 19,
+    "disposals": 7.5,
+    "goals": 2
+  },
+  {
+    "id": "wce_mccarthy",
+    "name": "Tom McCarthy",
+    "club": "West Coast",
+    "pos": [
+      "DEF"
+    ],
+    "age": 25,
+    "number": 18,
+    "disposals": 18.5,
+    "goals": 0
+  },
+  {
+    "id": "syd_mccartin",
+    "name": "Tom McCartin",
+    "club": "Sydney",
+    "pos": [
+      "DEF"
+    ],
+    "age": 26,
+    "number": 30,
+    "disposals": 18.3,
+    "goals": 0
+  },
+  {
+    "id": "mel_mcdonald",
+    "name": "Tom McDonald",
+    "club": "Melbourne",
+    "pos": [
+      "FWD"
+    ],
+    "age": 33,
+    "number": 25,
+    "disposals": 14.5,
+    "goals": 0
+  },
+  {
+    "id": "syd_papley",
+    "name": "Tom Papley",
+    "club": "Sydney",
+    "pos": [
+      "FWD"
+    ],
+    "age": 29,
+    "number": 11,
+    "disposals": 16.3,
+    "goals": 4
+  },
+  {
+    "id": "nm_powell",
+    "name": "Tom Powell",
+    "club": "North Melbourne",
+    "pos": [
+      "MID",
+      "FWD"
+    ],
+    "age": 24,
+    "number": 24,
+    "disposals": 21,
+    "goals": 1
+  },
+  {
+    "id": "mel_sparrow",
+    "name": "Tom Sparrow",
+    "club": "Melbourne",
+    "pos": [
+      "MID",
+      "FWD"
+    ],
+    "age": 25,
+    "number": 32,
+    "disposals": 17.3,
+    "goals": 2
+  },
+  {
+    "id": "geel_stewart",
+    "name": "Tom Stewart",
+    "club": "Geelong",
+    "pos": [
+      "DEF"
+    ],
+    "age": 33,
+    "number": 44,
+    "disposals": 0,
+    "goals": 0
+  },
+  {
+    "id": "gc_miller",
+    "name": "Touk Miller",
+    "club": "Gold Coast",
+    "pos": [
+      "MID"
+    ],
+    "age": 30,
+    "number": 11,
+    "disposals": 26.5,
+    "goals": 3
+  },
+  {
+    "id": "mel_rivers",
+    "name": "Trent Rivers",
+    "club": "Melbourne",
+    "pos": [
+      "DEF"
+    ],
+    "age": 24,
+    "number": 24,
+    "disposals": 18.5,
+    "goals": 0
+  },
+  {
+    "id": "nm_xerri",
+    "name": "Tristan Xerri",
+    "club": "North Melbourne",
+    "pos": [
+      "RUCK"
+    ],
+    "age": 27,
+    "number": 38,
+    "disposals": 19.7,
+    "goals": 1
+  },
+  {
+    "id": "bris_gallop",
+    "name": "Ty Gallop",
+    "club": "Brisbane",
+    "pos": [
+      "FWD"
+    ],
+    "age": 20,
+    "number": 22,
+    "disposals": 7,
+    "goals": 0
+  },
+  {
+    "id": "coll_prindable",
+    "name": "Tyan Prindable",
+    "club": "Collingwood",
+    "pos": [
+      "MID"
+    ],
+    "age": 19,
+    "number": 18,
+    "disposals": 0,
+    "goals": 0
+  },
+  {
+    "id": "wce_young",
+    "name": "Tylar Young",
+    "club": "West Coast",
+    "pos": [
+      "DEF"
+    ],
+    "age": 27,
+    "number": 20,
+    "disposals": 11,
+    "goals": 0
+  },
+  {
+    "id": "wce_brockman",
+    "name": "Tyler Brockman",
+    "club": "West Coast",
+    "pos": [
+      "FWD"
+    ],
+    "age": 23,
+    "number": 10,
+    "disposals": 0,
+    "goals": 0
+  },
+  {
+    "id": "rich_sonsie",
+    "name": "Tyler Sonsie",
+    "club": "Richmond",
+    "pos": [
+      "MID",
+      "FWD"
+    ],
+    "age": 23,
+    "number": 40,
+    "disposals": 19.3,
+    "goals": 0
+  },
+  {
+    "id": "adel_welsh",
+    "name": "Tyler Welsh",
+    "club": "Adelaide",
+    "pos": [
+      "FWD"
+    ],
+    "age": 19,
+    "number": 17,
+    "disposals": 0,
+    "goals": 0
+  },
+  {
+    "id": "wce_dewar",
+    "name": "Tyrell Dewar",
+    "club": "West Coast",
+    "pos": [
+      "DEF",
+      "FWD"
+    ],
+    "age": 22,
+    "number": 43,
+    "disposals": 0,
+    "goals": 0
+  },
+  {
+    "id": "geel_stengle",
+    "name": "Tyson Stengle",
+    "club": "Geelong",
+    "pos": [
+      "FWD"
+    ],
+    "age": 27,
+    "number": 18,
+    "disposals": 0,
+    "goals": 0
+  },
+  {
+    "id": "ess_visentini",
+    "name": "Vigo Visentini",
+    "club": "Essendon",
+    "pos": [
+      "RUCK"
+    ],
+    "age": 20,
+    "number": 17,
+    "disposals": 0,
+    "goals": 0
+  },
+  {
+    "id": "carl_wade_derksen",
+    "name": "Wade Derksen",
+    "club": "Carlton",
+    "pos": [
+      "MID"
+    ],
+    "age": 24,
+    "number": 47,
+    "disposals": 11,
+    "goals": 0
+  },
+  {
+    "id": "adel_milera",
+    "name": "Wayne Milera",
+    "club": "Adelaide",
+    "pos": [
+      "FWD"
+    ],
+    "age": 28,
+    "number": 30,
+    "disposals": 24.8,
+    "goals": 0
+  },
+  {
+    "id": "nm_dawson_wil",
+    "name": "Wil Dawson",
+    "club": "North Melbourne",
+    "pos": [
+      "DEF"
+    ],
+    "age": 20,
+    "number": 18,
+    "disposals": 0,
+    "goals": 0
+  },
+  {
+    "id": "coll_parker",
+    "name": "Wil Parker",
+    "club": "Collingwood",
+    "pos": [
+      "DEF"
+    ],
+    "age": 23,
+    "number": 15,
+    "disposals": 10,
+    "goals": 0
+  },
+  {
+    "id": "gc_powell",
+    "name": "Wil Powell",
+    "club": "Gold Coast",
+    "pos": [
+      "DEF"
+    ],
+    "age": 26,
+    "number": 27,
+    "disposals": 18.3,
+    "goals": 2
+  },
+  {
+    "id": "bris_ashcroft_will",
+    "name": "Will Ashcroft",
+    "club": "Brisbane",
+    "pos": [
+      "MID"
+    ],
+    "age": 21,
+    "number": 8,
+    "disposals": 29.5,
+    "goals": 1
+  },
+  {
+    "id": "port_brodie",
+    "name": "Will Brodie",
+    "club": "Port Adelaide",
+    "pos": [
+      "MID"
+    ],
+    "age": 27,
+    "number": 23,
+    "disposals": 18,
+    "goals": 0
+  },
+  {
+    "id": "haw_day",
+    "name": "Will Day",
+    "club": "Hawthorn",
+    "pos": [
+      "DEF"
+    ],
+    "age": 24,
+    "number": 12,
+    "disposals": 0,
+    "goals": 0
+  },
+  {
+    "id": "gc_graham_will",
+    "name": "Will Graham",
+    "club": "Gold Coast",
+    "pos": [
+      "MID"
+    ],
+    "age": 20,
+    "number": 26,
+    "disposals": 11.5,
+    "goals": 2
+  },
+  {
+    "id": "coll_will_hayes",
+    "name": "Will Hayes",
+    "club": "Collingwood",
+    "pos": [
+      "MID"
+    ],
+    "age": 25,
+    "number": 39,
+    "disposals": 5,
+    "goals": 0
+  },
+  {
+    "id": "carl_hayward",
+    "name": "Will Hayward",
+    "club": "Carlton",
+    "pos": [
+      "FWD"
+    ],
+    "age": 27,
+    "number": 19,
+    "disposals": 12,
+    "goals": 2
+  },
+  {
+    "id": "wb_will_lewis",
+    "name": "Will Lewis",
+    "club": "Western Bulldogs",
+    "pos": [
+      "MID"
+    ],
+    "age": 25,
+    "number": 28,
+    "disposals": 6,
+    "goals": 0
+  },
+  {
+    "id": "port_lorenz",
+    "name": "Will Lorenz",
+    "club": "Port Adelaide",
+    "pos": [
+      "MID"
+    ],
+    "age": 21,
+    "number": 36,
+    "disposals": 0,
+    "goals": 0
+  },
+  {
+    "id": "bris_mclachlan",
+    "name": "Will McLachlan",
+    "club": "Brisbane",
+    "pos": [
+      "FWD"
+    ],
+    "age": 20,
+    "number": 28,
+    "disposals": 0,
+    "goals": 0
+  },
+  {
+    "id": "ess_setterfield",
+    "name": "Will Setterfield",
+    "club": "Essendon",
+    "pos": [
+      "MID"
+    ],
+    "age": 28,
+    "number": 12,
+    "disposals": 0,
+    "goals": 0
+  },
+  {
+    "id": "port_drew",
+    "name": "Willem Drew",
+    "club": "Port Adelaide",
+    "pos": [
+      "MID"
+    ],
+    "age": 27,
+    "number": 28,
+    "disposals": 18.3,
+    "goals": 2
+  },
+  {
+    "id": "wc_willem_duursma",
+    "name": "Willem Duursma",
+    "club": "West Coast",
+    "pos": [
+      "MID"
+    ],
+    "age": 18,
+    "number": 1,
+    "disposals": 16.3,
+    "goals": 5
+  },
+  {
+    "id": "syd_edwards",
+    "name": "William Edwards",
+    "club": "Sydney",
+    "pos": [
+      "DEF"
+    ],
+    "age": 25,
+    "number": 28,
+    "disposals": 0,
+    "goals": 0
+  },
+  {
+    "id": "syd_green",
+    "name": "William Green",
+    "club": "Sydney",
+    "pos": [
+      "RUCK"
+    ],
+    "age": 25,
+    "number": 45,
+    "disposals": 0,
+    "goals": 0
+  },
+  {
+    "id": "coll_hayes",
+    "name": "William Hayes",
+    "club": "Collingwood",
+    "pos": [
+      "MID",
+      "FWD"
+    ],
+    "age": 19,
+    "number": 39,
+    "disposals": 0,
+    "goals": 0
+  },
+  {
+    "id": "haw_mccabe",
+    "name": "William McCabe",
+    "club": "Hawthorn",
+    "pos": [
+      "DEF"
+    ],
+    "age": 25,
+    "number": 27,
+    "disposals": 0,
+    "goals": 0
+  },
+  {
+    "id": "ess_duursma",
+    "name": "Xavier Duursma",
+    "club": "Essendon",
+    "pos": [
+      "MID"
+    ],
+    "age": 25,
+    "number": 28,
+    "disposals": 14.8,
+    "goals": 2
+  },
+  {
+    "id": "mel_lindsay",
+    "name": "Xavier Lindsay",
+    "club": "Melbourne",
+    "pos": [
+      "MID"
+    ],
+    "age": 19,
+    "number": 5,
+    "disposals": 16.5,
+    "goals": 1
+  },
+  {
+    "id": "gws_ohalloran",
+    "name": "Xavier O'Halloran",
+    "club": "GWS",
+    "pos": [
+      "MID"
+    ],
+    "age": 25,
+    "number": 33,
+    "disposals": 14,
+    "goals": 1
+  },
+  {
+    "id": "mel_taylor",
+    "name": "Xavier Taylor",
+    "club": "Melbourne",
+    "pos": [
+      "MID"
+    ],
+    "age": 19,
+    "number": 19,
+    "disposals": 0,
+    "goals": 0
+  },
+  {
+    "id": "port_walsh_xavier",
+    "name": "Xavier Walsh",
+    "club": "Port Adelaide",
+    "pos": [
+      "FWD"
+    ],
+    "age": 20,
+    "number": 45,
+    "disposals": 0,
+    "goals": 0
+  },
+  {
+    "id": "bris_bailey",
+    "name": "Zac Bailey",
+    "club": "Brisbane",
+    "pos": [
+      "MID",
+      "FWD"
+    ],
+    "age": 26,
+    "number": 33,
+    "disposals": 20,
+    "goals": 5
+  },
+  {
+    "id": "nm_banch",
+    "name": "Zac Banch",
+    "club": "North Melbourne",
+    "pos": [
+      "FWD"
+    ],
+    "age": 23,
+    "number": 45,
+    "disposals": 10,
+    "goals": 0
+  },
+  {
+    "id": "nm_fisher",
+    "name": "Zac Fisher",
+    "club": "North Melbourne",
+    "pos": [
+      "FWD"
+    ],
+    "age": 27,
+    "number": 16,
+    "disposals": 0,
+    "goals": 0
+  },
+  {
+    "id": "coll_mccarthy",
+    "name": "Zac McCarthy",
+    "club": "Collingwood",
+    "pos": [
+      "MID"
+    ],
+    "age": 18,
+    "number": 37,
+    "disposals": 0,
+    "goals": 0
+  },
+  {
+    "id": "adel_taylor",
+    "name": "Zac Taylor",
+    "club": "Adelaide",
+    "pos": [
+      "MID"
+    ],
+    "age": 23,
+    "number": 19,
+    "disposals": 8,
+    "goals": 4
+  },
+  {
+    "id": "geel_guthrie",
+    "name": "Zach Guthrie",
+    "club": "Geelong",
+    "pos": [
+      "DEF"
+    ],
+    "age": 27,
+    "number": 39,
+    "disposals": 14.8,
+    "goals": 0
+  },
+  {
+    "id": "ess_reid",
+    "name": "Zach Reid",
+    "club": "Essendon",
+    "pos": [
+      "DEF"
+    ],
+    "age": 24,
+    "number": 31,
+    "disposals": 13.5,
+    "goals": 0
+  },
+  {
+    "id": "ess_zachary_merrett",
+    "name": "Zachary Merrett",
+    "club": "Essendon",
+    "pos": [
+      "MID"
+    ],
+    "age": 25,
+    "number": 7,
+    "disposals": 24.3,
+    "goals": 2
+  },
+  {
+    "id": "carl_zachary_williams",
+    "name": "Zachary Williams",
+    "club": "Carlton",
+    "pos": [
+      "MID"
+    ],
+    "age": 25,
+    "number": 6,
+    "disposals": 17.3,
+    "goals": 1
+  },
+  {
+    "id": "port_butters",
+    "name": "Zak Butters",
+    "club": "Port Adelaide",
+    "pos": [
+      "MID",
+      "FWD"
+    ],
+    "age": 25,
+    "number": 9,
+    "disposals": 29.8,
+    "goals": 0
+  },
+  {
+    "id": "gc_evans",
+    "name": "Zak Evans",
+    "club": "Gold Coast",
+    "pos": [
+      "DEF"
+    ],
+    "age": 26,
+    "number": 36,
+    "disposals": 0,
+    "goals": 0
+  },
+  {
+    "id": "ess_johnson",
+    "name": "Zak Johnson",
+    "club": "Essendon",
+    "pos": [
+      "MID"
+    ],
+    "age": 19,
+    "number": 40,
+    "disposals": 18.5,
+    "goals": 0
+  },
+  {
+    "id": "nm_duursma_zane",
+    "name": "Zane Duursma",
+    "club": "North Melbourne",
+    "pos": [
+      "FWD"
+    ],
+    "age": 20,
+    "number": 7,
+    "disposals": 7.5,
+    "goals": 7
+  },
+  {
+    "id": "rich_peucker",
+    "name": "Zane Peucker",
+    "club": "Richmond",
+    "pos": [
+      "MID"
+    ],
+    "age": 18,
+    "number": 26,
+    "disposals": 0,
+    "goals": 0
+  },
+  {
+    "id": "bris_zakostelsky",
+    "name": "Zane Zakostelsky",
+    "club": "Brisbane",
+    "pos": [
+      "DEF"
+    ],
+    "age": 20,
+    "number": 21,
+    "disposals": 9,
+    "goals": 1
+  },
+  {
+    "id": "gc_uwland_z",
+    "name": "Zeke Uwland",
+    "club": "Gold Coast",
+    "pos": [
+      "MID"
+    ],
+    "age": 18,
+    "number": 32,
+    "disposals": 13,
+    "goals": 2
+  }
+]
