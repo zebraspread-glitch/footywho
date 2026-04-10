@@ -702,7 +702,7 @@ function ResultModal({
         </div>
 
         <div className="px-6 py-10 text-center">
-          <p className="text-2xl font-bold t ext-[#1a1230]">
+          <p className="text-2xl font-bold text-[#1a1230]">
             {won ? "Correct!" : "You Lost"}
           </p>
 
@@ -1221,164 +1221,220 @@ export default function Home() {
           </div>
         </section>
 
-        <section className="mt-10 overflow-x-auto">
-          <div className="min-w-[1120px]">
-            <div className="grid grid-cols-8 gap-3 border-b-4 border-dashed border-[#1a1230] pb-3 text-center text-xl font-black sm:text-2xl">
-  <div className="transition-transform duration-200 hover:-translate-y-[2px]">
-    Name
+        <section className="mt-10">
+  <div className="hidden md:block overflow-x-auto">
+    <div className="min-w-[1120px]">
+      <div className="grid grid-cols-8 gap-3 border-b-4 border-dashed border-[#1a1230] pb-3 text-center text-xl font-black sm:text-2xl">
+        <div className="transition-transform duration-200 hover:-translate-y-[2px]">Name</div>
+        <div className="transition-transform duration-200 hover:-translate-y-[2px]">Team</div>
+        <div className="transition-transform duration-200 hover:-translate-y-[2px]">State</div>
+        <div className="transition-transform duration-200 hover:-translate-y-[2px]">Pos</div>
+        <div className="transition-transform duration-200 hover:-translate-y-[2px]">Age</div>
+        <div className="transition-transform duration-200 hover:-translate-y-[2px]">#</div>
+        <div className="transition-transform duration-200 hover:-translate-y-[2px]">Disp</div>
+        <div className="transition-transform duration-200 hover:-translate-y-[2px]">Goals</div>
+      </div>
+
+      <div className="mt-4 space-y-3">
+        {guesses.map((guess) => {
+          const exactPos = positionsExactlyMatch(guess.pos, ANSWER.pos);
+          const partialPos =
+            !exactPos && positionsPartiallyMatch(guess.pos, ANSWER.pos);
+
+          const ageDiff = Math.abs(guess.age - ANSWER.age);
+          const numberDiff = Math.abs(guess.number - ANSWER.number);
+          const disposalsDiff = Math.abs(guess.disposals - ANSWER.disposals);
+          const goalsDiff = Math.abs(guess.goals - ANSWER.goals);
+
+          const guessedState = getTeamState(guess.club);
+          const answerState = getTeamState(ANSWER.club);
+          const nameCorrect = guess.id === ANSWER.id;
+          const clubCorrect =
+            normalizeClubName(guess.club) === normalizeClubName(ANSWER.club);
+          const clubClose =
+            !clubCorrect && teamSharesColor(guess.club, ANSWER.club);
+
+          return (
+            <div
+              key={guess.id}
+              className="grid grid-cols-8 gap-3 rounded-md border-4 border-[#1a1230] bg-white p-3 shadow-[4px_4px_0_#c6b79a]"
+            >
+              <div
+                className={`flex min-h-[96px] items-center justify-center rounded-md border-2 px-2 py-2 text-center text-lg font-black ${statClass(
+                  nameCorrect,
+                  false
+                )}`}
+              >
+                {guess.name}
+              </div>
+
+              <TeamTile club={guess.club} correct={clubCorrect} close={clubClose} />
+
+              <div
+                className={`flex min-h-[96px] items-center justify-center rounded-md border-2 px-2 py-2 text-center text-lg font-black ${statClass(
+                  guessedState === answerState,
+                  stateBorders(guessedState, answerState)
+                )}`}
+              >
+                {guessedState ?? "-"}
+              </div>
+
+              <div
+                className={`flex min-h-[96px] items-center justify-center rounded-md border-2 px-2 py-2 text-center text-lg font-black ${statClass(
+                  exactPos,
+                  partialPos
+                )}`}
+              >
+                {normalizePositions(guess.pos).join(", ")}
+              </div>
+
+              <div
+                className={`flex min-h-[96px] items-center justify-center rounded-md border-2 px-2 py-2 text-center text-lg font-black ${statClass(
+                  guess.age === ANSWER.age,
+                  ageDiff <= 2 && guess.age !== ANSWER.age
+                )}`}
+              >
+                {guess.age} {arrowForNumber(guess.age, ANSWER.age)}
+              </div>
+
+              <div
+                className={`flex min-h-[96px] items-center justify-center rounded-md border-2 px-2 py-2 text-center text-lg font-black ${statClass(
+                  guess.number === ANSWER.number,
+                  numberDiff <= 2 && guess.number !== ANSWER.number
+                )}`}
+              >
+                {guess.number} {arrowForNumber(guess.number, ANSWER.number)}
+              </div>
+
+              <div
+                className={`flex min-h-[96px] items-center justify-center rounded-md border-2 px-2 py-2 text-center text-lg font-black ${statClass(
+                  guess.disposals === ANSWER.disposals,
+                  disposalsDiff <= 2 && guess.disposals !== ANSWER.disposals
+                )}`}
+              >
+                {guess.disposals} {arrowForNumber(guess.disposals, ANSWER.disposals)}
+              </div>
+
+              <div
+                className={`flex min-h-[96px] items-center justify-center rounded-md border-2 px-2 py-2 text-center text-lg font-black ${statClass(
+                  guess.goals === ANSWER.goals,
+                  goalsDiff <= 2 && guess.goals !== ANSWER.goals
+                )}`}
+              >
+                {guess.goals} {arrowForNumber(guess.goals, ANSWER.goals)}
+              </div>
+            </div>
+          );
+        })}
+      </div>
+    </div>
   </div>
-  <div className="transition-transform duration-200 hover:-translate-y-[2px]">
-    Team
-  </div>
-  <div className="transition-transform duration-200 hover:-translate-y-[2px]">
-    State
-  </div>
-  <div className="transition-transform duration-200 hover:-translate-y-[2px]">
-    Pos
-  </div>
-  <div className="transition-transform duration-200 hover:-translate-y-[2px]">
-    Age
-  </div>
-  <div className="transition-transform duration-200 hover:-translate-y-[2px]">
-    #
-  </div>
-  <div className="transition-transform duration-200 hover:-translate-y-[2px]">
-    Disp
-  </div>
-  <div className="transition-transform duration-200 hover:-translate-y-[2px]">
-    Goals
-  </div>
-</div>
 
-            <div className="mt-4 space-y-3">
-              {guesses.map((guess) => {
-                const exactPos = positionsExactlyMatch(guess.pos, ANSWER.pos);
-                const partialPos =
-                  !exactPos && positionsPartiallyMatch(guess.pos, ANSWER.pos);
+  <div className="md:hidden space-y-3">
+    {guesses.map((guess) => {
+      const exactPos = positionsExactlyMatch(guess.pos, ANSWER.pos);
+      const partialPos =
+        !exactPos && positionsPartiallyMatch(guess.pos, ANSWER.pos);
 
-                const ageDiff = Math.abs(guess.age - ANSWER.age);
-                const numberDiff = Math.abs(guess.number - ANSWER.number);
-                const disposalsDiff = Math.abs(guess.disposals - ANSWER.disposals);
-                const goalsDiff = Math.abs(guess.goals - ANSWER.goals);
+      const ageDiff = Math.abs(guess.age - ANSWER.age);
+      const numberDiff = Math.abs(guess.number - ANSWER.number);
+      const disposalsDiff = Math.abs(guess.disposals - ANSWER.disposals);
+      const goalsDiff = Math.abs(guess.goals - ANSWER.goals);
 
+      const guessedState = getTeamState(guess.club);
+      const answerState = getTeamState(ANSWER.club);
+      const nameCorrect = guess.id === ANSWER.id;
+      const clubCorrect =
+        normalizeClubName(guess.club) === normalizeClubName(ANSWER.club);
+      const clubClose =
+        !clubCorrect && teamSharesColor(guess.club, ANSWER.club);
 
-                const guessedState = getTeamState(guess.club);
-const answerState = getTeamState(ANSWER.club);
-                const nameCorrect = guess.id === ANSWER.id;
-                const clubCorrect = normalizeClubName(guess.club) === normalizeClubName(ANSWER.club);
-                const clubClose =
-                  !clubCorrect && teamSharesColor(guess.club, ANSWER.club);
+      return (
+        <div
+          key={guess.id}
+          className="rounded-md border-4 border-[#1a1230] bg-white p-3 shadow-[4px_4px_0_#c6b79a]"
+        >
+          <div className="grid grid-cols-4 gap-2 text-center">
+            <div className="text-[11px] font-black uppercase text-[#1a1230]">Name</div>
+            <div className="text-[11px] font-black uppercase text-[#1a1230]">Team</div>
+            <div className="text-[11px] font-black uppercase text-[#1a1230]">State</div>
+            <div className="text-[11px] font-black uppercase text-[#1a1230]">Pos</div>
 
-                return (
-                  <div
-                    key={guess.id}
-                    className="grid grid-cols-8 gap-3 rounded-md border-4 border-[#1a1230] bg-white p-3 shadow-[4px_4px_0_#c6b79a]"
-                  >
-                    <div
-                      className={`flex min-h-[96px] items-center justify-center flex h-full min-h-[96px] items-center justify-center rounded-md border-2 px-2 py-2 text-center text-lg font-black ${statClass(
-                        nameCorrect,
-                        false
-                      )}`}
-                    >
-                      {guess.name}
-                    </div>
+            <div
+              className={`flex min-h-[72px] items-center justify-center rounded-md border-2 px-2 py-2 text-center text-sm font-black ${statClass(
+                nameCorrect,
+                false
+              )}`}
+            >
+              {guess.name}
+            </div>
 
+            <TeamTile club={guess.club} correct={clubCorrect} close={clubClose} />
 
-                    <TeamTile
-                      club={guess.club}
-                      correct={clubCorrect}
-                      close={clubClose}
-                    />
+            <div
+              className={`flex min-h-[72px] items-center justify-center rounded-md border-2 px-2 py-2 text-center text-sm font-black ${statClass(
+                guessedState === answerState,
+                stateBorders(guessedState, answerState)
+              )}`}
+            >
+              {guessedState ?? "-"}
+            </div>
 
-                    <div
-  className={`flex h-full min-h-[96px] items-center justify-center rounded-md border-2 px-2 py-2 text-center text-lg font-black ${statClass(
-    guessedState === answerState,
-    stateBorders(guessedState, answerState)
-  )}`}
->
-  {guessedState ?? "-"}
-</div>
+            <div
+              className={`flex min-h-[72px] items-center justify-center rounded-md border-2 px-2 py-2 text-center text-xs font-black ${statClass(
+                exactPos,
+                partialPos
+              )}`}
+            >
+              {normalizePositions(guess.pos).join(", ")}
+            </div>
 
-                    <div
-                      className={`flex min-h-[96px] items-center justify-center flex h-full min-h-[96px] items-center justify-center rounded-md border-2 px-2 py-2 text-center text-lg font-black ${statClass(
-                        exactPos,
-                        partialPos
-                      )}`}
-                    >
-                      {normalizePositions(guess.pos).join(", ")}
-                    </div>
+            <div className="text-[11px] font-black uppercase text-[#1a1230]">Age</div>
+            <div className="text-[11px] font-black uppercase text-[#1a1230]">#</div>
+            <div className="text-[11px] font-black uppercase text-[#1a1230]">Disp</div>
+            <div className="text-[11px] font-black uppercase text-[#1a1230]">Goals</div>
 
-                    <div
-                      className={`flex min-h-[96px] flex-col items-center justify-center flex h-full min-h-[96px] items-center justify-center rounded-md border-2 px-2 py-2 text-center text-lg font-black ${statClass(
-                        guess.age === ANSWER.age,
-                        guess.age !== ANSWER.age && ageDiff <= 2
-                      )}`}
-                    >
-                      <span>{guess.age}</span>
-                      {guess.age !== ANSWER.age && (
-                        <span className="mt-1 text-2xl leading-none">
-                          {arrowForNumber(guess.age, ANSWER.age)}
-                        </span>
-                      )}
-                    </div>
+            <div
+              className={`flex min-h-[64px] items-center justify-center rounded-md border-2 px-2 py-2 text-center text-sm font-black ${statClass(
+                guess.age === ANSWER.age,
+                ageDiff <= 2 && guess.age !== ANSWER.age
+              )}`}
+            >
+              {guess.age} {arrowForNumber(guess.age, ANSWER.age)}
+            </div>
 
-                    <div
-                      className={`flex min-h-[96px] flex-col items-center justify-center flex h-full min-h-[96px] items-center justify-center rounded-md border-2 px-2 py-2 text-center text-lg font-black ${statClass(
-                        guess.number === ANSWER.number,
-                        guess.number !== ANSWER.number && numberDiff <= 2
-                      )}`}
-                    >
-                      <span>{guess.number}</span>
-                      {guess.number !== ANSWER.number && (
-                        <span className="mt-1 text-2xl leading-none">
-                          {arrowForNumber(guess.number, ANSWER.number)}
-                        </span>
-                      )}
-                    </div>
+            <div
+              className={`flex min-h-[64px] items-center justify-center rounded-md border-2 px-2 py-2 text-center text-sm font-black ${statClass(
+                guess.number === ANSWER.number,
+                numberDiff <= 2 && guess.number !== ANSWER.number
+              )}`}
+            >
+              {guess.number} {arrowForNumber(guess.number, ANSWER.number)}
+            </div>
 
-                    <div
-                      className={`flex min-h-[96px] flex-col items-center justify-center flex h-full min-h-[96px] items-center justify-center rounded-md border-2 px-2 py-2 text-center text-lg font-black ${statClass(
-                        guess.disposals === ANSWER.disposals,
-                        guess.disposals !== ANSWER.disposals && disposalsDiff <= 5
-                      )}`}
-                    >
-                      <span>{guess.disposals}</span>
-                      {guess.disposals !== ANSWER.disposals && (
-                        <span className="mt-1 text-2xl leading-none">
-                          {arrowForNumber(guess.disposals, ANSWER.disposals)}
-                        </span>
-                      )}
-                    </div>
+            <div
+              className={`flex min-h-[64px] items-center justify-center rounded-md border-2 px-2 py-2 text-center text-sm font-black ${statClass(
+                guess.disposals === ANSWER.disposals,
+                disposalsDiff <= 2 && guess.disposals !== ANSWER.disposals
+              )}`}
+            >
+              {guess.disposals} {arrowForNumber(guess.disposals, ANSWER.disposals)}
+            </div>
 
-                    <div
-                      className={`flex min-h-[96px] flex-col items-center justify-center flex h-full min-h-[96px] items-center justify-center rounded-md border-2 px-2 py-2 text-center text-lg font-black ${statClass(
-                        guess.goals === ANSWER.goals,
-                        guess.goals !== ANSWER.goals && goalsDiff <= 1
-                      )}`}
-                    >
-                      <span>{guess.goals}</span>
-                      {guess.goals !== ANSWER.goals && (
-                        <span className="mt-1 text-2xl leading-none">
-                          {arrowForNumber(guess.goals, ANSWER.goals)}
-                        </span>
-                      )}
-                    </div>
-
-                  </div>
-                );
-              })}
-              <div className="mt-16 pb-6 text-center">
-  <button
-    type="button"
-    onClick={() => setShowPrivacyPolicyModal(true)}
-    className="text-[11px] font-bold text-[#5f5870] underline underline-offset-2 hover:text-[#1a1230]"
-  >
-    Privacy Policy
-  </button>
-</div>
+            <div
+              className={`flex min-h-[64px] items-center justify-center rounded-md border-2 px-2 py-2 text-center text-sm font-black ${statClass(
+                guess.goals === ANSWER.goals,
+                goalsDiff <= 2 && guess.goals !== ANSWER.goals
+              )}`}
+            >
+              {guess.goals} {arrowForNumber(guess.goals, ANSWER.goals)}
             </div>
           </div>
-        </section>
+        </div>
+      );
+    })}
+  </div>
+</section>
       </div>
     </main>
   );
