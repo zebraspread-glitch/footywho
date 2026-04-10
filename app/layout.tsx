@@ -13,13 +13,11 @@ const geistMono = Geist_Mono({
   subsets: ["latin"],
 });
 
-export const metadata: Metadata = {
-  title: "footywho",
-  description: "footywho",
-  icons: {
-    icon: "/footyicon.png",
-    shortcut: "/footyicon.png",
-    apple: "/footyicon.png",
+export const metadata = {
+  title: "FootyWho",
+  description: "AFL Player Guessing Game",
+  verification: {
+    google: "ujUBfOqIZs8Pnp6",
   },
 };
 

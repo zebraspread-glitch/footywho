@@ -702,8 +702,8 @@ function ResultModal({
         </div>
 
         <div className="px-6 py-10 text-center">
-          <p className="text-2xl font-bold text-[#1a1230]">
-            {won ? "Correct!" : "You Lose"}
+          <p className="text-2xl font-bold t ext-[#1a1230]">
+            {won ? "Correct!" : "You Lost"}
           </p>
 
           <h2
