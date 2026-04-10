@@ -578,6 +578,7 @@ function HelpModal({
   );
 }
 
+
 function StatsModal({
   open,
   onClose,
@@ -843,6 +844,73 @@ function HistoryModal({
   );
 }
 
+function PrivacyPolicyModal({
+  open,
+  onClose,
+}: {
+  open: boolean;
+  onClose: () => void;
+}) {
+  if (!open) return null;
+
+  return (
+    <div className="fixed inset-0 z-50 flex items-center justify-center bg-black/45 px-4">
+      <div className="relative w-full max-w-3xl overflow-hidden border-4 border-[#1a1230] bg-[#f5efe3] shadow-[8px_8px_0_#1a1230] animate-modal-in">
+        <button
+          type="button"
+          onClick={onClose}
+          className="absolute right-4 top-3 text-4xl font-black leading-none text-[#6d6d6d] transition-transform duration-150 hover:scale-110 hover:text-[#1a1230]"
+          aria-label="Close"
+        >
+          ×
+        </button>
+
+        <div className="border-b-4 border-[#1a1230] bg-[#efe5d4] px-6 py-6">
+          <h2
+            className="text-4xl font-black tracking-tight text-[#1a1230] sm:text-5xl"
+            style={{ textShadow: "3px 3px 0 #c6b79a" }}
+          >
+            Privacy Policy
+          </h2>
+        </div>
+
+        <div className="max-h-[70vh] overflow-y-auto space-y-4 px-6 py-6 text-base font-bold text-[#1a1230] sm:text-lg">
+          <p>
+            FootyWho stores limited game data in your browser so your daily progress,
+            guesses, and stats can stay saved on your device.
+          </p>
+
+          <p>
+            We may use analytics, advertising, and similar services to understand site
+            usage and support the website.
+          </p>
+
+          <p>
+            Third-party providers such as Google may use cookies or similar technology
+            to serve ads, measure performance, and improve their services.
+          </p>
+
+          <p>
+            We do not sell your personal information. If you contact us directly, any
+            information you send is only used to reply to you or help with support.
+          </p>
+
+          <p>
+  By using FootyWho, you agree to this privacy policy. This policy may be
+  updated over time as the site changes.
+</p>
+
+          <p className="text-sm font-black text-[#5f5870] sm:text-base">
+            Last updated: 10 April 2026
+          </p>
+        </div>
+
+        <div className="h-3 w-full bg-[#10d66f]" />
+      </div>
+    </div>
+  );
+}
+
 export default function Home() {
   const todayKey = formatDateKey(getTodayLocalDate());
 
@@ -855,6 +923,7 @@ export default function Home() {
   const [showHistoryModal, setShowHistoryModal] = useState(false);
   const [showHelpModal, setShowHelpModal] = useState(false);
   const [showStatsModal, setShowStatsModal] = useState(false);
+  const [showPrivacyPolicyModal, setShowPrivacyPolicyModal] = useState(false);
 
   useEffect(() => {
     const loadedResults = loadResults();
@@ -985,7 +1054,7 @@ export default function Home() {
         todayResult.guessIds.length >= MAX_GUESSES
       ? `X/${MAX_GUESSES}`
       : `${guesses.length}/${MAX_GUESSES}`;
-
+      
   return (
     <main className="min-h-screen bg-[#f5efe3] text-[#1a1230]">
       <HelpModal
@@ -1012,6 +1081,11 @@ export default function Home() {
         onClose={() => setShowHistoryModal(false)}
         results={results}
       />
+
+      <PrivacyPolicyModal
+  open={showPrivacyPolicyModal}
+  onClose={() => setShowPrivacyPolicyModal(false)}
+/>
 
       <div className="mx-auto max-w-7xl px-4 py-6 sm:px-8">
         <header className="border-b-4 border-[#1a1230] pb-6">
@@ -1289,9 +1363,19 @@ const answerState = getTeamState(ANSWER.club);
                         </span>
                       )}
                     </div>
+
                   </div>
                 );
               })}
+              <div className="mt-16 pb-6 text-center">
+  <button
+    type="button"
+    onClick={() => setShowPrivacyPolicyModal(true)}
+    className="text-[11px] font-bold text-[#5f5870] underline underline-offset-2 hover:text-[#1a1230]"
+  >
+    Privacy Policy
+  </button>
+</div>
             </div>
           </div>
         </section>
