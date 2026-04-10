@@ -396,7 +396,10 @@ const TEAM_STATES: Record<string, "VIC" | "SA" | "WA" | "NSW" | "QLD"> = {
   bulldogs: "VIC",
 };
 
-const STATE_BORDERS: Record<"VIC" | "SA" | "WA" | "NSW" | "QLD", Array<"VIC" | "SA" | "WA" | "NSW" | "QLD">> = {
+const STATE_BORDERS: Record<
+  "VIC" | "SA" | "WA" | "NSW" | "QLD",
+  Array<"VIC" | "SA" | "WA" | "NSW" | "QLD">
+> = {
   VIC: ["SA", "NSW"],
   SA: ["WA", "QLD", "NSW", "VIC"],
   WA: ["SA"],
@@ -411,9 +414,11 @@ function getTeamState(club: string): "VIC" | "SA" | "WA" | "NSW" | "QLD" | null 
 function stateBorders(guessState: string | null, answerState: string | null) {
   if (!guessState || !answerState) return false;
   if (guessState === answerState) return false;
-  return STATE_BORDERS[answerState as keyof typeof STATE_BORDERS]?.includes(
-    guessState as "VIC" | "SA" | "WA" | "NSW" | "QLD"
-  ) ?? false;
+  return (
+    STATE_BORDERS[answerState as keyof typeof STATE_BORDERS]?.includes(
+      guessState as "VIC" | "SA" | "WA" | "NSW" | "QLD"
+    ) ?? false
+  );
 }
 
 function getTeamMeta(club: string) {
@@ -780,11 +785,84 @@ function WinModal({
   );
 }
 
+function LoseModal({
+  open,
+  player,
+  onClose,
+  onNewGame,
+}: {
+  open: boolean;
+  player: Player | null;
+  onClose: () => void;
+  onNewGame: () => void;
+}) {
+  if (!open || !player) return null;
+
+  const meta = getTeamMeta(player.club);
+
+  return (
+    <div className="fixed inset-0 z-50 flex items-center justify-center bg-black/45 px-4 backdrop-blur-[1px]">
+      <div className="animate-modal-pop relative w-full max-w-2xl overflow-hidden border-4 border-[#1a1230] bg-[#f5efe3] shadow-[8px_8px_0_#1a1230]">
+
+        <div className="border-b-4 border-[#1a1230] bg-[#efe5d4] px-6 pb-10 pt-8">
+          <div className="flex items-center justify-center">
+            <div className="animate-float-soft flex h-40 w-40 items-center justify-center rounded-full border-4 border-[#1a1230] bg-white shadow-[4px_4px_0_#c6b79a] transition-transform duration-200 hover:scale-[1.02]">
+              {meta ? (
+                <Image
+                  src={meta.icon}
+                  alt={player.club}
+                  width={90}
+                  height={90}
+                  className="h-auto max-h-[90px] w-auto max-w-[90px] object-contain"
+                />
+              ) : (
+                <div className="text-4xl font-black text-[#1a1230]">
+                  {player.club.slice(0, 3).toUpperCase()}
+                </div>
+              )}
+            </div>
+          </div>
+        </div>
+
+        <div className="px-6 py-10 text-center">
+          <p className="animate-fade-in-up text-2xl font-bold text-[#1a1230]">
+            You Lose
+          </p>
+
+          <h2
+            className="animate-fade-in-up mt-3 text-5xl font-black uppercase tracking-tight text-[#1a1230] sm:text-6xl"
+            style={{ textShadow: "3px 3px 0 #c6b79a" }}
+          >
+            {player.name}
+          </h2>
+
+          <p className="animate-fade-in-up mt-5 text-2xl font-bold text-[#1a1230] sm:text-3xl">
+            Was the player
+          </p>
+
+          <div className="mt-8 flex justify-center">
+            <button
+              type="button"
+              onClick={onNewGame}
+              className="animate-fade-in-up border-4 border-[#1a1230] bg-white px-8 py-4 text-2xl font-black text-[#1a1230] shadow-[4px_4px_0_#1a1230] transition-all duration-150 hover:-translate-y-[2px] hover:shadow-[6px_6px_0_#1a1230] active:translate-y-[1px] active:shadow-[2px_2px_0_#1a1230]"
+            >
+              New Random Player
+            </button>
+          </div>
+        </div>
+
+        <div className="h-3 w-full bg-[#10d66f]" />
+      </div>
+    </div>
+  );
+}
+
 export default function UnlimitedPage() {
   const [answer, setAnswer] = useState<Player>(() => getRandomPlayer());
   const [query, setQuery] = useState("");
   const [guesses, setGuesses] = useState<Player[]>([]);
   const [showWinModal, setShowWinModal] = useState(false);
+  const [showLoseModal, setShowLoseModal] = useState(false);
   const [showHelpModal, setShowHelpModal] = useState(false);
   const [showStatsModal, setShowStatsModal] = useState(false);
   const [showHistoryModal, setShowHistoryModal] = useState(false);
@@ -795,14 +873,14 @@ export default function UnlimitedPage() {
 
   const suggestions = useMemo(() => {
     const q = query.trim().toLowerCase();
-    if (!q || showWinModal) return [];
+    if (!q || showWinModal || showLoseModal) return [];
 
     return players
       .filter((p) => p.disposals > 0)
       .filter((p) => p.name.toLowerCase().includes(q))
       .filter((p) => !guesses.some((g) => g.id === p.id))
       .slice(0, 8);
-  }, [query, guesses, showWinModal]);
+  }, [query, guesses, showWinModal, showLoseModal]);
 
   function recordWin(guessCount: number, solvedPlayer: Player) {
     setStats((prev) => {
@@ -813,6 +891,18 @@ export default function UnlimitedPage() {
         bestScore:
           prev.bestScore === null ? guessCount : Math.min(prev.bestScore, guessCount),
       };
+
+function recordLoss() {
+  setStats((prev) => {
+    const next: UnlimitedStats = {
+      ...prev,
+      gamesPlayed: prev.gamesPlayed + 1,
+    };
+
+    saveUnlimitedStats(next);
+    return next;
+  });
+}
 
       saveUnlimitedStats(next);
       return next;
@@ -834,23 +924,23 @@ export default function UnlimitedPage() {
   }
 
   function submitGuess(player: Player) {
-  if (!player || showWinModal) return;
+    if (!player || showWinModal) return;
 
-  if (guesses.some((g) => g.id === player.id)) {
+    if (guesses.some((g) => g.id === player.id)) {
+      setQuery("");
+      return;
+    }
+
+    const next = [player, ...guesses];
+    setGuesses(next);
+
+    if (player.id === answer.id) {
+      recordWin(next.length, player);
+      setShowWinModal(true);
+    }
+
     setQuery("");
-    return;
   }
-
-  const next = [player, ...guesses];
-  setGuesses(next);
-
-  if (player.id === answer.id) {
-    recordWin(next.length, player);
-    setShowWinModal(true);
-  }
-
-  setQuery("");
-}
 
   function handleKeyDown(e: React.KeyboardEvent<HTMLInputElement>) {
     if (e.key === "Enter" && suggestions.length > 0) {
@@ -858,14 +948,21 @@ export default function UnlimitedPage() {
     }
   }
 
-  function startNewGame() {
-    setAnswer((prev) => getRandomPlayer(prev.id));
-    setGuesses([]);
-    setQuery("");
-    setShowWinModal(false);
-  }
+function startNewGame() {
+  setAnswer((prev) => getRandomPlayer(prev.id));
+  setGuesses([]);
+  setQuery("");
+  setShowWinModal(false);
+  setShowLoseModal(false);
+}
+
+  function giveUp() {
+  if (showWinModal || showLoseModal) return;
+  setShowLoseModal(true);
+}
 
   const won = guesses.some((g) => g.id === answer.id);
+const gameLocked = showWinModal || showLoseModal;
 
   return (
     <main className="min-h-screen bg-[#f5efe3] text-[#1a1230]">
@@ -893,6 +990,13 @@ export default function UnlimitedPage() {
         onClose={() => setShowWinModal(false)}
         onNewGame={startNewGame}
       />
+
+<LoseModal
+  open={showLoseModal}
+  player={answer}
+  onClose={() => setShowLoseModal(false)}
+  onNewGame={startNewGame}
+/>
 
       <div className="mx-auto max-w-7xl px-4 py-6 sm:px-8">
         <header className="border-b-4 border-[#1a1230] pb-6">
@@ -957,21 +1061,30 @@ export default function UnlimitedPage() {
                 </div>
 
                 <input
-                  type="text"
-                  value={query}
-                  onChange={(e) => setQuery(e.target.value)}
-                  onKeyDown={handleKeyDown}
-                  placeholder={won ? "You got it!" : "Guess a player..."}
-                  className="h-16 w-full bg-transparent px-5 text-2xl font-bold outline-none transition-all duration-200 placeholder:text-[#8e8a95]"
-                />
+  type="text"
+  value={query}
+  onChange={(e) => setQuery(e.target.value)}
+  onKeyDown={handleKeyDown}
+  placeholder={won ? "You got it!" : showLoseModal ? "You lost!" : "Guess a player..."}
+  disabled={gameLocked}
+  className="h-16 w-full bg-transparent px-5 text-2xl font-bold outline-none transition-all duration-200 placeholder:text-[#8e8a95]"
+/>
               </div>
 
               <div className="animate-fade-in-up flex h-16 min-w-[150px] items-center justify-center border-4 border-[#1a1230] bg-white px-4 text-2xl font-black transition-all duration-200 hover:-translate-y-[2px] hover:shadow-[4px_4px_0_#1a1230]">
                 {guesses.length} guesses
               </div>
+
+              <button
+  type="button"
+  onClick={won || showLoseModal ? startNewGame : giveUp}
+  className="animate-fade-in-up flex h-16 min-w-[150px] items-center justify-center border-4 border-[#1a1230] bg-white px-4 text-2xl font-black shadow-[4px_4px_0_#1a1230] transition-all duration-150 hover:-translate-y-[2px] hover:shadow-[6px_6px_0_#1a1230] active:translate-y-[1px] active:shadow-[2px_2px_0_#1a1230]"
+>
+  {won || showLoseModal ? "New Game" : "Give Up"}
+</button>
             </div>
 
-            {!won && suggestions.length > 0 && (
+            {!won && !showLoseModal && suggestions.length > 0 && (
               <div className="animate-fade-in-up absolute left-0 right-0 top-[76px] z-20 overflow-hidden rounded-md border-4 border-[#1a1230] bg-white shadow-[6px_6px_0_#1a1230] xl:right-[430px]">
                 {suggestions.map((player, index) => {
                   const meta = getTeamMeta(player.club);
@@ -1009,20 +1122,20 @@ export default function UnlimitedPage() {
         <section className="mt-10 overflow-x-auto">
           <div className="min-w-[1120px]">
             <div className="grid grid-cols-8 gap-3 border-b-4 border-dashed border-[#1a1230] pb-3 text-center text-xl font-black sm:text-2xl">
-  <div className="transition-transform duration-200 hover:-translate-y-[2px]">Name</div>
-  <div className="transition-transform duration-200 hover:-translate-y-[2px]">Team</div>
-  <div className="transition-transform duration-200 hover:-translate-y-[2px]">State</div>
-  <div className="transition-transform duration-200 hover:-translate-y-[2px]">Pos</div>
-  <div className="transition-transform duration-200 hover:-translate-y-[2px]">Age</div>
-  <div className="transition-transform duration-200 hover:-translate-y-[2px]">#</div>
-  <div className="transition-transform duration-200 hover:-translate-y-[2px]">Disposals</div>
-  <div className="transition-transform duration-200 hover:-translate-y-[2px]">Goals</div>
-</div>
+              <div className="transition-transform duration-200 hover:-translate-y-[2px]">Name</div>
+              <div className="transition-transform duration-200 hover:-translate-y-[2px]">Team</div>
+              <div className="transition-transform duration-200 hover:-translate-y-[2px]">State</div>
+              <div className="transition-transform duration-200 hover:-translate-y-[2px]">Pos</div>
+              <div className="transition-transform duration-200 hover:-translate-y-[2px]">Age</div>
+              <div className="transition-transform duration-200 hover:-translate-y-[2px]">#</div>
+              <div className="transition-transform duration-200 hover:-translate-y-[2px]">Disposals</div>
+              <div className="transition-transform duration-200 hover:-translate-y-[2px]">Goals</div>
+            </div>
 
             <div className="mt-4 space-y-4">
               {guesses.map((guess, index) => {
                 const guessedState = getTeamState(guess.club);
-const answerState = getTeamState(answer.club);
+                const answerState = getTeamState(answer.club);
                 const nameCorrect = guess.id === answer.id;
 
                 const teamCorrect =
@@ -1073,13 +1186,13 @@ const answerState = getTeamState(answer.club);
                     />
 
                     <div
-  className={`${statClass(
-    guessedState === answerState,
-    stateBorders(guessedState, answerState)
-  )} flex items-center justify-center rounded-md border px-3 py-2 font-black`}
->
-  {guessedState ?? "-"}
-</div>
+                      className={`${statClass(
+                        guessedState === answerState,
+                        stateBorders(guessedState, answerState)
+                      )} flex items-center justify-center rounded-md border px-3 py-2 font-black`}
+                    >
+                      {guessedState ?? "-"}
+                    </div>
 
                     <div
                       className={`${statClass(

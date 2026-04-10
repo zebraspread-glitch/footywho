@@ -16,6 +16,11 @@ const geistMono = Geist_Mono({
 export const metadata: Metadata = {
   title: "footywho",
   description: "footywho",
+  icons: {
+    icon: "/footyicon.png",
+    shortcut: "/footyicon.png",
+    apple: "/footyicon.png",
+  },
 };
 
 export default function RootLayout({
