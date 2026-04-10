@@ -13,11 +13,11 @@ const geistMono = Geist_Mono({
   subsets: ["latin"],
 });
 
-export const metadata = {
+export const metadata: Metadata = {
   title: "FootyWho",
   description: "AFL Player Guessing Game",
   verification: {
-    google: "ujUBfOqIZs8Pnp6",
+    google: "ujUBfOqIZs8Pnp61MiVmAGF5YRmYgg53P3prH3EbCRo",
   },
 };
 
@@ -39,9 +39,9 @@ export default function RootLayout({
         ></script>
       </head>
       <body className="min-h-full flex flex-col">
-  {children}
-  <Analytics />
-</body>
+        {children}
+        <Analytics />
+      </body>
     </html>
   );
 }
