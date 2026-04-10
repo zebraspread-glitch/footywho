@@ -504,7 +504,7 @@ function TeamTile({
 
   return (
     <div
-      className={`flex h-full min-h-[96px] flex-col items-center justify-center rounded-md border-2 ${bgClass} px-2 py-2 transition-all duration-200 hover:-translate-y-[2px] hover:scale-[1.02]`}
+      className={`flex h-full min-h-[60px] flex-col items-center justify-center rounded-md border-2 ${bgClass} px-1 py-1 transition-all duration-200 hover:-translate-y-[2px] hover:scale-[1.02] md:min-h-[96px] md:px-2 md:py-2`}
     >
       <div className="flex h-10 items-center justify-center transition-transform duration-200 hover:scale-110">
         {meta ? (
@@ -1222,9 +1222,9 @@ export default function Home() {
         </section>
 
         <section className="mt-10">
-  <div className="hidden md:block overflow-x-auto">
-    <div className="min-w-[1120px]">
-      <div className="grid grid-cols-8 gap-3 border-b-4 border-dashed border-[#1a1230] pb-3 text-center text-xl font-black sm:text-2xl">
+  <div className="overflow-x-auto">
+  <div className="min-w-[900px] md:min-w-[1120px]">
+      <div className="grid grid-cols-8 gap-1 md:gap-3 border-b-4 border-dashed border-[#1a1230] pb-3 text-center text-[10px] font-black sm:text-2xl">
         <div className="transition-transform duration-200 hover:-translate-y-[2px]">Name</div>
         <div className="transition-transform duration-200 hover:-translate-y-[2px]">Team</div>
         <div className="transition-transform duration-200 hover:-translate-y-[2px]">State</div>
@@ -1257,10 +1257,10 @@ export default function Home() {
           return (
             <div
               key={guess.id}
-              className="grid grid-cols-8 gap-3 rounded-md border-4 border-[#1a1230] bg-white p-3 shadow-[4px_4px_0_#c6b79a]"
+              className="grid grid-cols-8 gap-1 md:gap-3 rounded-md border-4 border-[#1a1230] bg-white p-1 md:p-3 shadow-[4px_4px_0_#c6b79a]"
             >
               <div
-                className={`flex min-h-[96px] items-center justify-center rounded-md border-2 px-2 py-2 text-center text-lg font-black ${statClass(
+                className={`flex min-h-[72px] items-center justify-center rounded-md border-2 px-2 py-2 text-center text-lg font-black ${statClass(
                   nameCorrect,
                   false
                 )}`}
@@ -1271,7 +1271,7 @@ export default function Home() {
               <TeamTile club={guess.club} correct={clubCorrect} close={clubClose} />
 
               <div
-                className={`flex min-h-[96px] items-center justify-center rounded-md border-2 px-2 py-2 text-center text-lg font-black ${statClass(
+                className={`flex min-h-[72px] items-center justify-center rounded-md border-2 px-2 py-2 text-center text-lg font-black ${statClass(
                   guessedState === answerState,
                   stateBorders(guessedState, answerState)
                 )}`}
@@ -1280,7 +1280,7 @@ export default function Home() {
               </div>
 
               <div
-                className={`flex min-h-[96px] items-center justify-center rounded-md border-2 px-2 py-2 text-center text-lg font-black ${statClass(
+                className={`flex min-h-[72px] items-center justify-center rounded-md border-2 px-2 py-2 text-center text-lg font-black ${statClass(
                   exactPos,
                   partialPos
                 )}`}
@@ -1289,7 +1289,7 @@ export default function Home() {
               </div>
 
               <div
-                className={`flex min-h-[96px] items-center justify-center rounded-md border-2 px-2 py-2 text-center text-lg font-black ${statClass(
+                className={`flex min-h-[72px] items-center justify-center rounded-md border-2 px-2 py-2 text-center text-lg font-black ${statClass(
                   guess.age === ANSWER.age,
                   ageDiff <= 2 && guess.age !== ANSWER.age
                 )}`}
@@ -1298,7 +1298,7 @@ export default function Home() {
               </div>
 
               <div
-                className={`flex min-h-[96px] items-center justify-center rounded-md border-2 px-2 py-2 text-center text-lg font-black ${statClass(
+                className={`flex min-h-[72px] items-center justify-center rounded-md border-2 px-2 py-2 text-center text-lg font-black ${statClass(
                   guess.number === ANSWER.number,
                   numberDiff <= 2 && guess.number !== ANSWER.number
                 )}`}
@@ -1307,7 +1307,7 @@ export default function Home() {
               </div>
 
               <div
-                className={`flex min-h-[96px] items-center justify-center rounded-md border-2 px-2 py-2 text-center text-lg font-black ${statClass(
+                className={`flex min-h-[72px] items-center justify-center rounded-md border-2 px-1 py-1 text-center text-[10px] font-black md:px-2 md:py-2 md:text-lg ${statClass(
                   guess.disposals === ANSWER.disposals,
                   disposalsDiff <= 2 && guess.disposals !== ANSWER.disposals
                 )}`}
@@ -1316,7 +1316,7 @@ export default function Home() {
               </div>
 
               <div
-                className={`flex min-h-[96px] items-center justify-center rounded-md border-2 px-2 py-2 text-center text-lg font-black ${statClass(
+                className={`flex min-h-[72px] items-center justify-center rounded-md border-2 px-1 py-1 text-center text-[10px] font-black md:px-2 md:py-2 md:text-lg ${statClass(
                   guess.goals === ANSWER.goals,
                   goalsDiff <= 2 && guess.goals !== ANSWER.goals
                 )}`}
@@ -1330,7 +1330,7 @@ export default function Home() {
     </div>
   </div>
 
-  <div className="md:hidden space-y-3">
+  <div className="md:hidden overflow-x-auto">
     {guesses.map((guess) => {
       const exactPos = positionsExactlyMatch(guess.pos, ANSWER.pos);
       const partialPos =
@@ -1352,16 +1352,16 @@ export default function Home() {
       return (
         <div
           key={guess.id}
-          className="rounded-md border-4 border-[#1a1230] bg-white p-3 shadow-[4px_4px_0_#c6b79a]"
+          className="min-w-[700px] rounded-md border-4 border-[#1a1230] bg-white p-1 shadow-[4px_4px_0_#c6b79a]"
         >
-          <div className="grid grid-cols-4 gap-2 text-center">
+          <div className="grid grid-cols-8 gap-1 text-center">
             <div className="text-[11px] font-black uppercase text-[#1a1230]">Name</div>
             <div className="text-[11px] font-black uppercase text-[#1a1230]">Team</div>
             <div className="text-[11px] font-black uppercase text-[#1a1230]">State</div>
             <div className="text-[11px] font-black uppercase text-[#1a1230]">Pos</div>
 
             <div
-              className={`flex min-h-[72px] items-center justify-center rounded-md border-2 px-2 py-2 text-center text-sm font-black ${statClass(
+              className={`flex min-h-[60px] items-center justify-center rounded-md border-2 px-1 py-1 text-center text-[10px] font-black ${statClass(
                 nameCorrect,
                 false
               )}`}
@@ -1372,7 +1372,7 @@ export default function Home() {
             <TeamTile club={guess.club} correct={clubCorrect} close={clubClose} />
 
             <div
-              className={`flex min-h-[72px] items-center justify-center rounded-md border-2 px-2 py-2 text-center text-sm font-black ${statClass(
+              className={`flex min-h-[60px] items-center justify-center rounded-md border-2 px-1 py-1 text-center text-[10px] font-black ${statClass(
                 guessedState === answerState,
                 stateBorders(guessedState, answerState)
               )}`}
@@ -1381,7 +1381,7 @@ export default function Home() {
             </div>
 
             <div
-              className={`flex min-h-[72px] items-center justify-center rounded-md border-2 px-2 py-2 text-center text-xs font-black ${statClass(
+              className={`flex min-h-[60px] items-center justify-center rounded-md border-2 px-1 py-1 text-center text-[9px] font-black ${statClass(
                 exactPos,
                 partialPos
               )}`}
@@ -1395,7 +1395,7 @@ export default function Home() {
             <div className="text-[11px] font-black uppercase text-[#1a1230]">Goals</div>
 
             <div
-              className={`flex min-h-[64px] items-center justify-center rounded-md border-2 px-2 py-2 text-center text-sm font-black ${statClass(
+              className={`flex min-h-[64px] items-center justify-center rounded-md border-2 px-1 py-1 text-center text-sm font-black ${statClass(
                 guess.age === ANSWER.age,
                 ageDiff <= 2 && guess.age !== ANSWER.age
               )}`}
@@ -1404,7 +1404,7 @@ export default function Home() {
             </div>
 
             <div
-              className={`flex min-h-[64px] items-center justify-center rounded-md border-2 px-2 py-2 text-center text-sm font-black ${statClass(
+              className={`flex min-h-[64px] items-center justify-center rounded-md border-2 px-1 py-1 text-center text-sm font-black ${statClass(
                 guess.number === ANSWER.number,
                 numberDiff <= 2 && guess.number !== ANSWER.number
               )}`}
@@ -1413,7 +1413,7 @@ export default function Home() {
             </div>
 
             <div
-              className={`flex min-h-[64px] items-center justify-center rounded-md border-2 px-2 py-2 text-center text-sm font-black ${statClass(
+              className={`flex min-h-[64px] items-center justify-center rounded-md border-2 px-1 py-1 text-center text-sm font-black ${statClass(
                 guess.disposals === ANSWER.disposals,
                 disposalsDiff <= 2 && guess.disposals !== ANSWER.disposals
               )}`}
@@ -1422,7 +1422,7 @@ export default function Home() {
             </div>
 
             <div
-              className={`flex min-h-[64px] items-center justify-center rounded-md border-2 px-2 py-2 text-center text-sm font-black ${statClass(
+              className={`flex min-h-[64px] items-center justify-center rounded-md border-2 px-1 py-1 text-center text-sm font-black ${statClass(
                 guess.goals === ANSWER.goals,
                 goalsDiff <= 2 && guess.goals !== ANSWER.goals
               )}`}
