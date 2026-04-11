@@ -929,6 +929,48 @@ function MobileStatCard({
   );
 }
 
+function MobileTeamCell({
+  club,
+  correct,
+  close,
+}: {
+  club: string;
+  correct: boolean;
+  close: boolean;
+}) {
+  const meta = getTeamMeta(club);
+
+  const bgClass = correct
+    ? "bg-green-400 border-green-500"
+    : close
+    ? "bg-yellow-300 border-yellow-400"
+    : "bg-[#f8f1e6] border-[#d7ccb8]";
+
+  return (
+    <div
+      className={`flex h-[64px] min-w-0 flex-col items-center justify-center border ${bgClass} px-1 py-1 text-black`}
+    >
+      <div className="flex h-7 items-center justify-center">
+        {meta ? (
+          <Image
+            src={meta.icon}
+            alt={club}
+            width={24}
+            height={18}
+            className="h-auto max-h-[18px] w-auto max-w-[24px] object-contain"
+          />
+        ) : (
+          <div className="text-[10px] font-black">?</div>
+        )}
+      </div>
+
+      <div className="mt-1 text-center text-[8px] font-black leading-none tracking-[0.04em] sm:text-[9px]">
+        {meta?.code ?? club.slice(0, 3).toUpperCase()}
+      </div>
+    </div>
+  );
+}
+
 export default function Home() {
   const todayKey = formatDateKey(getTodayLocalDate());
 
@@ -1349,7 +1391,7 @@ export default function Home() {
           </div>
 
           <div className="md:hidden">
-            <div className="mb-2 grid grid-cols-[88px_70px_72px_64px_56px_64px_64px] gap-1 border-b-4 border-dashed border-[#1a1230] pb-2 text-center text-[11px] font-black uppercase tracking-[0.04em] text-[#0d6b8b]">
+            <div className="mb-2 grid grid-cols-7 gap-[2px] border-b-4 border-dashed border-[#1a1230] pb-2 text-center text-[9px] font-black uppercase leading-none tracking-[0.03em] text-[#0d6b8b]">
               <div>Team</div>
               <div>State</div>
               <div>Pos</div>
@@ -1380,69 +1422,89 @@ export default function Home() {
 
                 return (
                   <div key={guess.id} className="pb-1">
-                    <div className={`mb-2 text-[15px] font-black leading-tight ${nameCorrect ? "text-[#10a85d]" : "text-[#1a1230]"}`}>
+                    <div
+                      className={`mb-2 text-[15px] font-black leading-tight ${
+                        nameCorrect ? "text-[#10a85d]" : "text-[#1a1230]"
+                      }`}
+                    >
                       {guess.name}
                     </div>
 
-                    <div className="overflow-x-auto">
-                      <div className="grid min-w-[498px] grid-cols-[88px_70px_72px_64px_56px_64px_64px] gap-1">
-                        <div className="h-[74px]">
-                          <TeamTile club={guess.club} correct={clubCorrect} close={clubClose} />
-                        </div>
+                    <div className="grid grid-cols-7 gap-[2px]">
+                      <MobileTeamCell
+                        club={guess.club}
+                        correct={clubCorrect}
+                        close={clubClose}
+                      />
 
-                        <div
-                          className={`flex h-[74px] items-center justify-center rounded-none border px-1 text-center text-sm font-black ${statClass(
-                            guessedState === answerState,
-                            stateBorders(guessedState, answerState)
-                          )}`}
-                        >
-                          {guessedState ?? "-"}
-                        </div>
+                      <div
+                        className={`flex h-[64px] min-w-0 items-center justify-center border px-[2px] text-center text-[10px] font-black leading-tight ${statClass(
+                          guessedState === answerState,
+                          stateBorders(guessedState, answerState)
+                        )}`}
+                      >
+                        {guessedState ?? "-"}
+                      </div>
 
-                        <div
-                          className={`flex h-[74px] items-center justify-center rounded-none border px-1 text-center text-sm font-black ${statClass(
-                            exactPos,
-                            partialPos
-                          )}`}
-                        >
-                          {normalizePositions(guess.pos).join(", ")}
-                        </div>
+                      <div
+                        className={`flex h-[64px] min-w-0 items-center justify-center border px-[2px] text-center text-[10px] font-black leading-tight ${statClass(
+                          exactPos,
+                          partialPos
+                        )}`}
+                      >
+                        {normalizePositions(guess.pos).join(", ")}
+                      </div>
 
-                        <div
-                          className={`flex h-[74px] items-center justify-center rounded-none border px-1 text-center text-sm font-black ${statClass(
-                            guess.age === ANSWER.age,
-                            ageDiff <= 2 && guess.age !== ANSWER.age
-                          )}`}
-                        >
-                          {guess.age} {arrowForNumber(guess.age, ANSWER.age)}
-                        </div>
+                      <div
+                        className={`flex h-[64px] min-w-0 items-center justify-center border px-[2px] text-center text-[10px] font-black leading-tight ${statClass(
+                          guess.age === ANSWER.age,
+                          ageDiff <= 2 && guess.age !== ANSWER.age
+                        )}`}
+                      >
+                        <span>
+                          {guess.age}
+                          <br />
+                          {arrowForNumber(guess.age, ANSWER.age)}
+                        </span>
+                      </div>
 
-                        <div
-                          className={`flex h-[74px] items-center justify-center rounded-none border px-1 text-center text-sm font-black ${statClass(
-                            guess.number === ANSWER.number,
-                            numberDiff <= 2 && guess.number !== ANSWER.number
-                          )}`}
-                        >
-                          {guess.number} {arrowForNumber(guess.number, ANSWER.number)}
-                        </div>
+                      <div
+                        className={`flex h-[64px] min-w-0 items-center justify-center border px-[2px] text-center text-[10px] font-black leading-tight ${statClass(
+                          guess.number === ANSWER.number,
+                          numberDiff <= 2 && guess.number !== ANSWER.number
+                        )}`}
+                      >
+                        <span>
+                          {guess.number}
+                          <br />
+                          {arrowForNumber(guess.number, ANSWER.number)}
+                        </span>
+                      </div>
 
-                        <div
-                          className={`flex h-[74px] items-center justify-center rounded-none border px-1 text-center text-sm font-black ${statClass(
-                            guess.disposals === ANSWER.disposals,
-                            disposalsDiff <= 2 && guess.disposals !== ANSWER.disposals
-                          )}`}
-                        >
-                          {guess.disposals} {arrowForNumber(guess.disposals, ANSWER.disposals)}
-                        </div>
+                      <div
+                        className={`flex h-[64px] min-w-0 items-center justify-center border px-[2px] text-center text-[10px] font-black leading-tight ${statClass(
+                          guess.disposals === ANSWER.disposals,
+                          disposalsDiff <= 2 && guess.disposals !== ANSWER.disposals
+                        )}`}
+                      >
+                        <span>
+                          {guess.disposals}
+                          <br />
+                          {arrowForNumber(guess.disposals, ANSWER.disposals)}
+                        </span>
+                      </div>
 
-                        <div
-                          className={`flex h-[74px] items-center justify-center rounded-none border px-1 text-center text-sm font-black ${statClass(
-                            guess.goals === ANSWER.goals,
-                            goalsDiff <= 2 && guess.goals !== ANSWER.goals
-                          )}`}
-                        >
-                          {guess.goals} {arrowForNumber(guess.goals, ANSWER.goals)}
-                        </div>
+                      <div
+                        className={`flex h-[64px] min-w-0 items-center justify-center border px-[2px] text-center text-[10px] font-black leading-tight ${statClass(
+                          guess.goals === ANSWER.goals,
+                          goalsDiff <= 2 && guess.goals !== ANSWER.goals
+                        )}`}
+                      >
+                        <span>
+                          {guess.goals}
+                          <br />
+                          {arrowForNumber(guess.goals, ANSWER.goals)}
+                        </span>
                       </div>
                     </div>
                   </div>
