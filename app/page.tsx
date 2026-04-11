@@ -520,7 +520,7 @@ function TeamTile({
         )}
       </div>
 
-      <div className="mt-2 text-center text-[13px] font-black tracking-wide text-black sm:text-[15px] transition-all duration-200">
+      <div className="mt-2 text-center text-[13px] font-black tracking-wide text-black transition-all duration-200 sm:text-[15px]">
         {meta?.code ?? club.slice(0, 3).toUpperCase()}
       </div>
     </div>
@@ -550,14 +550,14 @@ function HelpModal({
 
         <div className="border-b-4 border-[#1a1230] bg-[#efe5d4] px-6 py-6">
           <h2
-            className="text-4xl font-black tracking-tight text-[#1a1230] sm:text-5xl"
+            className="text-3xl font-black tracking-tight text-[#1a1230] sm:text-5xl"
             style={{ textShadow: "3px 3px 0 #c6b79a" }}
           >
             How To Play
           </h2>
         </div>
 
-        <div className="space-y-4 px-6 py-6 text-lg font-bold text-[#1a1230]">
+        <div className="space-y-4 px-6 py-6 text-base font-bold text-[#1a1230] sm:text-lg">
           <p>Guess the AFL player in 8 guesses or less.</p>
           <p>Each guess compares your player to today&apos;s answer.</p>
           <p>
@@ -577,7 +577,6 @@ function HelpModal({
     </div>
   );
 }
-
 
 function StatsModal({
   open,
@@ -617,14 +616,14 @@ function StatsModal({
 
         <div className="border-b-4 border-[#1a1230] bg-[#efe5d4] px-6 py-6">
           <h2
-            className="text-4xl font-black tracking-tight text-[#1a1230] sm:text-5xl"
+            className="text-3xl font-black tracking-tight text-[#1a1230] sm:text-5xl"
             style={{ textShadow: "3px 3px 0 #c6b79a" }}
           >
             Your Stats
           </h2>
         </div>
 
-        <div className="grid grid-cols-2 gap-4 px-6 py-6 sm:grid-cols-4">
+        <div className="grid grid-cols-2 gap-4 px-4 py-4 sm:grid-cols-4 sm:px-6 sm:py-6">
           <div className="border-4 border-[#1a1230] bg-white p-4 text-center shadow-[4px_4px_0_#c6b79a]">
             <div className="text-sm font-black uppercase text-[#5f5870]">Played</div>
             <div className="mt-2 text-3xl font-black">{played}</div>
@@ -681,19 +680,19 @@ function ResultModal({
           ×
         </button>
 
-        <div className="border-b-4 border-[#1a1230] bg-[#efe5d4] px-6 pb-10 pt-8">
+        <div className="border-b-4 border-[#1a1230] bg-[#efe5d4] px-4 pb-8 pt-6 sm:px-6 sm:pb-10 sm:pt-8">
           <div className="flex items-center justify-center">
-            <div className="flex h-40 w-40 items-center justify-center rounded-full border-4 border-[#1a1230] bg-white shadow-[4px_4px_0_#c6b79a]">
+            <div className="flex h-28 w-28 items-center justify-center rounded-full border-4 border-[#1a1230] bg-white shadow-[4px_4px_0_#c6b79a] sm:h-40 sm:w-40">
               {meta ? (
                 <Image
                   src={meta.icon}
                   alt={player.club}
                   width={90}
                   height={90}
-                  className="h-auto max-h-[90px] w-auto max-w-[90px] object-contain"
+                  className="h-auto max-h-[70px] w-auto max-w-[70px] object-contain sm:max-h-[90px] sm:max-w-[90px]"
                 />
               ) : (
-                <div className="text-4xl font-black text-[#1a1230]">
+                <div className="text-3xl font-black text-[#1a1230] sm:text-4xl">
                   {player.club.slice(0, 3).toUpperCase()}
                 </div>
               )}
@@ -701,19 +700,19 @@ function ResultModal({
           </div>
         </div>
 
-        <div className="px-6 py-10 text-center">
-          <p className="text-2xl font-bold text-[#1a1230]">
+        <div className="px-4 py-8 text-center sm:px-6 sm:py-10">
+          <p className="text-xl font-bold text-[#1a1230] sm:text-2xl">
             {won ? "Correct!" : "You Lost"}
           </p>
 
           <h2
-            className="mt-3 text-5xl font-black uppercase tracking-tight text-[#1a1230] sm:text-6xl"
+            className="mt-3 text-3xl font-black uppercase tracking-tight text-[#1a1230] sm:text-6xl"
             style={{ textShadow: "3px 3px 0 #c6b79a" }}
           >
             {player.name}
           </h2>
 
-          <p className="mt-5 text-2xl font-bold text-[#1a1230] sm:text-3xl">
+          <p className="mt-5 text-lg font-bold text-[#1a1230] sm:text-3xl">
             {won ? (
               <>
                 You solved it in{" "}
@@ -731,7 +730,7 @@ function ResultModal({
             <button
               type="button"
               onClick={onClose}
-              className="border-4 border-[#1a1230] bg-white px-8 py-4 text-2xl font-black text-[#1a1230] shadow-[4px_4px_0_#1a1230] transition-all duration-150 hover:-translate-y-[2px] hover:shadow-[6px_6px_0_#1a1230] active:translate-y-[1px] active:shadow-[2px_2px_0_#1a1230]"
+              className="border-4 border-[#1a1230] bg-white px-6 py-3 text-xl font-black text-[#1a1230] shadow-[4px_4px_0_#1a1230] transition-all duration-150 hover:-translate-y-[2px] hover:shadow-[6px_6px_0_#1a1230] active:translate-y-[1px] active:shadow-[2px_2px_0_#1a1230] sm:px-8 sm:py-4 sm:text-2xl"
             >
               Done
             </button>
@@ -769,19 +768,19 @@ function HistoryModal({
           ×
         </button>
 
-        <div className="border-b-4 border-[#1a1230] bg-[#efe5d4] px-6 py-6">
+        <div className="border-b-4 border-[#1a1230] bg-[#efe5d4] px-4 py-5 sm:px-6 sm:py-6">
           <h2
-            className="text-4xl font-black tracking-tight text-[#1a1230] sm:text-5xl"
+            className="text-3xl font-black tracking-tight text-[#1a1230] sm:text-5xl"
             style={{ textShadow: "3px 3px 0 #c6b79a" }}
           >
             Previous Daily Players
           </h2>
-          <p className="mt-2 text-lg font-bold text-[#1a1230]">
+          <p className="mt-2 text-base font-bold text-[#1a1230] sm:text-lg">
             Daily answers since 9 Apr 2026
           </p>
         </div>
 
-        <div className="max-h-[70vh] overflow-y-auto px-6 py-6">
+        <div className="max-h-[70vh] overflow-y-auto px-4 py-4 sm:px-6 sm:py-6">
           <div className="space-y-3">
             {history.map((entry, index) => {
               const meta = getTeamMeta(entry.player.club);
@@ -790,9 +789,9 @@ function HistoryModal({
               return (
                 <div
                   key={`${entry.dateKey}-${entry.player.id}-${index}`}
-                  className="flex items-center justify-between gap-4 border-4 border-[#1a1230] bg-white px-4 py-4 shadow-[4px_4px_0_#c6b79a]"
+                  className="flex flex-col gap-3 border-4 border-[#1a1230] bg-white px-4 py-4 shadow-[4px_4px_0_#c6b79a] sm:flex-row sm:items-center sm:justify-between"
                 >
-                  <div className="min-w-[120px] text-lg font-black text-[#1a1230]">
+                  <div className="min-w-[120px] text-base font-black text-[#1a1230] sm:text-lg">
                     {entry.dateLabel}
                   </div>
 
@@ -814,7 +813,7 @@ function HistoryModal({
                     </div>
 
                     <div>
-                      <div className="text-xl font-black text-[#1a1230]">
+                      <div className="text-lg font-black text-[#1a1230] sm:text-xl">
                         {entry.player.name}
                       </div>
                       <div className="text-sm font-bold text-[#5f5870]">
@@ -824,7 +823,7 @@ function HistoryModal({
                   </div>
 
                   <div
-                    className={`min-w-[68px] rounded-md border-4 px-4 py-2 text-center text-xl font-black ${
+                    className={`min-w-[68px] rounded-md border-4 px-4 py-2 text-center text-lg font-black sm:text-xl ${
                       success
                         ? "border-green-500 bg-green-400 text-black"
                         : "border-[#1a1230] bg-[#f8f1e6] text-[#1a1230]"
@@ -865,16 +864,16 @@ function PrivacyPolicyModal({
           ×
         </button>
 
-        <div className="border-b-4 border-[#1a1230] bg-[#efe5d4] px-6 py-6">
+        <div className="border-b-4 border-[#1a1230] bg-[#efe5d4] px-4 py-5 sm:px-6 sm:py-6">
           <h2
-            className="text-4xl font-black tracking-tight text-[#1a1230] sm:text-5xl"
+            className="text-3xl font-black tracking-tight text-[#1a1230] sm:text-5xl"
             style={{ textShadow: "3px 3px 0 #c6b79a" }}
           >
             Privacy Policy
           </h2>
         </div>
 
-        <div className="max-h-[70vh] overflow-y-auto space-y-4 px-6 py-6 text-base font-bold text-[#1a1230] sm:text-lg">
+        <div className="max-h-[70vh] space-y-4 overflow-y-auto px-4 py-4 text-sm font-bold text-[#1a1230] sm:px-6 sm:py-6 sm:text-lg">
           <p>
             FootyWho stores limited game data in your browser so your daily progress,
             guesses, and stats can stay saved on your device.
@@ -896,9 +895,9 @@ function PrivacyPolicyModal({
           </p>
 
           <p>
-  By using FootyWho, you agree to this privacy policy. This policy may be
-  updated over time as the site changes.
-</p>
+            By using FootyWho, you agree to this privacy policy. This policy may be
+            updated over time as the site changes.
+          </p>
 
           <p className="text-sm font-black text-[#5f5870] sm:text-base">
             Last updated: 10 April 2026
@@ -907,6 +906,25 @@ function PrivacyPolicyModal({
 
         <div className="h-3 w-full bg-[#10d66f]" />
       </div>
+    </div>
+  );
+}
+
+function MobileStatCard({
+  label,
+  children,
+  className,
+}: {
+  label: string;
+  children: React.ReactNode;
+  className: string;
+}) {
+  return (
+    <div>
+      <div className="mb-1 text-[11px] font-black uppercase tracking-wide text-[#1a1230]">
+        {label}
+      </div>
+      <div className={className}>{children}</div>
     </div>
   );
 }
@@ -1054,7 +1072,7 @@ export default function Home() {
         todayResult.guessIds.length >= MAX_GUESSES
       ? `X/${MAX_GUESSES}`
       : `${guesses.length}/${MAX_GUESSES}`;
-      
+
   return (
     <main className="min-h-screen bg-[#f5efe3] text-[#1a1230]">
       <HelpModal
@@ -1083,34 +1101,34 @@ export default function Home() {
       />
 
       <PrivacyPolicyModal
-  open={showPrivacyPolicyModal}
-  onClose={() => setShowPrivacyPolicyModal(false)}
-/>
+        open={showPrivacyPolicyModal}
+        onClose={() => setShowPrivacyPolicyModal(false)}
+      />
 
-      <div className="mx-auto max-w-7xl px-4 py-6 sm:px-8">
+      <div className="mx-auto max-w-7xl px-4 py-5 sm:px-8 sm:py-6">
         <header className="border-b-4 border-[#1a1230] pb-6">
           <div className="flex flex-col gap-6 lg:flex-row lg:items-start lg:justify-between">
             <div>
               <h1
-                className="text-5xl font-black leading-none tracking-tight transition-transform duration-300 hover:translate-x-[2px] hover:-translate-y-[2px] sm:text-7xl"
+                className="text-4xl font-black leading-none tracking-tight transition-transform duration-300 hover:translate-x-[2px] hover:-translate-y-[2px] sm:text-7xl"
                 style={{ textShadow: "4px 4px 0 #c6b79a" }}
               >
                 FootyWho
               </h1>
 
               <div className="mt-2 flex items-center gap-3">
-                <div className="h-12 w-[3px] bg-[#1a1230] transition-all duration-300 hover:h-14" />
-                <p className="max-w-md text-xl font-bold leading-tight transition-all duration-200 hover:translate-x-[2px] sm:text-2xl">
+                <div className="h-10 w-[3px] bg-[#1a1230] transition-all duration-300 hover:h-14 sm:h-12" />
+                <p className="max-w-md text-base font-bold leading-tight transition-all duration-200 hover:translate-x-[2px] sm:text-2xl">
                   Guess the AFL player
                 </p>
               </div>
             </div>
 
-            <div className="grid grid-cols-2 gap-3 sm:grid-cols-4">
+            <div className="grid grid-cols-2 gap-2 sm:grid-cols-4 sm:gap-3">
               <button
                 type="button"
                 onClick={() => setShowHelpModal(true)}
-                className="border-4 border-[#1a1230] bg-white px-6 py-3 text-xl font-black shadow-[4px_4px_0_#1a1230] transition-all duration-150 hover:-translate-y-[2px] hover:translate-x-[1px] hover:shadow-[6px_6px_0_#1a1230] active:translate-y-[1px] active:shadow-[2px_2px_0_#1a1230]"
+                className="border-4 border-[#1a1230] bg-white px-4 py-3 text-base font-black shadow-[4px_4px_0_#1a1230] transition-all duration-150 hover:-translate-y-[2px] hover:translate-x-[1px] hover:shadow-[6px_6px_0_#1a1230] active:translate-y-[1px] active:shadow-[2px_2px_0_#1a1230] sm:px-6 sm:text-xl"
               >
                 Help
               </button>
@@ -1118,7 +1136,7 @@ export default function Home() {
               <button
                 type="button"
                 onClick={() => setShowStatsModal(true)}
-                className="border-4 border-[#1a1230] bg-white px-6 py-3 text-xl font-black shadow-[4px_4px_0_#1a1230] transition-all duration-150 hover:-translate-y-[2px] hover:translate-x-[1px] hover:shadow-[6px_6px_0_#1a1230] active:translate-y-[1px] active:shadow-[2px_2px_0_#1a1230]"
+                className="border-4 border-[#1a1230] bg-white px-4 py-3 text-base font-black shadow-[4px_4px_0_#1a1230] transition-all duration-150 hover:-translate-y-[2px] hover:translate-x-[1px] hover:shadow-[6px_6px_0_#1a1230] active:translate-y-[1px] active:shadow-[2px_2px_0_#1a1230] sm:px-6 sm:text-xl"
               >
                 Stats
               </button>
@@ -1129,7 +1147,7 @@ export default function Home() {
                   if (canViewHistory) setShowHistoryModal(true);
                 }}
                 disabled={!canViewHistory}
-                className={`border-4 px-6 py-3 text-xl font-black shadow-[4px_4px_0_#1a1230] transition-all duration-150 ${
+                className={`border-4 px-4 py-3 text-base font-black shadow-[4px_4px_0_#1a1230] transition-all duration-150 sm:px-6 sm:text-xl ${
                   canViewHistory
                     ? "border-[#1a1230] bg-white hover:-translate-y-[2px] hover:translate-x-[1px] hover:shadow-[6px_6px_0_#1a1230] active:translate-y-[1px] active:shadow-[2px_2px_0_#1a1230]"
                     : "cursor-not-allowed border-[#8e8a95] bg-[#e8e1d3] text-[#8e8a95] shadow-[4px_4px_0_#8e8a95]"
@@ -1145,7 +1163,7 @@ export default function Home() {
 
               <Link
                 href="/unlimited"
-                className="border-4 border-[#1a1230] bg-white px-6 py-3 text-center text-xl font-black shadow-[4px_4px_0_#1a1230] transition-all duration-150 hover:-translate-y-[2px] hover:translate-x-[1px] hover:shadow-[6px_6px_0_#1a1230] active:translate-y-[1px] active:shadow-[2px_2px_0_#1a1230]"
+                className="border-4 border-[#1a1230] bg-white px-4 py-3 text-center text-base font-black shadow-[4px_4px_0_#1a1230] transition-all duration-150 hover:-translate-y-[2px] hover:translate-x-[1px] hover:shadow-[6px_6px_0_#1a1230] active:translate-y-[1px] active:shadow-[2px_2px_0_#1a1230] sm:px-6 sm:text-xl"
               >
                 Unlimited
               </Link>
@@ -1153,11 +1171,11 @@ export default function Home() {
           </div>
         </header>
 
-        <section className="mt-10">
+        <section className="mt-8 sm:mt-10">
           <div className="relative">
-            <div className="flex flex-col gap-4 xl:flex-row">
+            <div className="flex flex-col gap-3 xl:flex-row xl:gap-4">
               <div className="flex flex-1 items-center overflow-hidden border-4 border-[#1a1230] bg-white transition-all duration-200 focus-within:-translate-y-[2px] focus-within:shadow-[6px_6px_0_#1a1230]">
-                <div className="flex h-16 w-16 items-center justify-center border-r-4 border-[#1a1230] text-3xl font-black transition-transform duration-200 hover:scale-110">
+                <div className="flex h-14 w-14 items-center justify-center border-r-4 border-[#1a1230] text-2xl font-black transition-transform duration-200 hover:scale-110 sm:h-16 sm:w-16 sm:text-3xl">
                   ?
                 </div>
 
@@ -1178,17 +1196,17 @@ export default function Home() {
                       : "Guess a player..."
                   }
                   disabled={!hydrated || completed}
-                  className="h-16 w-full bg-transparent px-5 text-2xl font-bold outline-none placeholder:text-[#8e8a95] disabled:opacity-60"
+                  className="h-14 w-full bg-transparent px-4 text-lg font-bold outline-none placeholder:text-[#8e8a95] disabled:opacity-60 sm:h-16 sm:px-5 sm:text-2xl"
                 />
               </div>
 
-              <div className="flex h-16 min-w-[150px] items-center justify-center border-4 border-[#1a1230] bg-white px-4 text-2xl font-black transition-all duration-200 hover:-translate-y-[2px] hover:shadow-[4px_4px_0_#1a1230]">
+              <div className="flex h-14 w-full items-center justify-center border-4 border-[#1a1230] bg-white px-4 text-xl font-black transition-all duration-200 hover:-translate-y-[2px] hover:shadow-[4px_4px_0_#1a1230] xl:h-16 xl:min-w-[150px] xl:w-auto xl:text-2xl">
                 {scoreLabel}
               </div>
             </div>
 
             {suggestions.length > 0 && (
-              <div className="absolute left-0 right-0 top-[76px] z-20 overflow-hidden rounded-md border-4 border-[#1a1230] bg-white shadow-[6px_6px_0_#1a1230] xl:right-[170px]">
+              <div className="absolute left-0 right-0 top-[68px] z-20 overflow-hidden rounded-md border-4 border-[#1a1230] bg-white shadow-[6px_6px_0_#1a1230] sm:top-[76px] xl:right-[170px]">
                 {suggestions.map((player) => {
                   const meta = getTeamMeta(player.club);
 
@@ -1197,7 +1215,7 @@ export default function Home() {
                       key={player.id}
                       type="button"
                       onClick={() => submitGuess(player)}
-                      className="flex w-full items-center justify-between border-b-2 border-[#1a1230] px-4 py-3 text-left text-lg font-bold transition-all duration-150 hover:bg-[#efe5d4] hover:pl-6 last:border-b-0"
+                      className="flex w-full items-center justify-between border-b-2 border-[#1a1230] px-4 py-3 text-left text-base font-bold transition-all duration-150 hover:bg-[#efe5d4] hover:pl-6 last:border-b-0 sm:text-lg"
                     >
                       <span>{player.name}</span>
 
@@ -1221,220 +1239,223 @@ export default function Home() {
           </div>
         </section>
 
-        <section className="mt-10">
-  <div className="overflow-x-auto">
-  <div className="min-w-[900px] md:min-w-[1120px]">
-      <div className="grid grid-cols-8 gap-1 md:gap-3 border-b-4 border-dashed border-[#1a1230] pb-3 text-center text-[10px] font-black sm:text-2xl">
-        <div className="transition-transform duration-200 hover:-translate-y-[2px]">Name</div>
-        <div className="transition-transform duration-200 hover:-translate-y-[2px]">Team</div>
-        <div className="transition-transform duration-200 hover:-translate-y-[2px]">State</div>
-        <div className="transition-transform duration-200 hover:-translate-y-[2px]">Pos</div>
-        <div className="transition-transform duration-200 hover:-translate-y-[2px]">Age</div>
-        <div className="transition-transform duration-200 hover:-translate-y-[2px]">#</div>
-        <div className="transition-transform duration-200 hover:-translate-y-[2px]">Disp</div>
-        <div className="transition-transform duration-200 hover:-translate-y-[2px]">Goals</div>
-      </div>
-
-      <div className="mt-4 space-y-3">
-        {guesses.map((guess) => {
-          const exactPos = positionsExactlyMatch(guess.pos, ANSWER.pos);
-          const partialPos =
-            !exactPos && positionsPartiallyMatch(guess.pos, ANSWER.pos);
-
-          const ageDiff = Math.abs(guess.age - ANSWER.age);
-          const numberDiff = Math.abs(guess.number - ANSWER.number);
-          const disposalsDiff = Math.abs(guess.disposals - ANSWER.disposals);
-          const goalsDiff = Math.abs(guess.goals - ANSWER.goals);
-
-          const guessedState = getTeamState(guess.club);
-          const answerState = getTeamState(ANSWER.club);
-          const nameCorrect = guess.id === ANSWER.id;
-          const clubCorrect =
-            normalizeClubName(guess.club) === normalizeClubName(ANSWER.club);
-          const clubClose =
-            !clubCorrect && teamSharesColor(guess.club, ANSWER.club);
-
-          return (
-            <div
-              key={guess.id}
-              className="grid grid-cols-8 gap-1 md:gap-3 rounded-md border-4 border-[#1a1230] bg-white p-1 md:p-3 shadow-[4px_4px_0_#c6b79a]"
-            >
-              <div
-                className={`flex min-h-[72px] items-center justify-center rounded-md border-2 px-2 py-2 text-center text-lg font-black ${statClass(
-                  nameCorrect,
-                  false
-                )}`}
-              >
-                {guess.name}
+        <section className="mt-8 sm:mt-10">
+          <div className="hidden overflow-x-auto md:block">
+            <div className="min-w-[900px] md:min-w-[1120px]">
+              <div className="grid grid-cols-8 gap-1 border-b-4 border-dashed border-[#1a1230] pb-3 text-center text-[10px] font-black sm:text-2xl md:gap-3">
+                <div className="transition-transform duration-200 hover:-translate-y-[2px]">Name</div>
+                <div className="transition-transform duration-200 hover:-translate-y-[2px]">Team</div>
+                <div className="transition-transform duration-200 hover:-translate-y-[2px]">State</div>
+                <div className="transition-transform duration-200 hover:-translate-y-[2px]">Pos</div>
+                <div className="transition-transform duration-200 hover:-translate-y-[2px]">Age</div>
+                <div className="transition-transform duration-200 hover:-translate-y-[2px]">#</div>
+                <div className="transition-transform duration-200 hover:-translate-y-[2px]">Disp</div>
+                <div className="transition-transform duration-200 hover:-translate-y-[2px]">Goals</div>
               </div>
 
-              <TeamTile club={guess.club} correct={clubCorrect} close={clubClose} />
+              <div className="mt-4 space-y-3">
+                {guesses.map((guess) => {
+                  const exactPos = positionsExactlyMatch(guess.pos, ANSWER.pos);
+                  const partialPos =
+                    !exactPos && positionsPartiallyMatch(guess.pos, ANSWER.pos);
 
-              <div
-                className={`flex min-h-[72px] items-center justify-center rounded-md border-2 px-2 py-2 text-center text-lg font-black ${statClass(
-                  guessedState === answerState,
-                  stateBorders(guessedState, answerState)
-                )}`}
-              >
-                {guessedState ?? "-"}
+                  const ageDiff = Math.abs(guess.age - ANSWER.age);
+                  const numberDiff = Math.abs(guess.number - ANSWER.number);
+                  const disposalsDiff = Math.abs(guess.disposals - ANSWER.disposals);
+                  const goalsDiff = Math.abs(guess.goals - ANSWER.goals);
+
+                  const guessedState = getTeamState(guess.club);
+                  const answerState = getTeamState(ANSWER.club);
+                  const nameCorrect = guess.id === ANSWER.id;
+                  const clubCorrect =
+                    normalizeClubName(guess.club) === normalizeClubName(ANSWER.club);
+                  const clubClose =
+                    !clubCorrect && teamSharesColor(guess.club, ANSWER.club);
+
+                  return (
+                    <div
+                      key={guess.id}
+                      className="grid grid-cols-8 gap-1 rounded-md border-4 border-[#1a1230] bg-white p-1 shadow-[4px_4px_0_#c6b79a] md:gap-3 md:p-3"
+                    >
+                      <div
+                        className={`flex min-h-[72px] items-center justify-center rounded-md border-2 px-2 py-2 text-center text-lg font-black ${statClass(
+                          nameCorrect,
+                          false
+                        )}`}
+                      >
+                        {guess.name}
+                      </div>
+
+                      <TeamTile club={guess.club} correct={clubCorrect} close={clubClose} />
+
+                      <div
+                        className={`flex min-h-[72px] items-center justify-center rounded-md border-2 px-2 py-2 text-center text-lg font-black ${statClass(
+                          guessedState === answerState,
+                          stateBorders(guessedState, answerState)
+                        )}`}
+                      >
+                        {guessedState ?? "-"}
+                      </div>
+
+                      <div
+                        className={`flex min-h-[72px] items-center justify-center rounded-md border-2 px-2 py-2 text-center text-lg font-black ${statClass(
+                          exactPos,
+                          partialPos
+                        )}`}
+                      >
+                        {normalizePositions(guess.pos).join(", ")}
+                      </div>
+
+                      <div
+                        className={`flex min-h-[72px] items-center justify-center rounded-md border-2 px-2 py-2 text-center text-lg font-black ${statClass(
+                          guess.age === ANSWER.age,
+                          ageDiff <= 2 && guess.age !== ANSWER.age
+                        )}`}
+                      >
+                        {guess.age} {arrowForNumber(guess.age, ANSWER.age)}
+                      </div>
+
+                      <div
+                        className={`flex min-h-[72px] items-center justify-center rounded-md border-2 px-2 py-2 text-center text-lg font-black ${statClass(
+                          guess.number === ANSWER.number,
+                          numberDiff <= 2 && guess.number !== ANSWER.number
+                        )}`}
+                      >
+                        {guess.number} {arrowForNumber(guess.number, ANSWER.number)}
+                      </div>
+
+                      <div
+                        className={`flex min-h-[72px] items-center justify-center rounded-md border-2 px-1 py-1 text-center text-[10px] font-black md:px-2 md:py-2 md:text-lg ${statClass(
+                          guess.disposals === ANSWER.disposals,
+                          disposalsDiff <= 2 && guess.disposals !== ANSWER.disposals
+                        )}`}
+                      >
+                        {guess.disposals} {arrowForNumber(guess.disposals, ANSWER.disposals)}
+                      </div>
+
+                      <div
+                        className={`flex min-h-[72px] items-center justify-center rounded-md border-2 px-1 py-1 text-center text-[10px] font-black md:px-2 md:py-2 md:text-lg ${statClass(
+                          guess.goals === ANSWER.goals,
+                          goalsDiff <= 2 && guess.goals !== ANSWER.goals
+                        )}`}
+                      >
+                        {guess.goals} {arrowForNumber(guess.goals, ANSWER.goals)}
+                      </div>
+                    </div>
+                  );
+                })}
               </div>
-
-              <div
-                className={`flex min-h-[72px] items-center justify-center rounded-md border-2 px-2 py-2 text-center text-lg font-black ${statClass(
-                  exactPos,
-                  partialPos
-                )}`}
-              >
-                {normalizePositions(guess.pos).join(", ")}
-              </div>
-
-              <div
-                className={`flex min-h-[72px] items-center justify-center rounded-md border-2 px-2 py-2 text-center text-lg font-black ${statClass(
-                  guess.age === ANSWER.age,
-                  ageDiff <= 2 && guess.age !== ANSWER.age
-                )}`}
-              >
-                {guess.age} {arrowForNumber(guess.age, ANSWER.age)}
-              </div>
-
-              <div
-                className={`flex min-h-[72px] items-center justify-center rounded-md border-2 px-2 py-2 text-center text-lg font-black ${statClass(
-                  guess.number === ANSWER.number,
-                  numberDiff <= 2 && guess.number !== ANSWER.number
-                )}`}
-              >
-                {guess.number} {arrowForNumber(guess.number, ANSWER.number)}
-              </div>
-
-              <div
-                className={`flex min-h-[72px] items-center justify-center rounded-md border-2 px-1 py-1 text-center text-[10px] font-black md:px-2 md:py-2 md:text-lg ${statClass(
-                  guess.disposals === ANSWER.disposals,
-                  disposalsDiff <= 2 && guess.disposals !== ANSWER.disposals
-                )}`}
-              >
-                {guess.disposals} {arrowForNumber(guess.disposals, ANSWER.disposals)}
-              </div>
-
-              <div
-                className={`flex min-h-[72px] items-center justify-center rounded-md border-2 px-1 py-1 text-center text-[10px] font-black md:px-2 md:py-2 md:text-lg ${statClass(
-                  guess.goals === ANSWER.goals,
-                  goalsDiff <= 2 && guess.goals !== ANSWER.goals
-                )}`}
-              >
-                {guess.goals} {arrowForNumber(guess.goals, ANSWER.goals)}
-              </div>
-            </div>
-          );
-        })}
-      </div>
-    </div>
-  </div>
-
-  <div className="md:hidden overflow-x-auto">
-    {guesses.map((guess) => {
-      const exactPos = positionsExactlyMatch(guess.pos, ANSWER.pos);
-      const partialPos =
-        !exactPos && positionsPartiallyMatch(guess.pos, ANSWER.pos);
-
-      const ageDiff = Math.abs(guess.age - ANSWER.age);
-      const numberDiff = Math.abs(guess.number - ANSWER.number);
-      const disposalsDiff = Math.abs(guess.disposals - ANSWER.disposals);
-      const goalsDiff = Math.abs(guess.goals - ANSWER.goals);
-
-      const guessedState = getTeamState(guess.club);
-      const answerState = getTeamState(ANSWER.club);
-      const nameCorrect = guess.id === ANSWER.id;
-      const clubCorrect =
-        normalizeClubName(guess.club) === normalizeClubName(ANSWER.club);
-      const clubClose =
-        !clubCorrect && teamSharesColor(guess.club, ANSWER.club);
-
-      return (
-        <div
-          key={guess.id}
-          className="min-w-[700px] rounded-md border-4 border-[#1a1230] bg-white p-1 shadow-[4px_4px_0_#c6b79a]"
-        >
-          <div className="grid grid-cols-8 gap-1 text-center">
-            <div className="text-[11px] font-black uppercase text-[#1a1230]">Name</div>
-            <div className="text-[11px] font-black uppercase text-[#1a1230]">Team</div>
-            <div className="text-[11px] font-black uppercase text-[#1a1230]">State</div>
-            <div className="text-[11px] font-black uppercase text-[#1a1230]">Pos</div>
-
-            <div
-              className={`flex min-h-[60px] items-center justify-center rounded-md border-2 px-1 py-1 text-center text-[10px] font-black ${statClass(
-                nameCorrect,
-                false
-              )}`}
-            >
-              {guess.name}
-            </div>
-
-            <TeamTile club={guess.club} correct={clubCorrect} close={clubClose} />
-
-            <div
-              className={`flex min-h-[60px] items-center justify-center rounded-md border-2 px-1 py-1 text-center text-[10px] font-black ${statClass(
-                guessedState === answerState,
-                stateBorders(guessedState, answerState)
-              )}`}
-            >
-              {guessedState ?? "-"}
-            </div>
-
-            <div
-              className={`flex min-h-[60px] items-center justify-center rounded-md border-2 px-1 py-1 text-center text-[9px] font-black ${statClass(
-                exactPos,
-                partialPos
-              )}`}
-            >
-              {normalizePositions(guess.pos).join(", ")}
-            </div>
-
-            <div className="text-[11px] font-black uppercase text-[#1a1230]">Age</div>
-            <div className="text-[11px] font-black uppercase text-[#1a1230]">#</div>
-            <div className="text-[11px] font-black uppercase text-[#1a1230]">Disp</div>
-            <div className="text-[11px] font-black uppercase text-[#1a1230]">Goals</div>
-
-            <div
-              className={`flex min-h-[64px] items-center justify-center rounded-md border-2 px-1 py-1 text-center text-sm font-black ${statClass(
-                guess.age === ANSWER.age,
-                ageDiff <= 2 && guess.age !== ANSWER.age
-              )}`}
-            >
-              {guess.age} {arrowForNumber(guess.age, ANSWER.age)}
-            </div>
-
-            <div
-              className={`flex min-h-[64px] items-center justify-center rounded-md border-2 px-1 py-1 text-center text-sm font-black ${statClass(
-                guess.number === ANSWER.number,
-                numberDiff <= 2 && guess.number !== ANSWER.number
-              )}`}
-            >
-              {guess.number} {arrowForNumber(guess.number, ANSWER.number)}
-            </div>
-
-            <div
-              className={`flex min-h-[64px] items-center justify-center rounded-md border-2 px-1 py-1 text-center text-sm font-black ${statClass(
-                guess.disposals === ANSWER.disposals,
-                disposalsDiff <= 2 && guess.disposals !== ANSWER.disposals
-              )}`}
-            >
-              {guess.disposals} {arrowForNumber(guess.disposals, ANSWER.disposals)}
-            </div>
-
-            <div
-              className={`flex min-h-[64px] items-center justify-center rounded-md border-2 px-1 py-1 text-center text-sm font-black ${statClass(
-                guess.goals === ANSWER.goals,
-                goalsDiff <= 2 && guess.goals !== ANSWER.goals
-              )}`}
-            >
-              {guess.goals} {arrowForNumber(guess.goals, ANSWER.goals)}
             </div>
           </div>
-        </div>
-      );
-    })}
-  </div>
-</section>
+
+          <div className="space-y-4 md:hidden">
+            {guesses.map((guess) => {
+              const exactPos = positionsExactlyMatch(guess.pos, ANSWER.pos);
+              const partialPos =
+                !exactPos && positionsPartiallyMatch(guess.pos, ANSWER.pos);
+
+              const ageDiff = Math.abs(guess.age - ANSWER.age);
+              const numberDiff = Math.abs(guess.number - ANSWER.number);
+              const disposalsDiff = Math.abs(guess.disposals - ANSWER.disposals);
+              const goalsDiff = Math.abs(guess.goals - ANSWER.goals);
+
+              const guessedState = getTeamState(guess.club);
+              const answerState = getTeamState(ANSWER.club);
+              const nameCorrect = guess.id === ANSWER.id;
+              const clubCorrect =
+                normalizeClubName(guess.club) === normalizeClubName(ANSWER.club);
+              const clubClose =
+                !clubCorrect && teamSharesColor(guess.club, ANSWER.club);
+
+              return (
+                <div
+                  key={guess.id}
+                  className="rounded-md border-4 border-[#1a1230] bg-white p-3 shadow-[4px_4px_0_#c6b79a]"
+                >
+                  <div className="mb-3 grid grid-cols-[1fr_88px] gap-3">
+                    <div
+                      className={`flex min-h-[84px] items-center justify-center rounded-md border-2 px-3 py-3 text-center text-base font-black ${statClass(
+                        nameCorrect,
+                        false
+                      )}`}
+                    >
+                      {guess.name}
+                    </div>
+
+                    <div className="min-h-[84px]">
+                      <div className="mb-1 text-[11px] font-black uppercase tracking-wide text-[#1a1230]">
+                        Team
+                      </div>
+                      <TeamTile club={guess.club} correct={clubCorrect} close={clubClose} />
+                    </div>
+                  </div>
+
+                  <div className="grid grid-cols-2 gap-2">
+                    <MobileStatCard
+                      label="State"
+                      className={`flex min-h-[64px] items-center justify-center rounded-md border-2 px-2 py-2 text-center text-sm font-black ${statClass(
+                        guessedState === answerState,
+                        stateBorders(guessedState, answerState)
+                      )}`}
+                    >
+                      {guessedState ?? "-"}
+                    </MobileStatCard>
+
+                    <MobileStatCard
+                      label="Pos"
+                      className={`flex min-h-[64px] items-center justify-center rounded-md border-2 px-2 py-2 text-center text-xs font-black ${statClass(
+                        exactPos,
+                        partialPos
+                      )}`}
+                    >
+                      {normalizePositions(guess.pos).join(", ")}
+                    </MobileStatCard>
+
+                    <MobileStatCard
+                      label="Age"
+                      className={`flex min-h-[64px] items-center justify-center rounded-md border-2 px-2 py-2 text-center text-sm font-black ${statClass(
+                        guess.age === ANSWER.age,
+                        ageDiff <= 2 && guess.age !== ANSWER.age
+                      )}`}
+                    >
+                      {guess.age} {arrowForNumber(guess.age, ANSWER.age)}
+                    </MobileStatCard>
+
+                    <MobileStatCard
+                      label="#"
+                      className={`flex min-h-[64px] items-center justify-center rounded-md border-2 px-2 py-2 text-center text-sm font-black ${statClass(
+                        guess.number === ANSWER.number,
+                        numberDiff <= 2 && guess.number !== ANSWER.number
+                      )}`}
+                    >
+                      {guess.number} {arrowForNumber(guess.number, ANSWER.number)}
+                    </MobileStatCard>
+
+                    <MobileStatCard
+                      label="Disp"
+                      className={`flex min-h-[64px] items-center justify-center rounded-md border-2 px-2 py-2 text-center text-sm font-black ${statClass(
+                        guess.disposals === ANSWER.disposals,
+                        disposalsDiff <= 2 && guess.disposals !== ANSWER.disposals
+                      )}`}
+                    >
+                      {guess.disposals} {arrowForNumber(guess.disposals, ANSWER.disposals)}
+                    </MobileStatCard>
+
+                    <MobileStatCard
+                      label="Goals"
+                      className={`flex min-h-[64px] items-center justify-center rounded-md border-2 px-2 py-2 text-center text-sm font-black ${statClass(
+                        guess.goals === ANSWER.goals,
+                        goalsDiff <= 2 && guess.goals !== ANSWER.goals
+                      )}`}
+                    >
+                      {guess.goals} {arrowForNumber(guess.goals, ANSWER.goals)}
+                    </MobileStatCard>
+                  </div>
+                </div>
+              );
+            })}
+          </div>
+        </section>
       </div>
     </main>
   );
