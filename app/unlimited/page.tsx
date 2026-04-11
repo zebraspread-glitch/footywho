@@ -474,6 +474,47 @@ function TeamTile({
   );
 }
 
+function MobileTeamTile({
+  club,
+  correct,
+  close,
+}: {
+  club: string;
+  correct: boolean;
+  close: boolean;
+}) {
+  const meta = getTeamMeta(club);
+
+  const bgClass = correct
+    ? "bg-green-400 border-green-500"
+    : close
+    ? "bg-yellow-300 border-yellow-400"
+    : "bg-[#f8f1e6] border-[#d7ccb8]";
+
+  return (
+    <div
+      className={`flex min-h-[68px] flex-col items-center justify-center border ${bgClass} px-1 py-1`}
+    >
+      <div className="flex h-7 items-center justify-center">
+        {meta ? (
+          <Image
+            src={meta.icon}
+            alt={club}
+            width={24}
+            height={16}
+            className="h-auto max-h-[18px] w-auto max-w-[28px] object-contain"
+          />
+        ) : (
+          <div className="text-[10px] font-black">?</div>
+        )}
+      </div>
+      <div className="mt-1 text-center text-[9px] font-black leading-none text-black">
+        {meta?.code ?? club.slice(0, 3).toUpperCase()}
+      </div>
+    </div>
+  );
+}
+
 function HelpModal({
   open,
   onClose,
@@ -1021,7 +1062,7 @@ const gameLocked = showWinModal || showLoseModal;
               <button
                 type="button"
                 onClick={() => setShowHelpModal(true)}
-                className="border-4 border-[#1a1230] bg-white px-6 py-3 text-xl font-black shadow-[4px_4px_0_#1a1230] transition-all duration-150 hover:-translate-y-[2px] hover:translate-x-[1px] hover:shadow-[6px_6px_0_#1a1230] active:translate-y-[1px] active:shadow-[2px_2px_0_#1a1230]"
+                className="border-4 border-[#1a1230] bg-white px-3 py-2 text-sm font-black shadow-[3px_3px_0_#1a1230] transition-all duration-150 hover:-translate-y-[2px] hover:translate-x-[1px] hover:shadow-[6px_6px_0_#1a1230] active:translate-y-[1px] active:shadow-[2px_2px_0_#1a1230] sm:px-6 sm:py-3 sm:text-xl"
               >
                 Help
               </button>
@@ -1029,7 +1070,7 @@ const gameLocked = showWinModal || showLoseModal;
               <button
                 type="button"
                 onClick={() => setShowStatsModal(true)}
-                className="border-4 border-[#1a1230] bg-white px-6 py-3 text-xl font-black shadow-[4px_4px_0_#1a1230] transition-all duration-150 hover:-translate-y-[2px] hover:translate-x-[1px] hover:shadow-[6px_6px_0_#1a1230] active:translate-y-[1px] active:shadow-[2px_2px_0_#1a1230]"
+                className="border-4 border-[#1a1230] bg-white px-3 py-2 text-sm font-black shadow-[3px_3px_0_#1a1230] transition-all duration-150 hover:-translate-y-[2px] hover:translate-x-[1px] hover:shadow-[6px_6px_0_#1a1230] active:translate-y-[1px] active:shadow-[2px_2px_0_#1a1230] sm:px-6 sm:py-3 sm:text-xl"
               >
                 Stats
               </button>
@@ -1037,14 +1078,14 @@ const gameLocked = showWinModal || showLoseModal;
               <button
                 type="button"
                 onClick={() => setShowHistoryModal(true)}
-                className="border-4 border-[#1a1230] bg-white px-6 py-3 text-xl font-black shadow-[4px_4px_0_#1a1230] transition-all duration-150 hover:-translate-y-[2px] hover:translate-x-[1px] hover:shadow-[6px_6px_0_#1a1230] active:translate-y-[1px] active:shadow-[2px_2px_0_#1a1230]"
+                className="border-4 border-[#1a1230] bg-white px-3 py-2 text-sm font-black shadow-[3px_3px_0_#1a1230] transition-all duration-150 hover:-translate-y-[2px] hover:translate-x-[1px] hover:shadow-[6px_6px_0_#1a1230] active:translate-y-[1px] active:shadow-[2px_2px_0_#1a1230] sm:px-6 sm:py-3 sm:text-xl"
               >
                 History
               </button>
 
               <Link
                 href="/"
-                className="border-4 border-[#1a1230] bg-white px-6 py-3 text-center text-xl font-black shadow-[4px_4px_0_#1a1230] transition-all duration-150 hover:-translate-y-[2px] hover:translate-x-[1px] hover:shadow-[6px_6px_0_#1a1230] active:translate-y-[1px] active:shadow-[2px_2px_0_#1a1230]"
+                className="border-4 border-[#1a1230] bg-white px-3 py-2 text-center text-sm font-black shadow-[3px_3px_0_#1a1230] transition-all duration-150 hover:-translate-y-[2px] hover:translate-x-[1px] hover:shadow-[6px_6px_0_#1a1230] active:translate-y-[1px] active:shadow-[2px_2px_0_#1a1230] sm:px-6 sm:py-3 sm:text-xl"
               >
                 Daily
               </Link>
@@ -1052,11 +1093,11 @@ const gameLocked = showWinModal || showLoseModal;
           </div>
         </header>
 
-        <section className="mt-10">
+        <section className="mt-6 sm:mt-10">
           <div className="relative">
-            <div className="flex flex-col gap-4 xl:flex-row">
+            <div className="flex flex-col gap-2 xl:flex-row xl:gap-4">
               <div className="animate-fade-in-up flex flex-1 items-center overflow-hidden border-4 border-[#1a1230] bg-white transition-all duration-200 focus-within:-translate-y-[2px] focus-within:shadow-[6px_6px_0_#1a1230]">
-                <div className="flex h-16 w-16 items-center justify-center border-r-4 border-[#1a1230] text-3xl font-black transition-transform duration-200 hover:scale-110">
+                <div className="flex h-12 w-12 items-center justify-center border-r-4 border-[#1a1230] text-xl font-black transition-transform duration-200 hover:scale-110 sm:h-16 sm:w-16 sm:text-3xl">
                   ?
                 </div>
 
@@ -1067,25 +1108,25 @@ const gameLocked = showWinModal || showLoseModal;
   onKeyDown={handleKeyDown}
   placeholder={won ? "You got it!" : showLoseModal ? "You lost!" : "Guess a player..."}
   disabled={gameLocked}
-  className="h-16 w-full bg-transparent px-5 text-2xl font-bold outline-none transition-all duration-200 placeholder:text-[#8e8a95]"
+  className="h-12 w-full bg-transparent px-3 text-base font-bold outline-none transition-all duration-200 placeholder:text-[#8e8a95] sm:h-16 sm:px-5 sm:text-2xl"
 />
               </div>
 
-              <div className="animate-fade-in-up flex h-16 min-w-[150px] items-center justify-center border-4 border-[#1a1230] bg-white px-4 text-2xl font-black transition-all duration-200 hover:-translate-y-[2px] hover:shadow-[4px_4px_0_#1a1230]">
+              <div className="animate-fade-in-up flex h-12 w-full items-center justify-center border-4 border-[#1a1230] bg-white px-4 text-lg font-black transition-all duration-200 hover:-translate-y-[2px] hover:shadow-[4px_4px_0_#1a1230] sm:h-14 sm:text-xl xl:h-16 xl:min-w-[150px] xl:w-auto xl:text-2xl">
                 {guesses.length} guesses
               </div>
 
               <button
   type="button"
   onClick={won || showLoseModal ? startNewGame : giveUp}
-  className="animate-fade-in-up flex h-16 min-w-[150px] items-center justify-center border-4 border-[#1a1230] bg-white px-4 text-2xl font-black shadow-[4px_4px_0_#1a1230] transition-all duration-150 hover:-translate-y-[2px] hover:shadow-[6px_6px_0_#1a1230] active:translate-y-[1px] active:shadow-[2px_2px_0_#1a1230]"
+  className="animate-fade-in-up flex h-12 w-full items-center justify-center border-4 border-[#1a1230] bg-white px-4 text-lg font-black shadow-[4px_4px_0_#1a1230] transition-all duration-150 hover:-translate-y-[2px] hover:shadow-[6px_6px_0_#1a1230] active:translate-y-[1px] active:shadow-[2px_2px_0_#1a1230] sm:h-14 sm:text-xl xl:h-16 xl:min-w-[150px] xl:w-auto xl:text-2xl"
 >
   {won || showLoseModal ? "New Game" : "Give Up"}
 </button>
             </div>
 
             {!won && !showLoseModal && suggestions.length > 0 && (
-              <div className="animate-fade-in-up absolute left-0 right-0 top-[76px] z-20 overflow-hidden rounded-md border-4 border-[#1a1230] bg-white shadow-[6px_6px_0_#1a1230] xl:right-[430px]">
+              <div className="animate-fade-in-up absolute left-0 right-0 top-[58px] z-20 overflow-hidden rounded-md border-4 border-[#1a1230] bg-white shadow-[4px_4px_0_#1a1230] sm:top-[76px] xl:right-[430px]">
                 {suggestions.map((player, index) => {
                   const meta = getTeamMeta(player.club);
 
@@ -1119,67 +1160,51 @@ const gameLocked = showWinModal || showLoseModal;
           </div>
         </section>
 
-        <section className="mt-10 overflow-x-auto">
-          <div className="min-w-[1120px]">
-            <div className="grid grid-cols-8 gap-3 border-b-4 border-dashed border-[#1a1230] pb-3 text-center text-xl font-black sm:text-2xl">
-              <div className="transition-transform duration-200 hover:-translate-y-[2px]">Name</div>
-              <div className="transition-transform duration-200 hover:-translate-y-[2px]">Team</div>
-              <div className="transition-transform duration-200 hover:-translate-y-[2px]">State</div>
-              <div className="transition-transform duration-200 hover:-translate-y-[2px]">Pos</div>
-              <div className="transition-transform duration-200 hover:-translate-y-[2px]">Age</div>
-              <div className="transition-transform duration-200 hover:-translate-y-[2px]">#</div>
-              <div className="transition-transform duration-200 hover:-translate-y-[2px]">Disposals</div>
-              <div className="transition-transform duration-200 hover:-translate-y-[2px]">Goals</div>
-            </div>
+        <section className="mt-8 sm:mt-10">
+          <div className="space-y-3 md:hidden">
+            {guesses.map((guess, index) => {
+              const guessedState = getTeamState(guess.club);
+              const answerState = getTeamState(answer.club);
+              const nameCorrect = guess.id === answer.id;
 
-            <div className="mt-4 space-y-4">
-              {guesses.map((guess, index) => {
-                const guessedState = getTeamState(guess.club);
-                const answerState = getTeamState(answer.club);
-                const nameCorrect = guess.id === answer.id;
+              const teamCorrect =
+                normalizeClubName(guess.club) === normalizeClubName(answer.club);
+              const teamClose =
+                !teamCorrect && teamSharesColor(guess.club, answer.club);
 
-                const teamCorrect =
-                  normalizeClubName(guess.club) === normalizeClubName(answer.club);
-                const teamClose =
-                  !teamCorrect && teamSharesColor(guess.club, answer.club);
+              const posCorrect = positionsExactlyMatch(guess.pos, answer.pos);
+              const posClose =
+                !posCorrect && positionsPartiallyMatch(guess.pos, answer.pos);
 
-                const posCorrect = positionsExactlyMatch(guess.pos, answer.pos);
-                const posClose =
-                  !posCorrect && positionsPartiallyMatch(guess.pos, answer.pos);
+              const ageCorrect = guess.age === answer.age;
+              const ageClose =
+                !ageCorrect && Math.abs(guess.age - answer.age) <= 2;
 
-                const ageCorrect = guess.age === answer.age;
-                const ageClose =
-                  !ageCorrect && Math.abs(guess.age - answer.age) <= 2;
+              const numberCorrect = guess.number === answer.number;
+              const numberClose =
+                !numberCorrect && Math.abs(guess.number - answer.number) <= 2;
 
-                const numberCorrect = guess.number === answer.number;
-                const numberClose =
-                  !numberCorrect && Math.abs(guess.number - answer.number) <= 2;
+              const disposalsCorrect = guess.disposals === answer.disposals;
+              const disposalsClose =
+                !disposalsCorrect &&
+                Math.abs(guess.disposals - answer.disposals) <= 2;
 
-                const disposalsCorrect = guess.disposals === answer.disposals;
-                const disposalsClose =
-                  !disposalsCorrect &&
-                  Math.abs(guess.disposals - answer.disposals) <= 2;
+              const goalsCorrect = guess.goals === answer.goals;
+              const goalsClose =
+                !goalsCorrect && Math.abs(guess.goals - answer.goals) <= 1;
 
-                const goalsCorrect = guess.goals === answer.goals;
-                const goalsClose =
-                  !goalsCorrect && Math.abs(guess.goals - answer.goals) <= 1;
+              return (
+                <div
+                  key={`${guess.id}-${index}-mobile`}
+                  className="animate-guess-in border-b border-[#1a1230]/20 pb-3"
+                  style={{ animationDelay: `${index * 0.03}s` }}
+                >
+                  <div className="mb-2 px-1 text-[15px] font-black leading-tight text-[#1a1230]">
+                    {guess.name}
+                  </div>
 
-                return (
-                  <div
-                    key={`${guess.id}-${index}`}
-                    className="animate-guess-in grid min-h-[96px] grid-cols-8 items-stretch gap-3 border-4 border-[#1a1230] bg-[#f8f1e6] px-3 py-3 text-center text-lg font-black shadow-[4px_4px_0_#c6b79a] transition-all duration-200 hover:-translate-y-[2px] hover:shadow-[6px_6px_0_#c6b79a] sm:text-xl"
-                    style={{ animationDelay: `${index * 0.03}s` }}
-                  >
-                    <div
-                      className={`${statClass(
-                        nameCorrect,
-                        false
-                      )} flex items-center justify-center rounded-md border px-3 py-2 transition-all duration-200 hover:scale-[1.01]`}
-                    >
-                      {guess.name}
-                    </div>
-
-                    <TeamTile
+                  <div className="grid grid-cols-7 gap-[2px] overflow-hidden border border-[#1a1230] bg-[#1a1230] text-center">
+                    <MobileTeamTile
                       club={guess.club}
                       correct={teamCorrect}
                       close={teamClose}
@@ -1189,7 +1214,7 @@ const gameLocked = showWinModal || showLoseModal;
                       className={`${statClass(
                         guessedState === answerState,
                         stateBorders(guessedState, answerState)
-                      )} flex items-center justify-center rounded-md border px-3 py-2 font-black`}
+                      )} flex min-h-[68px] items-center justify-center border px-1 text-[11px] font-black`}
                     >
                       {guessedState ?? "-"}
                     </div>
@@ -1198,20 +1223,22 @@ const gameLocked = showWinModal || showLoseModal;
                       className={`${statClass(
                         posCorrect,
                         posClose
-                      )} flex items-center justify-center rounded-md border px-3 py-2 transition-all duration-200 hover:scale-[1.01]`}
+                      )} flex min-h-[68px] items-center justify-center border px-1 text-[10px] font-black`}
                     >
-                      {guess.pos.join(", ")}
+                      {normalizePositions(guess.pos).join("/")}
                     </div>
 
                     <div
                       className={`${statClass(
                         ageCorrect,
                         ageClose
-                      )} flex flex-col items-center justify-center rounded-md border px-3 py-2 transition-all duration-200 hover:scale-[1.01]`}
+                      )} flex min-h-[68px] flex-col items-center justify-center border px-1 text-[11px] font-black`}
                     >
                       <div>{guess.age}</div>
                       {!ageCorrect && (
-                        <div className="text-sm">{arrowForNumber(guess.age, answer.age)}</div>
+                        <div className="mt-0.5 text-[11px] leading-none">
+                          {arrowForNumber(guess.age, answer.age)}
+                        </div>
                       )}
                     </div>
 
@@ -1219,11 +1246,13 @@ const gameLocked = showWinModal || showLoseModal;
                       className={`${statClass(
                         numberCorrect,
                         numberClose
-                      )} flex flex-col items-center justify-center rounded-md border px-3 py-2 transition-all duration-200 hover:scale-[1.01]`}
+                      )} flex min-h-[68px] flex-col items-center justify-center border px-1 text-[11px] font-black`}
                     >
                       <div>{guess.number}</div>
                       {!numberCorrect && (
-                        <div className="text-sm">{arrowForNumber(guess.number, answer.number)}</div>
+                        <div className="mt-0.5 text-[11px] leading-none">
+                          {arrowForNumber(guess.number, answer.number)}
+                        </div>
                       )}
                     </div>
 
@@ -1231,11 +1260,11 @@ const gameLocked = showWinModal || showLoseModal;
                       className={`${statClass(
                         disposalsCorrect,
                         disposalsClose
-                      )} flex flex-col items-center justify-center rounded-md border px-3 py-2 transition-all duration-200 hover:scale-[1.01]`}
+                      )} flex min-h-[68px] flex-col items-center justify-center border px-1 text-[11px] font-black`}
                     >
                       <div>{guess.disposals}</div>
                       {!disposalsCorrect && (
-                        <div className="text-sm">
+                        <div className="mt-0.5 text-[11px] leading-none">
                           {arrowForNumber(guess.disposals, answer.disposals)}
                         </div>
                       )}
@@ -1245,16 +1274,158 @@ const gameLocked = showWinModal || showLoseModal;
                       className={`${statClass(
                         goalsCorrect,
                         goalsClose
-                      )} flex flex-col items-center justify-center rounded-md border px-3 py-2 transition-all duration-200 hover:scale-[1.01]`}
+                      )} flex min-h-[68px] flex-col items-center justify-center border px-1 text-[11px] font-black`}
                     >
                       <div>{guess.goals}</div>
                       {!goalsCorrect && (
-                        <div className="text-sm">{arrowForNumber(guess.goals, answer.goals)}</div>
+                        <div className="mt-0.5 text-[11px] leading-none">
+                          {arrowForNumber(guess.goals, answer.goals)}
+                        </div>
                       )}
                     </div>
                   </div>
-                );
-              })}
+                </div>
+              );
+            })}
+          </div>
+
+          <div className="mt-0 hidden overflow-x-auto md:block">
+            <div className="min-w-[1120px]">
+              <div className="grid grid-cols-8 gap-3 border-b-4 border-dashed border-[#1a1230] pb-3 text-center text-xl font-black sm:text-2xl">
+                <div className="transition-transform duration-200 hover:-translate-y-[2px]">Name</div>
+                <div className="transition-transform duration-200 hover:-translate-y-[2px]">Team</div>
+                <div className="transition-transform duration-200 hover:-translate-y-[2px]">State</div>
+                <div className="transition-transform duration-200 hover:-translate-y-[2px]">Pos</div>
+                <div className="transition-transform duration-200 hover:-translate-y-[2px]">Age</div>
+                <div className="transition-transform duration-200 hover:-translate-y-[2px]">#</div>
+                <div className="transition-transform duration-200 hover:-translate-y-[2px]">Disposals</div>
+                <div className="transition-transform duration-200 hover:-translate-y-[2px]">Goals</div>
+              </div>
+
+              <div className="mt-4 space-y-4">
+                {guesses.map((guess, index) => {
+                  const guessedState = getTeamState(guess.club);
+                  const answerState = getTeamState(answer.club);
+                  const nameCorrect = guess.id === answer.id;
+
+                  const teamCorrect =
+                    normalizeClubName(guess.club) === normalizeClubName(answer.club);
+                  const teamClose =
+                    !teamCorrect && teamSharesColor(guess.club, answer.club);
+
+                  const posCorrect = positionsExactlyMatch(guess.pos, answer.pos);
+                  const posClose =
+                    !posCorrect && positionsPartiallyMatch(guess.pos, answer.pos);
+
+                  const ageCorrect = guess.age === answer.age;
+                  const ageClose =
+                    !ageCorrect && Math.abs(guess.age - answer.age) <= 2;
+
+                  const numberCorrect = guess.number === answer.number;
+                  const numberClose =
+                    !numberCorrect && Math.abs(guess.number - answer.number) <= 2;
+
+                  const disposalsCorrect = guess.disposals === answer.disposals;
+                  const disposalsClose =
+                    !disposalsCorrect &&
+                    Math.abs(guess.disposals - answer.disposals) <= 2;
+
+                  const goalsCorrect = guess.goals === answer.goals;
+                  const goalsClose =
+                    !goalsCorrect && Math.abs(guess.goals - answer.goals) <= 1;
+
+                  return (
+                    <div
+                      key={`${guess.id}-${index}`}
+                      className="animate-guess-in grid min-h-[96px] grid-cols-8 items-stretch gap-3 border-4 border-[#1a1230] bg-[#f8f1e6] px-3 py-3 text-center text-lg font-black shadow-[4px_4px_0_#c6b79a] transition-all duration-200 hover:-translate-y-[2px] hover:shadow-[6px_6px_0_#c6b79a] sm:text-xl"
+                      style={{ animationDelay: `${index * 0.03}s` }}
+                    >
+                      <div
+                        className={`${statClass(
+                          nameCorrect,
+                          false
+                        )} flex items-center justify-center rounded-md border px-3 py-2 transition-all duration-200 hover:scale-[1.01]`}
+                      >
+                        {guess.name}
+                      </div>
+
+                      <TeamTile
+                        club={guess.club}
+                        correct={teamCorrect}
+                        close={teamClose}
+                      />
+
+                      <div
+                        className={`${statClass(
+                          guessedState === answerState,
+                          stateBorders(guessedState, answerState)
+                        )} flex items-center justify-center rounded-md border px-3 py-2 font-black`}
+                      >
+                        {guessedState ?? "-"}
+                      </div>
+
+                      <div
+                        className={`${statClass(
+                          posCorrect,
+                          posClose
+                        )} flex items-center justify-center rounded-md border px-3 py-2 transition-all duration-200 hover:scale-[1.01]`}
+                      >
+                        {guess.pos.join(", ")}
+                      </div>
+
+                      <div
+                        className={`${statClass(
+                          ageCorrect,
+                          ageClose
+                        )} flex flex-col items-center justify-center rounded-md border px-3 py-2 transition-all duration-200 hover:scale-[1.01]`}
+                      >
+                        <div>{guess.age}</div>
+                        {!ageCorrect && (
+                          <div className="text-sm">{arrowForNumber(guess.age, answer.age)}</div>
+                        )}
+                      </div>
+
+                      <div
+                        className={`${statClass(
+                          numberCorrect,
+                          numberClose
+                        )} flex flex-col items-center justify-center rounded-md border px-3 py-2 transition-all duration-200 hover:scale-[1.01]`}
+                      >
+                        <div>{guess.number}</div>
+                        {!numberCorrect && (
+                          <div className="text-sm">{arrowForNumber(guess.number, answer.number)}</div>
+                        )}
+                      </div>
+
+                      <div
+                        className={`${statClass(
+                          disposalsCorrect,
+                          disposalsClose
+                        )} flex flex-col items-center justify-center rounded-md border px-3 py-2 transition-all duration-200 hover:scale-[1.01]`}
+                      >
+                        <div>{guess.disposals}</div>
+                        {!disposalsCorrect && (
+                          <div className="text-sm">
+                            {arrowForNumber(guess.disposals, answer.disposals)}
+                          </div>
+                        )}
+                      </div>
+
+                      <div
+                        className={`${statClass(
+                          goalsCorrect,
+                          goalsClose
+                        )} flex flex-col items-center justify-center rounded-md border px-3 py-2 transition-all duration-200 hover:scale-[1.01]`}
+                      >
+                        <div>{guess.goals}</div>
+                        {!goalsCorrect && (
+                          <div className="text-sm">{arrowForNumber(guess.goals, answer.goals)}</div>
+                        )}
+                      </div>
+                    </div>
+                  );
+                })}
+              </div>
             </div>
           </div>
         </section>
