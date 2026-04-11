@@ -1203,6 +1203,16 @@ const gameLocked = showWinModal || showLoseModal;
                     {guess.name}
                   </div>
 
+                  <div className="mb-1 grid grid-cols-7 gap-[2px] px-[1px] text-center text-[9px] font-black uppercase tracking-tight text-[#1a1230]">
+                    <div>Team</div>
+                    <div>State</div>
+                    <div>Pos</div>
+                    <div>Age</div>
+                    <div>#</div>
+                    <div>Disp</div>
+                    <div>Goals</div>
+                  </div>
+
                   <div className="grid grid-cols-7 gap-[2px] overflow-hidden border border-[#1a1230] bg-[#1a1230] text-center">
                     <MobileTeamTile
                       club={guess.club}
