@@ -20,8 +20,8 @@
     ],
     "age": 26,
     "number": 33,
-    "disposals": 10.75,
-    "goals": 14
+    "disposals": 10,
+    "goals": 15
   },
   {
     "id": "carl_cerra",
@@ -80,7 +80,7 @@
     ],
     "age": 31,
     "number": 4,
-    "disposals": 6.5,
+    "disposals": 8,
     "goals": 0
   },
   {
@@ -129,8 +129,8 @@
     ],
     "age": 24,
     "number": 5,
-    "disposals": 20,
-    "goals": 1
+    "disposals": 17.75,
+    "goals": 2
   },
   {
     "id": "stk_dodson",
@@ -165,7 +165,7 @@
     ],
     "age": 30,
     "number": 25,
-    "disposals": 8,
+    "disposals": 9.2,
     "goals": 0
   },
   {
@@ -213,7 +213,7 @@
     ],
     "age": 26,
     "number": 8,
-    "disposals": 24.75,
+    "disposals": 23.6,
     "goals": 3
   },
   {
@@ -226,7 +226,7 @@
     ],
     "age": 27,
     "number": 1,
-    "disposals": 21.75,
+    "disposals": 20,
     "goals": 0
   },
   {
@@ -300,8 +300,8 @@
     ],
     "age": 19,
     "number": 44,
-    "disposals": 12.5,
-    "goals": 0
+    "disposals": 13.33,
+    "goals": 1
   },
   {
     "id": "ess_may",
@@ -348,8 +348,8 @@
     ],
     "age": 25,
     "number": 26,
-    "disposals": 5.33,
-    "goals": 2
+    "disposals": 5,
+    "goals": 4
   },
   {
     "id": "ess_perkins",
@@ -372,8 +372,8 @@
     ],
     "age": 20,
     "number": 21,
-    "disposals": 27,
-    "goals": 0
+    "disposals": 30,
+    "goals": 1
   },
   {
     "id": "wb_jones",
@@ -444,7 +444,7 @@
     ],
     "age": 29,
     "number": 31,
-    "disposals": 21,
+    "disposals": 20.8,
     "goals": 0
   },
   {
@@ -532,7 +532,7 @@
     ],
     "age": 25,
     "number": 34,
-    "disposals": 21.25,
+    "disposals": 21.4,
     "goals": 4
   },
   {
@@ -544,8 +544,8 @@
     ],
     "age": 29,
     "number": 31,
-    "disposals": 12,
-    "goals": 7
+    "disposals": 12.25,
+    "goals": 8
   },
   {
     "id": "gc_addinsall",
@@ -568,7 +568,7 @@
     ],
     "age": 24,
     "number": 31,
-    "disposals": 14.75,
+    "disposals": 14.4,
     "goals": 3
   },
   {
@@ -628,8 +628,8 @@
     ],
     "age": 25,
     "number": 34,
-    "disposals": 8.5,
-    "goals": 19
+    "disposals": 7.8,
+    "goals": 21
   },
   {
     "id": "gc_long",
@@ -641,8 +641,8 @@
     ],
     "age": 28,
     "number": 22,
-    "disposals": 10.75,
-    "goals": 4
+    "disposals": 11.4,
+    "goals": 7
   },
   {
     "id": "ess_mckay",
@@ -653,7 +653,7 @@
     ],
     "age": 28,
     "number": 32,
-    "disposals": 6.75,
+    "disposals": 10,
     "goals": 0
   },
   {
@@ -701,7 +701,7 @@
     ],
     "age": 29,
     "number": 17,
-    "disposals": 11.25,
+    "disposals": 12,
     "goals": 0
   },
   {
@@ -725,7 +725,7 @@
     ],
     "age": 29,
     "number": 15,
-    "disposals": 15.75,
+    "disposals": 17.6,
     "goals": 0
   },
   {
@@ -737,7 +737,7 @@
     ],
     "age": 23,
     "number": 22,
-    "disposals": 12.75,
+    "disposals": 13,
     "goals": 0
   },
   {
@@ -786,7 +786,7 @@
     ],
     "age": 22,
     "number": 6,
-    "disposals": 24,
+    "disposals": 24.4,
     "goals": 0
   },
   {
@@ -944,7 +944,7 @@
     ],
     "age": 29,
     "number": 4,
-    "disposals": 21,
+    "disposals": 20.2,
     "goals": 0
   },
   {
@@ -956,7 +956,7 @@
     ],
     "age": 27,
     "number": 36,
-    "disposals": 14,
+    "disposals": 13.67,
     "goals": 0
   },
   {
@@ -980,7 +980,7 @@
     ],
     "age": 31,
     "number": 4,
-    "disposals": 18,
+    "disposals": 18.4,
     "goals": 4
   },
   {
@@ -1005,8 +1005,8 @@
     ],
     "age": 33,
     "number": 28,
-    "disposals": 9.75,
-    "goals": 7
+    "disposals": 9,
+    "goals": 8
   },
   {
     "id": "bris_reville",
@@ -1018,7 +1018,7 @@
     ],
     "age": 25,
     "number": 38,
-    "disposals": 16.5,
+    "disposals": 15.6,
     "goals": 3
   },
   {
@@ -1031,7 +1031,7 @@
     ],
     "age": 26,
     "number": 24,
-    "disposals": 12.5,
+    "disposals": 11.8,
     "goals": 0
   },
   {
@@ -1055,7 +1055,7 @@
     ],
     "age": 29,
     "number": 5,
-    "disposals": 24.5,
+    "disposals": 23.2,
     "goals": 0
   },
   {
@@ -1091,7 +1091,7 @@
     ],
     "age": 25,
     "number": 3,
-    "disposals": 27.5,
+    "disposals": 26.8,
     "goals": 4
   },
   {
@@ -1103,7 +1103,7 @@
     ],
     "age": 20,
     "number": 6,
-    "disposals": 18.75,
+    "disposals": 16.4,
     "goals": 1
   },
   {
@@ -1140,7 +1140,7 @@
     ],
     "age": 26,
     "number": 21,
-    "disposals": 8,
+    "disposals": 7.67,
     "goals": 0
   },
   {
@@ -1164,7 +1164,7 @@
     ],
     "age": 29,
     "number": 14,
-    "disposals": 23.5,
+    "disposals": 23.8,
     "goals": 0
   },
   {
@@ -1213,8 +1213,8 @@
     ],
     "age": 26,
     "number": 16,
-    "disposals": 15.25,
-    "goals": 4
+    "disposals": 15.6,
+    "goals": 5
   },
   {
     "id": "hawk_cameron_mackenzie",
@@ -1225,7 +1225,7 @@
     ],
     "age": 22,
     "number": 28,
-    "disposals": 19,
+    "disposals": 18.33,
     "goals": 1
   },
   {
@@ -1249,7 +1249,7 @@
     ],
     "age": 27,
     "number": 44,
-    "disposals": 9.75,
+    "disposals": 10,
     "goals": 6
   },
   {
@@ -1286,8 +1286,8 @@
     ],
     "age": 24,
     "number": 1,
-    "disposals": 21.5,
-    "goals": 4
+    "disposals": 21.6,
+    "goals": 6
   },
   {
     "id": "mel_jiath",
@@ -1310,7 +1310,7 @@
     ],
     "age": 26,
     "number": 10,
-    "disposals": 13,
+    "disposals": 11.33,
     "goals": 0
   },
   {
@@ -1334,8 +1334,8 @@
     ],
     "age": 31,
     "number": 23,
-    "disposals": 12.5,
-    "goals": 8
+    "disposals": 11.8,
+    "goals": 9
   },
   {
     "id": "nm_comben",
@@ -1346,7 +1346,7 @@
     ],
     "age": 24,
     "number": 30,
-    "disposals": 12.5,
+    "disposals": 11.8,
     "goals": 1
   },
   {
@@ -1358,7 +1358,7 @@
     ],
     "age": 29,
     "number": 35,
-    "disposals": 10,
+    "disposals": 10.2,
     "goals": 9
   },
   {
@@ -1394,7 +1394,7 @@
     ],
     "age": 26,
     "number": 13,
-    "disposals": 0,
+    "disposals": 7,
     "goals": 0
   },
   {
@@ -1430,7 +1430,7 @@
     ],
     "age": 25,
     "number": 45,
-    "disposals": 11.33,
+    "disposals": 10.25,
     "goals": 0
   },
   {
@@ -1467,7 +1467,7 @@
     ],
     "age": 30,
     "number": 3,
-    "disposals": 22.75,
+    "disposals": 20.6,
     "goals": 1
   },
   {
@@ -1552,7 +1552,7 @@
     ],
     "age": 20,
     "number": 10,
-    "disposals": 22.5,
+    "disposals": 22.4,
     "goals": 1
   },
   {
@@ -1564,7 +1564,7 @@
     ],
     "age": 25,
     "number": 19,
-    "disposals": 23,
+    "disposals": 21.4,
     "goals": 1
   },
   {
@@ -1588,8 +1588,8 @@
     ],
     "age": 23,
     "number": 9,
-    "disposals": 22.5,
-    "goals": 2
+    "disposals": 22.6,
+    "goals": 3
   },
   {
     "id": "geel_osullivan",
@@ -1637,7 +1637,7 @@
     ],
     "age": 27,
     "number": 11,
-    "disposals": 19,
+    "disposals": 18.8,
     "goals": 1
   },
   {
@@ -1698,8 +1698,8 @@
     ],
     "age": 20,
     "number": 6,
-    "disposals": 10.33,
-    "goals": 1
+    "disposals": 11.5,
+    "goals": 2
   },
   {
     "id": "carl_lord",
@@ -1747,8 +1747,8 @@
     ],
     "age": 20,
     "number": 47,
-    "disposals": 9,
-    "goals": 8
+    "disposals": 9.6,
+    "goals": 10
   },
   {
     "id": "port_durdin",
@@ -1772,7 +1772,7 @@
     ],
     "age": 29,
     "number": 34,
-    "disposals": 18,
+    "disposals": 17.6,
     "goals": 0
   },
   {
@@ -1784,8 +1784,8 @@
     ],
     "age": 22,
     "number": 37,
-    "disposals": 12.5,
-    "goals": 1
+    "disposals": 10.33,
+    "goals": 2
   },
   {
     "id": "coll_houston",
@@ -1796,7 +1796,7 @@
     ],
     "age": 28,
     "number": 9,
-    "disposals": 27.5,
+    "disposals": 24.8,
     "goals": 1
   },
   {
@@ -1808,7 +1808,7 @@
     ],
     "age": 35,
     "number": 24,
-    "disposals": 13,
+    "disposals": 13.8,
     "goals": 0
   },
   {
@@ -1856,8 +1856,8 @@
     ],
     "age": 30,
     "number": 11,
-    "disposals": 8.25,
-    "goals": 7
+    "disposals": 8.2,
+    "goals": 8
   },
   {
     "id": "gc_rioli",
@@ -1868,7 +1868,7 @@
     ],
     "age": 28,
     "number": 17,
-    "disposals": 18.5,
+    "disposals": 16.8,
     "goals": 1
   },
   {
@@ -1880,7 +1880,7 @@
     ],
     "age": 24,
     "number": 10,
-    "disposals": 10,
+    "disposals": 11.75,
     "goals": 0
   },
   {
@@ -1918,7 +1918,7 @@
     ],
     "age": 30,
     "number": 14,
-    "disposals": 15,
+    "disposals": 15.6,
     "goals": 1
   },
   {
@@ -1943,7 +1943,7 @@
     ],
     "age": 32,
     "number": 32,
-    "disposals": 13.75,
+    "disposals": 11.8,
     "goals": 1
   },
   {
@@ -1991,7 +1991,7 @@
     ],
     "age": 28,
     "number": 3,
-    "disposals": 20.75,
+    "disposals": 23.4,
     "goals": 0
   },
   {
@@ -2003,7 +2003,7 @@
     ],
     "age": 22,
     "number": 44,
-    "disposals": 20.75,
+    "disposals": 19.4,
     "goals": 0
   },
   {
@@ -2039,7 +2039,7 @@
     ],
     "age": 37,
     "number": 15,
-    "disposals": 29.25,
+    "disposals": 25,
     "goals": 2
   },
   {
@@ -2087,8 +2087,8 @@
     ],
     "age": 26,
     "number": 8,
-    "disposals": 19.25,
-    "goals": 4
+    "disposals": 20,
+    "goals": 6
   },
   {
     "id": "gc_patterson",
@@ -2111,7 +2111,7 @@
     ],
     "age": 25,
     "number": 15,
-    "disposals": 23.75,
+    "disposals": 21.6,
     "goals": 1
   },
   {
@@ -2147,7 +2147,7 @@
     ],
     "age": 30,
     "number": 15,
-    "disposals": 15,
+    "disposals": 14.6,
     "goals": 4
   },
   {
@@ -2159,7 +2159,7 @@
     ],
     "age": 26,
     "number": 20,
-    "disposals": 26,
+    "disposals": 25,
     "goals": 2
   },
   {
@@ -2207,8 +2207,8 @@
     ],
     "age": 21,
     "number": 5,
-    "disposals": 0,
-    "goals": 0
+    "disposals": 29,
+    "goals": 1
   },
   {
     "id": "wce_yeo",
@@ -2281,7 +2281,7 @@
     ],
     "age": 20,
     "number": 20,
-    "disposals": 11.5,
+    "disposals": 10.4,
     "goals": 7
   },
   {
@@ -2425,7 +2425,7 @@
     ],
     "age": 21,
     "number": 6,
-    "disposals": 16,
+    "disposals": 16.33,
     "goals": 0
   },
   {
@@ -2438,7 +2438,7 @@
     ],
     "age": 27,
     "number": 19,
-    "disposals": 7.5,
+    "disposals": 11,
     "goals": 0
   },
   {
@@ -2499,7 +2499,7 @@
     ],
     "age": 29,
     "number": 31,
-    "disposals": 18,
+    "disposals": 16.5,
     "goals": 0
   },
   {
@@ -2547,7 +2547,7 @@
     ],
     "age": 26,
     "number": 35,
-    "disposals": 7.75,
+    "disposals": 7.6,
     "goals": 0
   },
   {
@@ -2607,8 +2607,8 @@
     ],
     "age": 32,
     "number": 7,
-    "disposals": 12,
-    "goals": 1
+    "disposals": 12.5,
+    "goals": 2
   },
   {
     "id": "carl_dean",
@@ -2703,7 +2703,7 @@
     ],
     "age": 27,
     "number": 12,
-    "disposals": 16.5,
+    "disposals": 16.4,
     "goals": 0
   },
   {
@@ -2739,8 +2739,8 @@
     ],
     "age": 23,
     "number": 30,
-    "disposals": 13.5,
-    "goals": 5
+    "disposals": 13.6,
+    "goals": 6
   },
   {
     "id": "nm_sheezel",
@@ -2751,7 +2751,7 @@
     ],
     "age": 21,
     "number": 3,
-    "disposals": 32,
+    "disposals": 31.6,
     "goals": 1
   },
   {
@@ -2764,8 +2764,8 @@
     ],
     "age": 22,
     "number": 12,
-    "disposals": 0,
-    "goals": 0
+    "disposals": 10,
+    "goals": 1
   },
   {
     "id": "coll_harrison",
@@ -2788,8 +2788,8 @@
     ],
     "age": 20,
     "number": 4,
-    "disposals": 12.25,
-    "goals": 4
+    "disposals": 13.2,
+    "goals": 5
   },
   {
     "id": "gws_thomas",
@@ -2836,7 +2836,7 @@
     ],
     "age": 24,
     "number": 5,
-    "disposals": 18,
+    "disposals": 17.8,
     "goals": 0
   },
   {
@@ -2921,7 +2921,7 @@
     ],
     "age": 28,
     "number": 6,
-    "disposals": 4,
+    "disposals": 12,
     "goals": 0
   },
   {
@@ -3030,8 +3030,8 @@
     ],
     "age": 29,
     "number": 5,
-    "disposals": 20.67,
-    "goals": 8
+    "disposals": 23.75,
+    "goals": 10
   },
   {
     "id": "ess_kako",
@@ -3042,8 +3042,8 @@
     ],
     "age": 20,
     "number": 10,
-    "disposals": 10,
-    "goals": 2
+    "disposals": 12.25,
+    "goals": 4
   },
   {
     "id": "stk_keeler",
@@ -3067,7 +3067,7 @@
     ],
     "age": 26,
     "number": 3,
-    "disposals": 17.75,
+    "disposals": 18.4,
     "goals": 0
   },
   {
@@ -3079,8 +3079,8 @@
     ],
     "age": 22,
     "number": 43,
-    "disposals": 12,
-    "goals": 8
+    "disposals": 11.2,
+    "goals": 10
   },
   {
     "id": "port_soldo",
@@ -3165,8 +3165,8 @@
     ],
     "age": 32,
     "number": 25,
-    "disposals": 22.75,
-    "goals": 1
+    "disposals": 22.8,
+    "goals": 2
   },
   {
     "id": "haw_dalton",
@@ -3189,8 +3189,8 @@
     ],
     "age": 33,
     "number": 27,
-    "disposals": 9,
-    "goals": 2
+    "disposals": 9.75,
+    "goals": 3
   },
   {
     "id": "haw_ginnivan",
@@ -3201,8 +3201,8 @@
     ],
     "age": 23,
     "number": 33,
-    "disposals": 19.5,
-    "goals": 5
+    "disposals": 21.2,
+    "goals": 6
   },
   {
     "id": "wce_graham",
@@ -3226,8 +3226,8 @@
     ],
     "age": 34,
     "number": 19,
-    "disposals": 11,
-    "goals": 16
+    "disposals": 10.4,
+    "goals": 19
   },
   {
     "id": "mel_henderson",
@@ -3406,7 +3406,7 @@
     ],
     "age": 30,
     "number": 9,
-    "disposals": 25.25,
+    "disposals": 25.8,
     "goals": 1
   },
   {
@@ -3504,7 +3504,7 @@
     ],
     "age": 18,
     "number": 2,
-    "disposals": 17,
+    "disposals": 18.67,
     "goals": 0
   },
   {
@@ -3576,7 +3576,7 @@
     ],
     "age": 22,
     "number": 2,
-    "disposals": 10.75,
+    "disposals": 10.4,
     "goals": 7
   },
   {
@@ -3613,8 +3613,8 @@
     ],
     "age": 28,
     "number": 11,
-    "disposals": 11,
-    "goals": 4
+    "disposals": 11.67,
+    "goals": 5
   },
   {
     "id": "frem_omeara",
@@ -3625,7 +3625,7 @@
     ],
     "age": 32,
     "number": 2,
-    "disposals": 15,
+    "disposals": 17,
     "goals": 0
   },
   {
@@ -3649,7 +3649,7 @@
     ],
     "age": 23,
     "number": 13,
-    "disposals": 12.5,
+    "disposals": 12,
     "goals": 1
   },
   {
@@ -3673,8 +3673,8 @@
     ],
     "age": 24,
     "number": 3,
-    "disposals": 25.75,
-    "goals": 2
+    "disposals": 26.2,
+    "goals": 3
   },
   {
     "id": "syd_jai_serong",
@@ -3685,7 +3685,7 @@
     ],
     "age": 23,
     "number": 13,
-    "disposals": 20.5,
+    "disposals": 18.8,
     "goals": 1
   },
   {
@@ -3733,7 +3733,7 @@
     ],
     "age": 30,
     "number": 8,
-    "disposals": 16,
+    "disposals": 16.4,
     "goals": 0
   },
   {
@@ -3745,7 +3745,7 @@
     ],
     "age": 32,
     "number": 44,
-    "disposals": 16,
+    "disposals": 15,
     "goals": 3
   },
   {
@@ -3757,7 +3757,7 @@
     ],
     "age": 34,
     "number": 18,
-    "disposals": 11,
+    "disposals": 8,
     "goals": 4
   },
   {
@@ -3902,7 +3902,7 @@
     ],
     "age": 25,
     "number": 17,
-    "disposals": 13.5,
+    "disposals": 13.6,
     "goals": 2
   },
   {
@@ -3926,7 +3926,7 @@
     ],
     "age": 23,
     "number": 18,
-    "disposals": 8.5,
+    "disposals": 9.2,
     "goals": 0
   },
   {
@@ -3950,7 +3950,7 @@
     ],
     "age": 25,
     "number": 8,
-    "disposals": 18.25,
+    "disposals": 17.6,
     "goals": 1
   },
   {
@@ -3962,7 +3962,7 @@
     ],
     "age": 31,
     "number": 6,
-    "disposals": 23,
+    "disposals": 23.2,
     "goals": 0
   },
   {
@@ -4022,7 +4022,7 @@
     ],
     "age": 33,
     "number": 5,
-    "disposals": 7.5,
+    "disposals": 9,
     "goals": 5
   },
   {
@@ -4046,7 +4046,7 @@
     ],
     "age": 30,
     "number": 4,
-    "disposals": 21.5,
+    "disposals": 22.4,
     "goals": 0
   },
   {
@@ -4058,7 +4058,7 @@
     ],
     "age": 28,
     "number": 7,
-    "disposals": 21.25,
+    "disposals": 20.6,
     "goals": 1
   },
   {
@@ -4070,7 +4070,7 @@
     ],
     "age": 33,
     "number": 28,
-    "disposals": 12.5,
+    "disposals": 12.6,
     "goals": 1
   },
   {
@@ -4107,7 +4107,7 @@
     ],
     "age": 22,
     "number": 3,
-    "disposals": 20.75,
+    "disposals": 19,
     "goals": 1
   },
   {
@@ -4131,7 +4131,7 @@
     ],
     "age": 24,
     "number": 25,
-    "disposals": 17.5,
+    "disposals": 17.4,
     "goals": 0
   },
   {
@@ -4215,8 +4215,8 @@
     ],
     "age": 20,
     "number": 4,
-    "disposals": 10,
-    "goals": 2
+    "disposals": 8.5,
+    "goals": 4
   },
   {
     "id": "wb_busslinger",
@@ -4251,7 +4251,7 @@
     ],
     "age": 35,
     "number": 38,
-    "disposals": 12,
+    "disposals": 12.67,
     "goals": 0
   },
   {
@@ -4385,7 +4385,7 @@
     ],
     "age": 26,
     "number": 36,
-    "disposals": 9.25,
+    "disposals": 8.8,
     "goals": 11
   },
   {
@@ -4409,8 +4409,8 @@
     ],
     "age": 20,
     "number": 27,
-    "disposals": 22.5,
-    "goals": 3
+    "disposals": 21.4,
+    "goals": 4
   },
   {
     "id": "syd_hamling",
@@ -4421,7 +4421,7 @@
     ],
     "age": 33,
     "number": 29,
-    "disposals": 0,
+    "disposals": 14,
     "goals": 0
   },
   {
@@ -4433,7 +4433,7 @@
     ],
     "age": 24,
     "number": 16,
-    "disposals": 22.25,
+    "disposals": 20,
     "goals": 2
   },
   {
@@ -4445,7 +4445,7 @@
     ],
     "age": 29,
     "number": 2,
-    "disposals": 24.75,
+    "disposals": 24.6,
     "goals": 3
   },
   {
@@ -4481,7 +4481,7 @@
     ],
     "age": 25,
     "number": 6,
-    "disposals": 22.25,
+    "disposals": 23.2,
     "goals": 0
   },
   {
@@ -4493,8 +4493,8 @@
     ],
     "age": 20,
     "number": 16,
-    "disposals": 4.67,
-    "goals": 1
+    "disposals": 6,
+    "goals": 2
   },
   {
     "id": "adel_dawson",
@@ -4517,7 +4517,7 @@
     ],
     "age": 30,
     "number": 2,
-    "disposals": 15.5,
+    "disposals": 13.6,
     "goals": 4
   },
   {
@@ -4529,7 +4529,7 @@
     ],
     "age": 27,
     "number": 14,
-    "disposals": 0,
+    "disposals": 26,
     "goals": 0
   },
   {
@@ -4589,7 +4589,7 @@
     ],
     "age": 27,
     "number": 24,
-    "disposals": 18.75,
+    "disposals": 19.6,
     "goals": 0
   },
   {
@@ -4601,7 +4601,7 @@
     ],
     "age": 27,
     "number": 7,
-    "disposals": 30.5,
+    "disposals": 29,
     "goals": 0
   },
   {
@@ -4613,8 +4613,8 @@
     ],
     "age": 19,
     "number": 26,
-    "disposals": 16,
-    "goals": 1
+    "disposals": 13,
+    "goals": 2
   },
   {
     "id": "bris_dunkley",
@@ -4625,7 +4625,7 @@
     ],
     "age": 29,
     "number": 5,
-    "disposals": 22,
+    "disposals": 20.2,
     "goals": 0
   },
   {
@@ -4746,7 +4746,7 @@
     ],
     "age": 22,
     "number": 25,
-    "disposals": 25,
+    "disposals": 22.8,
     "goals": 0
   },
   {
@@ -4782,8 +4782,8 @@
     ],
     "age": 25,
     "number": 23,
-    "disposals": 15.75,
-    "goals": 3
+    "disposals": 15.6,
+    "goals": 4
   },
   {
     "id": "frem_mcvee",
@@ -4795,7 +4795,7 @@
     ],
     "age": 22,
     "number": 17,
-    "disposals": 16.5,
+    "disposals": 15.2,
     "goals": 0
   },
   {
@@ -4819,8 +4819,8 @@
     ],
     "age": 25,
     "number": 27,
-    "disposals": 25.5,
-    "goals": 7
+    "disposals": 25.8,
+    "goals": 8
   },
   {
     "id": "gc_farrar",
@@ -4843,7 +4843,7 @@
     ],
     "age": 28,
     "number": 12,
-    "disposals": 19.75,
+    "disposals": 21.2,
     "goals": 2
   },
   {
@@ -4855,8 +4855,8 @@
     ],
     "age": 22,
     "number": 24,
-    "disposals": 8.5,
-    "goals": 7
+    "disposals": 9.2,
+    "goals": 9
   },
   {
     "id": "ess_caldwell",
@@ -4867,7 +4867,7 @@
     ],
     "age": 25,
     "number": 6,
-    "disposals": 21.5,
+    "disposals": 20.4,
     "goals": 4
   },
   {
@@ -4879,8 +4879,8 @@
     ],
     "age": 26,
     "number": 37,
-    "disposals": 15.5,
-    "goals": 4
+    "disposals": 15.2,
+    "goals": 5
   },
   {
     "id": "bris_lohmann",
@@ -4891,8 +4891,8 @@
     ],
     "age": 22,
     "number": 1,
-    "disposals": 11.75,
-    "goals": 9
+    "disposals": 11.6,
+    "goals": 10
   },
   {
     "id": "rich_kalebsmith",
@@ -4939,7 +4939,7 @@
     ],
     "age": 30,
     "number": 10,
-    "disposals": 18,
+    "disposals": 19.5,
     "goals": 0
   },
   {
@@ -4952,7 +4952,7 @@
     ],
     "age": 23,
     "number": 23,
-    "disposals": 15.75,
+    "disposals": 16.4,
     "goals": 0
   },
   {
@@ -4976,8 +4976,8 @@
     ],
     "age": 26,
     "number": 18,
-    "disposals": 19.25,
-    "goals": 1
+    "disposals": 18,
+    "goals": 2
   },
   {
     "id": "geel_matofai",
@@ -5036,7 +5036,7 @@
     ],
     "age": 20,
     "number": 12,
-    "disposals": 14.5,
+    "disposals": 16,
     "goals": 1
   },
   {
@@ -5061,7 +5061,7 @@
     ],
     "age": 29,
     "number": 4,
-    "disposals": 12.5,
+    "disposals": 15.4,
     "goals": 1
   },
   {
@@ -5073,8 +5073,8 @@
     ],
     "age": 24,
     "number": 36,
-    "disposals": 23.25,
-    "goals": 4
+    "disposals": 24.2,
+    "goals": 6
   },
   {
     "id": "gws_ash",
@@ -5145,7 +5145,7 @@
     ],
     "age": 32,
     "number": 9,
-    "disposals": 28.75,
+    "disposals": 29,
     "goals": 0
   },
   {
@@ -5157,7 +5157,7 @@
     ],
     "age": 25,
     "number": 8,
-    "disposals": 15.5,
+    "disposals": 16,
     "goals": 6
   },
   {
@@ -5205,7 +5205,7 @@
     ],
     "age": 25,
     "number": 46,
-    "disposals": 9,
+    "disposals": 8.8,
     "goals": 1
   },
   {
@@ -5217,7 +5217,7 @@
     ],
     "age": 25,
     "number": 29,
-    "disposals": 15.75,
+    "disposals": 15.2,
     "goals": 3
   },
   {
@@ -5241,7 +5241,7 @@
     ],
     "age": 19,
     "number": 39,
-    "disposals": 22,
+    "disposals": 14,
     "goals": 1
   },
   {
@@ -5302,7 +5302,7 @@
     ],
     "age": 25,
     "number": 14,
-    "disposals": 13.5,
+    "disposals": 13.8,
     "goals": 0
   },
   {
@@ -5350,8 +5350,8 @@
     ],
     "age": 20,
     "number": 33,
-    "disposals": 9,
-    "goals": 2
+    "disposals": 8.6,
+    "goals": 3
   },
   {
     "id": "geel_humphries",
@@ -5398,7 +5398,7 @@
     ],
     "age": 19,
     "number": 8,
-    "disposals": 13.75,
+    "disposals": 13.4,
     "goals": 4
   },
   {
@@ -5422,7 +5422,7 @@
     ],
     "age": 19,
     "number": 10,
-    "disposals": 21.5,
+    "disposals": 20.4,
     "goals": 1
   },
   {
@@ -5568,8 +5568,8 @@
     ],
     "age": 32,
     "number": 11,
-    "disposals": 12.67,
-    "goals": 3
+    "disposals": 12.5,
+    "goals": 5
   },
   {
     "id": "haw_meek",
@@ -5580,8 +5580,8 @@
     ],
     "age": 27,
     "number": 17,
-    "disposals": 10.5,
-    "goals": 1
+    "disposals": 11.6,
+    "goals": 2
   },
   {
     "id": "port_evans_logan",
@@ -5604,8 +5604,8 @@
     ],
     "age": 24,
     "number": 6,
-    "disposals": 11,
-    "goals": 6
+    "disposals": 10.6,
+    "goals": 7
   },
   {
     "id": "bris_morris",
@@ -5616,7 +5616,7 @@
     ],
     "age": 20,
     "number": 13,
-    "disposals": 17,
+    "disposals": 14.5,
     "goals": 8
   },
   {
@@ -5689,8 +5689,8 @@
     ],
     "age": 26,
     "number": 9,
-    "disposals": 27.25,
-    "goals": 0
+    "disposals": 27.2,
+    "goals": 1
   },
   {
     "id": "frem_jackson",
@@ -5702,7 +5702,7 @@
     ],
     "age": 24,
     "number": 9,
-    "disposals": 20.25,
+    "disposals": 19.6,
     "goals": 3
   },
   {
@@ -5726,7 +5726,7 @@
     ],
     "age": 31,
     "number": 11,
-    "disposals": 17,
+    "disposals": 16.6,
     "goals": 1
   },
   {
@@ -5751,7 +5751,7 @@
     ],
     "age": 33,
     "number": 26,
-    "disposals": 24.75,
+    "disposals": 24.8,
     "goals": 1
   },
   {
@@ -5775,7 +5775,7 @@
     ],
     "age": 30,
     "number": 13,
-    "disposals": 16,
+    "disposals": 18.25,
     "goals": 0
   },
   {
@@ -5823,7 +5823,7 @@
     ],
     "age": 29,
     "number": 18,
-    "disposals": 10.25,
+    "disposals": 8.4,
     "goals": 7
   },
   {
@@ -5835,7 +5835,7 @@
     ],
     "age": 22,
     "number": 1,
-    "disposals": 17.75,
+    "disposals": 17.6,
     "goals": 0
   },
   {
@@ -5859,8 +5859,8 @@
     ],
     "age": 24,
     "number": 10,
-    "disposals": 8.33,
-    "goals": 3
+    "disposals": 9.25,
+    "goals": 5
   },
   {
     "id": "port_liddy",
@@ -5895,7 +5895,7 @@
     ],
     "age": 30,
     "number": 4,
-    "disposals": 29.25,
+    "disposals": 28.6,
     "goals": 8
   },
   {
@@ -5994,7 +5994,7 @@
     ],
     "age": 22,
     "number": 16,
-    "disposals": 17.5,
+    "disposals": 18.2,
     "goals": 1
   },
   {
@@ -6054,7 +6054,7 @@
     ],
     "age": 24,
     "number": 18,
-    "disposals": 13,
+    "disposals": 22.5,
     "goals": 0
   },
   {
@@ -6141,8 +6141,8 @@
     ],
     "age": 23,
     "number": 44,
-    "disposals": 17.5,
-    "goals": 2
+    "disposals": 16,
+    "goals": 3
   },
   {
     "id": "wb_mkennedy",
@@ -6153,7 +6153,7 @@
     ],
     "age": 29,
     "number": 8,
-    "disposals": 30,
+    "disposals": 28.4,
     "goals": 2
   },
   {
@@ -6189,7 +6189,7 @@
     ],
     "age": 22,
     "number": 34,
-    "disposals": 17,
+    "disposals": 18.6,
     "goals": 2
   },
   {
@@ -6213,8 +6213,8 @@
     ],
     "age": 34,
     "number": 11,
-    "disposals": 22.5,
-    "goals": 2
+    "disposals": 22.4,
+    "goals": 3
   },
   {
     "id": "gws_gruzewski",
@@ -6346,7 +6346,7 @@
     ],
     "age": 22,
     "number": 37,
-    "disposals": 10.5,
+    "disposals": 11.8,
     "goals": 0
   },
   {
@@ -6466,8 +6466,8 @@
     ],
     "age": 27,
     "number": 2,
-    "disposals": 12.25,
-    "goals": 4
+    "disposals": 13.4,
+    "goals": 7
   },
   {
     "id": "adel_marsh",
@@ -6502,7 +6502,7 @@
     ],
     "age": 19,
     "number": 16,
-    "disposals": 23,
+    "disposals": 22.8,
     "goals": 3
   },
   {
@@ -6539,8 +6539,8 @@
     ],
     "age": 20,
     "number": 30,
-    "disposals": 10.67,
-    "goals": 6
+    "disposals": 11,
+    "goals": 8
   },
   {
     "id": "rich_broad",
@@ -6599,8 +6599,8 @@
     ],
     "age": 23,
     "number": 44,
-    "disposals": 15.5,
-    "goals": 1
+    "disposals": 15,
+    "goals": 2
   },
   {
     "id": "gc_moyle",
@@ -6623,8 +6623,8 @@
     ],
     "age": 27,
     "number": 7,
-    "disposals": 9.67,
-    "goals": 2
+    "disposals": 8.25,
+    "goals": 3
   },
   {
     "id": "frem_erasmus",
@@ -6635,7 +6635,7 @@
     ],
     "age": 22,
     "number": 28,
-    "disposals": 21,
+    "disposals": 20.4,
     "goals": 0
   },
   {
@@ -6696,7 +6696,7 @@
     ],
     "age": 26,
     "number": 22,
-    "disposals": 22.25,
+    "disposals": 22.6,
     "goals": 2
   },
   {
@@ -6733,7 +6733,7 @@
     ],
     "age": 23,
     "number": 35,
-    "disposals": 36.67,
+    "disposals": 35.25,
     "goals": 4
   },
   {
@@ -6770,7 +6770,7 @@
     "age": 27,
     "number": 20,
     "disposals": 10,
-    "goals": 14
+    "goals": 15
   },
   {
     "id": "rich_vlastuin",
@@ -6794,8 +6794,8 @@
     ],
     "age": 21,
     "number": 5,
-    "disposals": 16.25,
-    "goals": 10
+    "disposals": 15.4,
+    "goals": 11
   },
   {
     "id": "ess_cox",
@@ -6818,7 +6818,7 @@
     ],
     "age": 25,
     "number": 15,
-    "disposals": 25.25,
+    "disposals": 24.2,
     "goals": 2
   },
   {
@@ -7062,8 +7062,8 @@
     ],
     "age": 27,
     "number": 4,
-    "disposals": 9,
-    "goals": 7
+    "disposals": 8.8,
+    "goals": 10
   },
   {
     "id": "frem_mcdonald",
@@ -7098,7 +7098,7 @@
     ],
     "age": 22,
     "number": 21,
-    "disposals": 9,
+    "disposals": 7.33,
     "goals": 1
   },
   {
@@ -7110,7 +7110,7 @@
     ],
     "age": 27,
     "number": 13,
-    "disposals": 13.5,
+    "disposals": 12,
     "goals": 5
   },
   {
@@ -7183,7 +7183,7 @@
     ],
     "age": 27,
     "number": 1,
-    "disposals": 17.75,
+    "disposals": 17.6,
     "goals": 0
   },
   {
@@ -7208,7 +7208,7 @@
     ],
     "age": 22,
     "number": 20,
-    "disposals": 13.5,
+    "disposals": 12,
     "goals": 4
   },
   {
@@ -7220,8 +7220,8 @@
     ],
     "age": 23,
     "number": 25,
-    "disposals": 9.5,
-    "goals": 6
+    "disposals": 11.2,
+    "goals": 7
   },
   {
     "id": "syd_ladhams",
@@ -7244,8 +7244,8 @@
     ],
     "age": 29,
     "number": 20,
-    "disposals": 10.75,
-    "goals": 4
+    "disposals": 12.2,
+    "goals": 5
   },
   {
     "id": "gws_gothard",
@@ -7341,7 +7341,7 @@
     ],
     "age": 25,
     "number": 14,
-    "disposals": 13.5,
+    "disposals": 15,
     "goals": 1
   },
   {
@@ -7402,8 +7402,8 @@
     ],
     "age": 25,
     "number": 26,
-    "disposals": 23.75,
-    "goals": 0
+    "disposals": 22.6,
+    "goals": 1
   },
   {
     "id": "wb_garcia",
@@ -7463,7 +7463,7 @@
     ],
     "age": 24,
     "number": 45,
-    "disposals": 11,
+    "disposals": 11.4,
     "goals": 4
   },
   {
@@ -7511,7 +7511,7 @@
     ],
     "age": 33,
     "number": 7,
-    "disposals": 12.25,
+    "disposals": 11.4,
     "goals": 0
   },
   {
@@ -7573,7 +7573,7 @@
     ],
     "age": 33,
     "number": 35,
-    "disposals": 18.5,
+    "disposals": 17.2,
     "goals": 0
   },
   {
@@ -7597,7 +7597,7 @@
     ],
     "age": 21,
     "number": 9,
-    "disposals": 24.67,
+    "disposals": 24.75,
     "goals": 0
   },
   {
@@ -7659,7 +7659,7 @@
     ],
     "age": 23,
     "number": 30,
-    "disposals": 13,
+    "disposals": 12.2,
     "goals": 3
   },
   {
@@ -7671,7 +7671,7 @@
     ],
     "age": 23,
     "number": 33,
-    "disposals": 18.5,
+    "disposals": 17.4,
     "goals": 2
   },
   {
@@ -7695,8 +7695,8 @@
     ],
     "age": 22,
     "number": 10,
-    "disposals": 13.25,
-    "goals": 10
+    "disposals": 12.8,
+    "goals": 12
   },
   {
     "id": "wb_davidson",
@@ -7707,7 +7707,7 @@
     ],
     "age": 24,
     "number": 42,
-    "disposals": 9.5,
+    "disposals": 9.8,
     "goals": 3
   },
   {
@@ -7731,8 +7731,8 @@
     ],
     "age": 27,
     "number": 2,
-    "disposals": 11.33,
-    "goals": 0
+    "disposals": 11.5,
+    "goals": 2
   },
   {
     "id": "ess_durham",
@@ -7743,8 +7743,8 @@
     ],
     "age": 24,
     "number": 22,
-    "disposals": 18.75,
-    "goals": 3
+    "disposals": 18.2,
+    "goals": 4
   },
   {
     "id": "stk_flanders",
@@ -7816,8 +7816,8 @@
     ],
     "age": 29,
     "number": 39,
-    "disposals": 10.25,
-    "goals": 1
+    "disposals": 11.6,
+    "goals": 2
   },
   {
     "id": "gws_s_taylor",
@@ -7852,7 +7852,7 @@
     ],
     "age": 26,
     "number": 15,
-    "disposals": 13.25,
+    "disposals": 13.6,
     "goals": 1
   },
   {
@@ -7877,7 +7877,7 @@
     ],
     "age": 25,
     "number": 25,
-    "disposals": 13.25,
+    "disposals": 13,
     "goals": 0
   },
   {
@@ -7925,7 +7925,7 @@
     ],
     "age": 38,
     "number": 10,
-    "disposals": 17.33,
+    "disposals": 18.5,
     "goals": 0
   },
   {
@@ -7937,7 +7937,7 @@
     ],
     "age": 27,
     "number": 4,
-    "disposals": 7.75,
+    "disposals": 7.2,
     "goals": 1
   },
   {
@@ -7974,8 +7974,8 @@
     ],
     "age": 27,
     "number": 10,
-    "disposals": 25.5,
-    "goals": 5
+    "disposals": 23.8,
+    "goals": 6
   },
   {
     "id": "mel_mcadam",
@@ -8034,7 +8034,7 @@
     ],
     "age": 35,
     "number": 22,
-    "disposals": 18.5,
+    "disposals": 17.6,
     "goals": 0
   },
   {
@@ -8071,7 +8071,7 @@
     ],
     "age": 18,
     "number": 9,
-    "disposals": 0,
+    "disposals": 9,
     "goals": 0
   },
   {
@@ -8254,8 +8254,8 @@
     ],
     "age": 31,
     "number": 28,
-    "disposals": 8.25,
-    "goals": 6
+    "disposals": 9.2,
+    "goals": 7
   },
   {
     "id": "rich_taranto",
@@ -8425,8 +8425,8 @@
     ],
     "age": 25,
     "number": 39,
-    "disposals": 17.75,
-    "goals": 1
+    "disposals": 18.2,
+    "goals": 2
   },
   {
     "id": "rich_brown",
@@ -8510,8 +8510,8 @@
     ],
     "age": 25,
     "number": 45,
-    "disposals": 10,
-    "goals": 2
+    "disposals": 9,
+    "goals": 4
   },
   {
     "id": "gws_green",
@@ -8594,7 +8594,7 @@
     ],
     "age": 26,
     "number": 30,
-    "disposals": 18.25,
+    "disposals": 19.4,
     "goals": 0
   },
   {
@@ -8606,7 +8606,7 @@
     ],
     "age": 33,
     "number": 25,
-    "disposals": 14.5,
+    "disposals": 14.67,
     "goals": 0
   },
   {
@@ -8618,8 +8618,8 @@
     ],
     "age": 29,
     "number": 11,
-    "disposals": 16.25,
-    "goals": 4
+    "disposals": 16.4,
+    "goals": 7
   },
   {
     "id": "nm_powell",
@@ -8631,8 +8631,8 @@
     ],
     "age": 24,
     "number": 24,
-    "disposals": 21,
-    "goals": 1
+    "disposals": 19.2,
+    "goals": 2
   },
   {
     "id": "mel_sparrow",
@@ -8644,8 +8644,8 @@
     ],
     "age": 25,
     "number": 32,
-    "disposals": 17.25,
-    "goals": 2
+    "disposals": 17.4,
+    "goals": 3
   },
   {
     "id": "geel_stewart",
@@ -8668,7 +8668,7 @@
     ],
     "age": 30,
     "number": 11,
-    "disposals": 26.5,
+    "disposals": 26.4,
     "goals": 3
   },
   {
@@ -8704,7 +8704,7 @@
     ],
     "age": 20,
     "number": 22,
-    "disposals": 7,
+    "disposals": 6.8,
     "goals": 0
   },
   {
@@ -8862,7 +8862,7 @@
     ],
     "age": 26,
     "number": 27,
-    "disposals": 18.25,
+    "disposals": 17.4,
     "goals": 2
   },
   {
@@ -8874,7 +8874,7 @@
     ],
     "age": 21,
     "number": 8,
-    "disposals": 29.5,
+    "disposals": 27.4,
     "goals": 1
   },
   {
@@ -8910,8 +8910,8 @@
     ],
     "age": 20,
     "number": 26,
-    "disposals": 11.5,
-    "goals": 2
+    "disposals": 12.6,
+    "goals": 3
   },
   {
     "id": "coll_will_hayes",
@@ -9067,8 +9067,8 @@
     ],
     "age": 25,
     "number": 28,
-    "disposals": 14.75,
-    "goals": 2
+    "disposals": 16,
+    "goals": 4
   },
   {
     "id": "mel_lindsay",
@@ -9079,7 +9079,7 @@
     ],
     "age": 19,
     "number": 5,
-    "disposals": 16.5,
+    "disposals": 16.4,
     "goals": 1
   },
   {
@@ -9128,8 +9128,8 @@
     ],
     "age": 26,
     "number": 33,
-    "disposals": 20,
-    "goals": 5
+    "disposals": 20.25,
+    "goals": 7
   },
   {
     "id": "nm_banch",
@@ -9140,8 +9140,8 @@
     ],
     "age": 23,
     "number": 45,
-    "disposals": 10,
-    "goals": 0
+    "disposals": 7.5,
+    "goals": 1
   },
   {
     "id": "nm_fisher",
@@ -9200,7 +9200,7 @@
     ],
     "age": 24,
     "number": 31,
-    "disposals": 13.5,
+    "disposals": 14.4,
     "goals": 0
   },
   {
@@ -9212,8 +9212,8 @@
     ],
     "age": 25,
     "number": 7,
-    "disposals": 24.25,
-    "goals": 2
+    "disposals": 25.6,
+    "goals": 3
   },
   {
     "id": "carl_zachary_williams",
@@ -9273,7 +9273,7 @@
     ],
     "age": 20,
     "number": 7,
-    "disposals": 7.5,
+    "disposals": 6.8,
     "goals": 7
   },
   {
@@ -9309,7 +9309,7 @@
     ],
     "age": 18,
     "number": 32,
-    "disposals": 13,
+    "disposals": 13.2,
     "goals": 2
   }
 ]
