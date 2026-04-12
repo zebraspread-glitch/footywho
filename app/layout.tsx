@@ -14,8 +14,8 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "FootyWho",
-  description: "AFL Player Guessing Game",
+  title: "FootyWho – Guess the AFL Player",
+  description: "Play FootyWho – the ultimate AFL player guessing game. Guess players using stats like team, age, position and more. Unlimited mode available.",
   verification: {
     google: "ujUBfOqIZs8Pnp61MiVmAGF5YRmYgg53P3prH3EbCRo",
   },
